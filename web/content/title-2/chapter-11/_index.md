@@ -1,13 +1,17 @@
 ---
 hrs_structure:
+  division: '1'
+  volume: '1'
   title: '2'
   chapter: '11'
   statute: ''
 type: chapter
+tags:
+  - Government
 menu:
   hrs:
     identifier: HRS0011
-    parent: title1
+    parent: title2
     name: 'Chapter 11 Elections, Generally'
 weight: 20000
 title: 'Elections, Generally'

@@ -1,9 +1,13 @@
 ---
 hrs_structure:
+  division: '1'
+  volume: '1'
   title: '1'
   chapter: 6D
   statute: 6D-3
 type: statute
+tags:
+  - Government
 menu:
   hrs:
     identifier: HRS_0006D-0003

@@ -1,5 +1,7 @@
 ---
 hrs_structure:
+  division: '1'
+  volume: '1'
   title: '1'
   chapter: ''
   statute: ''

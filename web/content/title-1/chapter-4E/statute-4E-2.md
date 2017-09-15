@@ -1,9 +1,13 @@
 ---
 hrs_structure:
+  division: '1'
+  volume: '1'
   title: '1'
   chapter: 4E
   statute: '4E-2'
 type: statute
+tags:
+  - Government
 menu:
   hrs:
     identifier: HRS_0004E-0002

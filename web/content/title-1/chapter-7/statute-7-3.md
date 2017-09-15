@@ -1,9 +1,13 @@
 ---
 hrs_structure:
+  division: '1'
+  volume: '1'
   title: '1'
   chapter: '7'
   statute: 7-3
 type: statute
+tags:
+  - Government
 menu:
   hrs:
     identifier: HRS_0007-0003

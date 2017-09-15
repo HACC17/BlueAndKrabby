@@ -1,0 +1,34 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '1'
+  title: '5'
+  chapter: '39'
+  statute: 39-62
+type: statute
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0039-0062
+    parent: HRS0039
+    name: '39-62 Use of revenue and user taxes by any undertaking, loan'
+weight: 57175
+title: 'Use of revenue and user taxes by any undertaking, loan'
+full_title: '39-62 Use of revenue and user taxes by any undertaking, loan'
+---
+**§39-62 Use of revenue and user taxes by any undertaking, loan program, or the Hawaii hurricane relief fund.** Whenever any revenue bonds have been issued pursuant to this part for an undertaking, a loan program, or the Hawaii hurricane relief fund, the revenue, or the user taxes, or combination of both, of the undertaking, loan program, or fund from which the revenue bonds are payable and by which they are secured shall be deposited in a special fund and shall be appropriated, applied, or expended in the amount necessary therefor for the following purposes and in the order of priority as the department shall provide in the resolution or certificate authorizing the issuance of revenue bonds pursuant to this part:
+
+(1) To pay when due all revenue bonds and interest thereon issued for the undertaking, loan program, or the Hawaii hurricane relief fund for the payment of which the revenue, or user taxes, or combination of both, is or shall have been pledged, charged, or otherwise encumbered, including reserves therefor;
+
+(2) To pay or provide for the payment of the cost of operation, maintenance, and repair of the undertaking, or to pay or provide for the payment of administering, operating, and maintaining the loan program, including reserves therefor;
+
+(3) For such purposes, within the jurisdiction, powers, duties, and functions of the department, including the creation and maintenance of reserves, as shall have been covenanted in any resolution or resolutions or certificate or certificates of the department providing for the issuance of revenue bonds;
+
+(4) To reimburse the general fund of the State for all bond requirements for general obligation bonds which are or shall have been issued for the undertaking, loan program, or the Hawaii hurricane relief fund, or to refund any general obligation bonds, except insofar as the obligation of reimbursement has been or shall be canceled by the legislature, the bond requirements being the interest on term and serial bonds, sinking fund for term bonds, and principal of serial bonds maturing the following year;
+
+(5) To provide for betterments and improvements to the undertaking or expansion of the loan program or the Hawaii hurricane relief fund including reserves therefor; and
+
+(6) To provide special reserve funds and other special funds as are or may be created by law.
+
+The appropriation, application, or expenditure of amounts deposited in the special fund pursuant to this section shall be accounted for on a fiscal year basis. Unless and until adequate provision has been made for the foregoing purposes, the State shall not have the right to transfer to its general fund or any special fund or to apply to any other purposes any part of the revenue or user taxes pledged to the payment of revenue bonds of the undertaking or loan program. [L 1988, c 28, pt of §3; am L 1989, c 15, §3; am L 1996, c 307, §6]

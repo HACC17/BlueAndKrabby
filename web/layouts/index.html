@@ -3,11 +3,18 @@
   <div class="content container">
 
     <div class="post">
-      <h1 class="statute-h1">{{ .Title }}</h1>
+      <h1>{{ .Title }}</h1>
 
       {{ .Content }}
+
+      {{ partial "autocomplete.html" . }}
     </div>
 
   </div>
 
+{{ end }}
+
+{{ define "footer" }}
+  <script src="{{ .Site.BaseURL }}js/auto-complete.min.js"></script>
+  <script src="{{ .Site.BaseURL }}js/autocomplete.js"></script>
 {{ end }}

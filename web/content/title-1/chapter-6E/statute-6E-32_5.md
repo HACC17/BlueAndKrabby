@@ -1,9 +1,13 @@
 ---
 hrs_structure:
+  division: '1'
+  volume: '1'
   title: '1'
   chapter: 6E
   statute: 6E-32.5
 type: statute
+tags:
+  - Government
 menu:
   hrs:
     identifier: HRS_0006E-0032_0005

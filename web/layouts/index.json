@@ -1,0 +1,24 @@
+{
+  "path": "{{ .RelPermalink }}",
+  "title": "{{ .Title }}",
+  "site": [
+    {{ $len := (len .Site.Pages) }}
+    {{ range $index, .Site.Pages }}
+    {
+      {{ if eq .Params.type "statute" }}
+        "key": "{{ .Params.hrs_structure.statute }}",
+      {{ else if eq .Params.type "chapter" }}
+        "key": "{{ .Params.hrs_structure.chapter }}",
+      {{ else if eq .Params.type "title" }}
+        "key": "{{ .Params.hrs_structure.title }}",
+      {{ end }}
+      "path": "{{ .RelPermalink }}",
+      "type": "{{ .Params.type }}",
+      "title": "{{ htmlEscape .Params.full_title }}"
+    }
+    {{ if lt $index (sub $len 1) }},{{end}}
+    {{ end }}
+    {}
+  ],
+  "context": "{{ htmlEscape (replace .Plain "\n" " ") }}"
+}

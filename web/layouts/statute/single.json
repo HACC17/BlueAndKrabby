@@ -1,14 +1,17 @@
 {
   "path": "{{ .RelPermalink }}",
-  "title": "{{ .Title }}",
-  "volume": "{{ .Params.hrs_structure.volume }}",
-  "chapter": "{{ .Params.hrs_structure.chapter }}",
-  "statute": "{{ .Params.hrs_structure.statute }}",
+  "title": "{{ htmlEscape .Title }}",
+  "type": "{{ .Params.type }}",
+  "structure": {
+    "volume": "{{ .Params.hrs_structure.volume }}",
+    "chapter": "{{ .Params.hrs_structure.chapter }}",
+    "statute": "{{ .Params.hrs_structure.statute }}"
+  },
   {{ if .NextInSection }}
   "prev": "{{.NextInSection.Permalink}}",
   {{ end }}
   {{ if .PrevInSection }}
   "next": "{{.PrevInSection.Permalink}}",
   {{ end }}
-  "context": "{{ replace .Plain "\n" " " }}"
+  "context": "{{ htmlEscape (replace .Plain "\n" " ") }}"
 }

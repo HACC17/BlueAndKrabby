@@ -1,9 +1,13 @@
 ---
 hrs_structure:
+  division: '1'
+  volume: '1'
   title: '1'
   chapter: 10H
   statute: 10H-9
 type: statute
+tags:
+  - Government
 menu:
   hrs:
     identifier: HRS_0010H-0009

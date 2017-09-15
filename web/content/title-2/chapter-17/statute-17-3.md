@@ -1,0 +1,38 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '1'
+  title: '2'
+  chapter: '17'
+  statute: 17-3
+type: statute
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0017-0003
+    parent: HRS0017
+    name: 17-3 State senator
+weight: 31015
+title: State senator
+full_title: 17-3 State senator
+---
+**§17-3 State senator.** (a) Whenever any vacancy in the membership of the state senate occurs, the term of which ends at the next succeeding general election:
+
+(1) The governor shall make an appointment within sixty calendar days following the first day of vacancy to fill the vacancy for the unexpired term by selecting a person from a list of three prospective appointees submitted by the same political party as the prior incumbent. The appointee shall be at the time of appointment, and for at least six months immediately prior to the appointment, a member of the political party. The appointee shall, at the time of appointment, be a resident of the same senate district as the prior incumbent. The political party shall submit the list of prospective appointees to the governor within thirty calendar days following the first day of vacancy; and
+
+(2) If the prior incumbent was not a member of any political party, the governor shall, within sixty calendar days following the first day of vacancy, appoint a person who is at the time of appointment a resident of the same senate district as the prior incumbent and who is not, and has not been for at least six months prior to the appointment, a member of any political party.
+
+(b) In the case of a vacancy, the term of which does not end at the next succeeding general election:
+
+(1) If it occurs not later than on the tenth day prior to the close of filing for the next succeeding primary election, the vacancy shall be filled for the unexpired term at the next succeeding general election. The chief election officer shall issue a proclamation designating the election for filling the vacancy. All candidates for the unexpired term shall be nominated and elected in accordance with this title. Pending the election, the governor shall make a temporary appointment to fill the vacancy, and the person so appointed shall serve until the election of the person duly elected to fill the vacancy. The governor shall make the appointment from a list of three prospective appointees submitted by the same political party as the prior incumbent. The appointee shall be, at the time of the appointment, and shall have been, for at least six months immediately prior to the appointment, a member of the political party. The appointee shall, at the time of appointment, be a resident of the same senate district as the prior incumbent. If the prior incumbent was not a member of any political party, the governor shall appoint a person who is at the time of appointment a resident of the same senate district as the prior incumbent and is not and has not been, for at least six months immediately prior to the appointment, a member of any political party;
+
+(2) If it occurs later than on the tenth day prior to the close of filing for the next succeeding primary election but not later than on the sixtieth day prior to the next succeeding primary election, or if there are no qualified candidates for any party or nonpartisan candidates qualified for the primary election ballot, nominations for the unexpired term may be filed not later than 4:30 p.m. on the fiftieth day prior to the next succeeding primary election. The chief election officer shall issue a proclamation designating the election for filling the vacancy. Pending the election the governor shall make a temporary appointment to fill the vacancy and the person appointed shall serve until the election of the person duly elected to fill the vacancy. The governor shall make the appointment from a list of three prospective appointees submitted by the same political party as the prior incumbent. The appointee shall be, at the time of the appointment, and shall have been, for at least six months immediately prior to the appointment, a member of the political party. The appointee shall, at the time of appointment, be a resident of the same senate district as the prior incumbent. If the prior incumbent was not a member of any political party, the governor shall appoint a person who is at the time of appointment a resident of the same senate district as the prior incumbent and is not and has not been, for at least six months immediately prior to the appointment, a member of any political party;
+
+(3) If it occurs after the sixtieth day prior to the next succeeding primary but not later than on the fiftieth day prior to the next succeeding general election, or if there are no qualified candidates for any party or nonpartisan candidates in the primary, the vacancy shall be filled for the unexpired term at the next succeeding general election. The chief election officer shall issue a proclamation designating the election for filling the vacancy. Party candidates for the unexpired senate term shall be nominated by the county committees of the parties not later than 4:30 p.m. on the fortieth day prior to the general election; nonpartisan candidates may file nomination papers for the unexpired term not later than 4:30 p.m. on the fortieth day prior to the general election with the nonpartisan candidate who is to be nominated to be decided by lot, under the supervision of the chief election officer. The candidates for the unexpired term shall be elected in accordance with this title. Pending the election, the governor shall make a temporary appointment to fill the vacancy, and the person appointed shall serve until the election of the person duly elected to fill the vacancy. The governor shall make the appointment from a list of three prospective appointees submitted by the same political party as the prior incumbent. The appointee shall be, at the time of the appointment, and shall have been, for at least six months immediately prior to the appointment, a member of the political party. The appointee shall, at the time of appointment, be a resident of the same senate district as the prior incumbent. If the prior incumbent was not a member of any political party, the governor shall appoint a person who is at the time of appointment a resident of the same senate district as the prior incumbent and is not and has not been, for at least six months immediately prior to the appointment, a member of any political party;
+
+(4) If it occurs after the fiftieth day prior to the next succeeding general election or if no candidates are nominated, the governor shall make an appointment to fill the vacancy for the unexpired term by selecting a person from a list of three prospective appointees submitted by the same political party as the prior incumbent. The appointee shall be, at the time of the appointment, and shall have been, for at least six months immediately prior to the appointment, a member of the political party. The appointee shall, at the time of appointment, be a resident of the same senate district as the prior incumbent. If the prior incumbent was not a member of any political party, the governor shall appoint a person who is at the time of appointment a resident of the same senate district as the prior incumbent and is not and has not been, for at least six months immediately prior to the appointment, a member of any political party. [L 1970, c 26, pt of §2; am L 1973, c 217, §7(c); am L 1980, c 247, §2; gen ch 1985; am L 1990, c 35, §2; am L 1992, c 276, §1; am L 2007, c 57, §3]
+
+Case Notes
+
+Does not apply to vacancy in senate resulting from death of candidate. 52 H. 410, 477 P.2d 625.

@@ -8,6 +8,95 @@ function isChapterPage(fileName) {
   return (fileName[fileName.length-1] === '-');
 }
 
+
+// Probably better to filter by chapter but since chapters combine numbers and letters 
+// it's simplier to use weight
+function getTitle(volume, weight) {
+  if (volume === 1){
+    if (weight < 20000) return '1';
+    if (weight < 34000) return '2';
+    if (weight < 44000) return '3';
+    if (weight < 52000) return '4';
+    return '5';
+  }
+  if (volume === 2){
+    if (weight < 28000) return '6';
+    if (weight < 52000) return '7';
+    if (weight < 62000) return '8';
+    return '9';
+  }
+  if (volume === 3){
+    if (weight < 33000) return '10';
+    if (weight < 66000) return '11';
+    return '12';
+  }
+  if (volume === 4){
+    if (weight < 57000) return '13';
+    return '14';
+  }
+  if (volume === 5){
+    if (weight < 37000) return '15';
+    if (weight < 38000) return '16';
+    if (weight < 54000) return '17';
+    return '18';
+  }
+  if (volume === 6){
+    return '19';
+  }
+  if (volume === 7){
+    if (weight < 58000) return '20';
+    return '21';
+  }
+  if (volume === 8){
+    if (weight < 24000) return '22';
+    if (weight < 50000) return '23';
+    return '23a';
+  }
+  if (volume === 9){
+    return '24';
+  }
+  if (volume === 10){
+    if (weight < 99000) return '25';
+    return '25a';
+  }
+  if (volume === 11){
+    if (weight < 76000) return '26';
+    return '27';
+  }
+  if (volume === 12){
+    if (weight < 54000) return '28';
+    if (weight < 65000) return '29';
+    if (weight < 84000) return '30';
+    if (weight < 85000) return '30a';
+    return '31';
+  }
+  if (volume === 13){
+    if (weight < 28000) return '32';
+    if (weight < 36000) return '33';
+    if (weight < 47000) return '34';
+    if (weight < 49000) return '35';
+    return '36';
+  }
+  if (volume === 14){
+    if (weight < 30000) return '37';
+    return '38';
+  }
+}
+function getDivision(volume) {
+  if ( volume < 8) return '1';
+  if ( volume < 12) return '2';
+  if ( volume < 13) return '3';
+  if ( volume < 14) return '4';
+  return '5'
+}
+function getDivisionTag(volume) {
+  if ( volume < 8) return ['Government'];
+  if ( volume < 12) return ['Business'];
+  if ( volume < 13) return ['Property', 'Family'];
+  if ( volume < 14) return ['Court', 'Judicial Proceeding'];
+  return ['Crime', 'Criminal Proceeding']
+}
+
 module.exports.getDataFromPath = function (path, weight) {
   try {
     let pathSplit = path.split('/');
@@ -19,6 +108,7 @@ module.exports.getDataFromPath = function (path, weight) {
     let splitAlpha = new RegExp(/([0-9]+)([a-z]+)?/i);
     let r = path.match(splitPath);
     if (r) {
+      let volumeNumber = parseInt(r[1]);
       let r2 = r[6].split('_');
       let r3 = r2[0].split('-');
       let statute = '';
@@ -51,7 +141,7 @@ module.exports.getDataFromPath = function (path, weight) {
       if (isChapterPage(fileName)) {
         Object.assign(menuMeta, { 
           identifier: parentName,
-          parent: `title${parseInt(r[1])}`
+          parent: `title${getTitle(volumeNumber, weight)}`
         });
       } else {
         Object.assign(menuMeta, { 
@@ -62,11 +152,14 @@ module.exports.getDataFromPath = function (path, weight) {
 
       return {
         hrs_structure: {
-          title: parseInt(r[1]).toString(),
+          division: getDivision(volumeNumber),
+          volume: volumeNumber.toString(),
+          title: getTitle(volumeNumber, weight),
           chapter: chapter,
           statute: (statute !== '') ? chapter+statute : '',
         },
         type: type,
+        tags: getDivisionTag(volumeNumber),
         menu: { 
           hrs : menuMeta
         },
