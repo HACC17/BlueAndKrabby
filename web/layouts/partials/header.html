@@ -1,0 +1,13 @@
+<div class="header">
+  <a href="{{ .Site.BaseURL }}" class="header-seal">Hawaii Seal</a>
+  <a href="{{ .Site.BaseURL }}" class="header-title">Hawaii Revised Statutes</a>
+
+  <button class="header-sidebar-toggle btn btn-flat btn-primary sidebar-toggle" onclick="showMenu(event)" aria-expanded="false"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+  
+  <div class="header-search">
+    <!-- <button class="header-search-close btn btn-flat" aria-expanded="false"><i class="fa fa-times-circle" aria-hidden="true"></i></button> -->
+    <label for="search-text" class="header-search-label">Search</label>
+    <input id="search-text" class="header-search-input" name="q" type="text" oninput="searchChange(event)">
+    <button class="header-search-submit btn btn-flat btn-primary" onclick="searchClick(event)" aria-expanded="false"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+  </div>
+</div>

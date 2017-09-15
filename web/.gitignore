@@ -1,0 +1,7 @@
+public/
+static/css/
+static/fonts/
+static/js/
+static/images/
+node_modules/
+data/**/hash.*

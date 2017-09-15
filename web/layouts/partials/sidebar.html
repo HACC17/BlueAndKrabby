@@ -1,0 +1,39 @@
+<div class="sidebar nav-collapse">
+  <button class="sidebar-sidebar-toggle btn btn-fab btn-secondary sidebar-toggle" onclick="showMenu(event)" aria-expanded="false"><i class="fa fa-close fa-2x" aria-hidden="true"></i></button>
+
+  <div class="sidebar-title">
+    Hawaii Revised Statutes
+  </div>
+
+  <!-- sidebar menu start-->
+  <div class="sidebar-menu-container">
+    <ul class="sidebar-menu">
+      {{ template "section-tree-nav" (dict "sections" .Site.Menus.hrs "current" $ ) }}
+    </ul>
+  </div>
+
+  <!-- sidebar menu end-->
+</div>
+<!--sidebar end-->
+
+
+{{ define "section-tree-nav" }}
+
+  {{ range .sections}} 
+  <li class="sidebar-item {{ if $.current.IsMenuCurrent "hrs" . }} current{{end}}{{ if $.current.HasMenuCurrent "hrs" . }} active{{end}}">
+    <a href="{{ .URL }}">
+      <span>{{ .Name }}</span>
+      {{ if .HasChildren }}
+        <button class="sidebar-item-button btn-flat" onclick="sidebarExtendToggle(event)" aria-expanded="{{ if $.current.HasMenuCurrent "hrs" . }}true{{else}}false{{end}}"><i class="fa fa-lg {{ if $.current.HasMenuCurrent "hrs" . }}fa-minus-square-o{{else}}fa-plus-square-o{{end}}" aria-hidden="true"></i></button>
+      {{ end }}
+    </a>
+
+    {{ if .HasChildren }}
+    <ul>
+      {{ template "section-tree-nav" (dict "sections" .Children "current" $.current ) }}
+    </ul>
+    {{ end }}
+
+  </li>
+  {{ end }}
+{{ end }}

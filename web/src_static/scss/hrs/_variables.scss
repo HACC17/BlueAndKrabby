@@ -1,0 +1,45 @@
+$transitionTime: .25s;
+
+$breakpoint_xs_max: 575px;
+$breakpoint_sm: 576px;
+$breakpoint_sm_max: 767px;
+$breakpoint_md: 768px;
+$breakpoint_lg: 992px;
+$breakpoint_xl: 1200px;
+
+// https://material.io/color/#!/?view.left=0&view.right=0&primary.color=0277BD&secondary.color=FFA000
+$color-primary: #0277bd;
+$color-primary-light: #58a5ef;
+$color-primary-contrast: #fff;
+$color-primary-dark: #004c8b;
+
+$color-secondary: #ffa000;
+$color-secondary-light: #ffd149;
+$color-secondary-dark: #c67100;
+$color-secondary-contrast: #000;
+
+$font-special: "Roboto", Arial, Helvetica, sans-serif;
+$font-regular: "Open Sans", Arial, Helvetica, sans-serif;
+
+$round-border: 6px;
+$shadow: 0px 0px 12px #ccc;
+$btn-fab-size: 65px;
+$header-height-small: 55px;
+$header-height: 96px;
+$sidebar-width: 300px;
+$sidebar-width-with-shadow: $sidebar-width + ($btn-fab-size / 2);
+
+
+@mixin list-unstyled() {
+  margin: 0; 
+  padding: 0;
+  list-style: none;
+}
+
+@mixin clearfix() {
+  overflow: hidden;
+  &:after {
+    content: '';
+    clear: both;
+  }
+}

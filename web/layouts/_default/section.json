@@ -1,0 +1,42 @@
+{
+  "path": "{{ .RelPermalink }}",
+  "title": "{{ .Title }}",
+  "volume": "{{ .Params.hrs_structure.title }}",
+  "chapter": "{{ .Params.hrs_structure.chapter }}",
+  "statute": "{{ .Params.hrs_structure.statute }}",
+  "context": "{{ replace .Plain "\n" " " }}",
+  "linkTitle": "{{ .Params.linkTitle }}",
+  "children" : [
+
+    {{if eq .Params.type "title"}}
+      {{ $currentTitle := .Params.hrs_structure.title }}
+      {{ $chapters := where .Site.Pages ".Params.type" "chapter" }}
+      {{ $limitedchapters := where $chapters ".Params.hrs_structure.title" $currentTitle }}
+      {{ $len := (len $limitedchapters) }}
+      {{ range $index, $limitedchapters }}
+        {{ template "section-json-nav" . }}
+        {{ if lt $index (sub $len 1) }},{{end}}
+      {{ end }}
+    {{ end }}
+
+    {{if eq .Params.type "chapter"}}
+      {{ $currentChapter := .Params.hrs_structure.chapter }}
+      {{ $statutes := where .Site.Pages ".Params.type" "statute" }}
+      {{ $limitedstatutes := where $statutes ".Params.hrs_structure.chapter" $currentChapter }}
+      {{ $len := (len $limitedstatutes) }}
+      {{ range $index, $limitedstatutes }}
+        {{ template "section-json-nav" . }}
+        {{ if lt $index (sub $len 1) }},{{end}}
+      {{ end }}
+    {{ end }}
+  ]
+}
+
+
+{{ define "section-json-nav" }}
+{
+    "path": "{{ .RelPermalink }}",
+    "title": "{{ .Params.full_title }}"
+}
+{{ end }}
+

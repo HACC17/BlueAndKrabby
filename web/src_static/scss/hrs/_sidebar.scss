@@ -1,0 +1,131 @@
+$sidebar-title-height: 101px;
+$sidebar-title-border: 3px;
+$sidebar-background-color-1: #e0e0e0;
+$sidebar-background-color-2: #ececec;
+$sidebar-background-color-3: #fafafa;
+
+.sidebar {
+  font-family: $font-special;
+  position: fixed;
+  top: 0; 
+  bottom: 0;
+  left: -$sidebar-width-with-shadow;
+  width: $sidebar-width;
+  z-index: 49;
+  background-color: $sidebar-background-color-1;
+  border-right: 1px solid #eee;
+  transition: left $transitionTime ease-out;
+
+  @media (min-width: $breakpoint_md) {
+    position: absolute;
+    left: 0;
+  }
+}
+
+.sidebar--state-show {
+  left: 0;
+}
+
+.sidebar-title {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 1rem;
+  height: $sidebar-title-height;
+  color: $color-secondary-contrast;
+  background-color: $color-secondary-light;
+  border-bottom: $sidebar-title-border solid;
+
+  @media (min-width: $breakpoint_md) {
+    display: none;
+  }
+}
+
+.sidebar-sidebar-toggle {
+  position: absolute;
+  top: 1rem; 
+  right: -$btn-fab-size/2;
+  z-index: 50;
+
+  @media (min-width: $breakpoint_md) {
+    display: none;
+  }
+}
+
+.sidebar-menu-container {
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 0;
+
+  @media (max-width: $breakpoint_sm_max) {
+    height: calc(100% - #{$sidebar-title-height + $sidebar-title-border});
+  }
+}
+
+.sidebar-menu {
+  
+  @include list-unstyled();
+
+  & ul {
+    @include list-unstyled();
+    display: none;
+  }
+
+  .sidebar-item.active > ul {
+    display: block;
+  }
+
+  .sidebar-item.current > a:first-child {
+    background-color: $color-secondary;
+  }
+
+  .sidebar-item a {
+    position: relative;
+    border-left: 5px solid transparent;
+    padding: 0.6rem 40px 0.6rem 0.5rem;
+    display: block;
+    text-decoration: none;
+    
+    &:hover {
+      border-left: 5px solid $color-primary;
+    }
+  }
+
+  .sidebar-item-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color $transitionTime ease-out;
+
+    &:hover {
+      border: 3px solid $color-primary-dark;
+    }
+  }
+
+  // 1st level
+  & > li > a {
+    color: #000;
+    font-weight: bold;
+  }
+
+  // 2nd level
+  & > li > ul > li > a {
+    color: #333;
+    font-size: 1rem;
+    background-color: $sidebar-background-color-2;
+  }
+
+  // 3rd level
+  & > li > ul > li > ul > li > a {
+    color: #333;
+    font-size: 0.9rem;
+    background-color: $sidebar-background-color-3;
+  }
+
+}
+
+

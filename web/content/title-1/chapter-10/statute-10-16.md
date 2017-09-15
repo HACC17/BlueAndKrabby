@@ -1,0 +1,28 @@
+---
+hrs_structure:
+  title: '1'
+  chapter: '10'
+  statute: 10-16
+type: statute
+menu:
+  hrs:
+    identifier: HRS_0010-0016
+    parent: HRS0010
+    name: 10-16 Suits
+weight: 18125
+title: Suits
+full_title: 10-16 Suits
+---
+**[§10-16] Suits.** (a) The office may sue and be sued in its corporate name. The State shall not be liable for any acts or omissions of the office, its officers, employees, and the members of the board of trustees, except as provided under subsection (b).
+
+(b) In matters of tort, the office, its officers and employees, and the members of the board shall be subject to suit only in the manner provided for suits against the State under chapter 662.
+
+(c) In matters of misapplication of funds and resources in breach of fiduciary duty, board members shall be subject to suit brought by any beneficiary of the public trust entrusted upon the office, either through the office of the attorney general or through private counsel.
+
+(d) In matters involving other forms of remedies, the office, its officers and employees, and the members of the board shall be subject to suit as provided by any other provision of law and by the common law. [L 1979, c 196, pt of §2]
+
+Case Notes
+
+Where plaintiff office of Hawaiian affairs brought suit in its own corporate name under this section, rather than as an agency of the State on behalf of the people of the State, §657-1.5 did not exempt plaintiff from the statute of limitations for bringing a suit under §673-10\. 110 H. 338, 133 P.3d 767.
+
+Plaintiffs' complaint failed to state a breach of fiduciary duty claim under subsection (c), where the complaint: (1) did not allege that the office of Hawaiian affairs trustees' spending decisions were made for any purpose other than benefiting native Hawaiians; (2) did not allege that the expenditures were in conflict with or adverse to the interests of native Hawaiians; and (3) lacked factual allegations that the expenditures were in furtherance of programs that do not benefit native Hawaiians. The conclusory allegations in the amended complaint, without more, were insufficient to state a claim. 131 H. 62, 315 P.3d 213 (2013).

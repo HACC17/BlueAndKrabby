@@ -1,0 +1,15 @@
+
+.breadcrumb {
+  font-size: 0.9rem;
+  @include list-unstyled();
+  @include clearfix();
+}
+.breadcrumb-item {
+  float: left;
+
+  &:not(:last-child):after {
+    content: ' \00BB ';
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

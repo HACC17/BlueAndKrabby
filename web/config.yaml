@@ -1,0 +1,11 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Hawaii Revised Statutes"
+outputs:
+  page: ["HTML", "JSON"]
+  section: ["HTML", "JSON"]
+menu:
+  hrs:
+    - Name: Title 3. Legislature
+      Weight: 15
+      Identifier: title3

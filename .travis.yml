@@ -1,0 +1,20 @@
+before_install:
+
+install:
+  - cd web
+  - npm install
+
+# Build the website
+script:
+  - npm run build
+  - ./binaries/hugo
+
+# Deploy to GitHub pages
+deploy:
+  repo: SamMade/aloha-io
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master

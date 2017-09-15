@@ -1,0 +1,30 @@
+
+.simpleNav {
+  text-align: center;
+  @include clearfix();
+}
+.simpleNav-left {
+  float: left;
+}
+.simpleNav-right {
+  float: right;
+}
+
+.simpleNav-top {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+
+  .btn-primary {
+    color: $color-primary;
+    background-color: $color-primary-contrast;
+    border: 2px solid transparent;
+    border-color: $color-primary;
+    text-shadow: none;
+    padding: 0.3rem 1rem;
+    
+    &:hover {
+      border-color: lighten($color-primary, 20%);
+      color: lighten($color-primary, 20%);
+    }
+  }
+}

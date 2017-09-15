@@ -1,0 +1,21 @@
+{
+  "name": "hrs-md-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "del": "^3.0.0",
+    "graceful-fs": "^4.1.11",
+    "htmlparser2": "^3.9.2",
+    "js-yaml": "^3.9.1",
+    "mkdirp": "^0.5.1",
+    "to-markdown": "^3.1.0"
+  }
+}

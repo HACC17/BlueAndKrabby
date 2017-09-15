@@ -1,0 +1,19 @@
+.content{
+
+  padding: 1rem;
+  padding-bottom: 3rem;
+  margin-right: ($btn-fab-size / 2);
+  min-height: 400px;
+
+  @media (max-width: $breakpoint_sm_max) {
+    top: 0;
+    margin-top: $header-height-small;
+    margin-right: 0;
+  }
+
+  @media (min-width: $breakpoint_md) {
+    top: 0;
+    margin-left: $sidebar-width-with-shadow;
+  }
+
+}

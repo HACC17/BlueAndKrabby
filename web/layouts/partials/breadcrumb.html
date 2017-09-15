@@ -1,0 +1,16 @@
+<ul class="breadcrumb">
+  {{ template "breadcrumb-nav" (dict "sections" .Site.Menus.hrs "current" $ ) }}
+</ul>
+
+{{ define "breadcrumb-nav" }}
+  {{ range .sections }}
+
+    {{ if $.current.HasMenuCurrent "hrs" . }}
+      <li class="breadcrumb-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ if .HasChildren }}
+        {{ template "breadcrumb-nav"  (dict "sections" .Children "current" $.current) }}
+      {{ end }}
+    {{ end }}
+
+  {{ end }}
+{{ end }}

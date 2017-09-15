@@ -1,0 +1,115 @@
+$sidebarToggleWidth: 65px;
+
+
+.header {
+  position: relative;
+  background-color: $color-primary;
+  color: $color-primary-contrast;
+  box-shadow: $shadow;
+  padding: 2rem;
+  
+  @media (max-width: $breakpoint_sm_max) {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    padding: 0rem;
+    height: $header-height-small;
+    line-height: $header-height-small;
+    z-index: 2;
+  }
+
+  @media (min-width: $breakpoint_md) {
+    position: relative;
+    left: 0;
+  }
+}
+
+.header-seal {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  text-indent: -99999em;
+  width: 75px;
+  top: 0; bottom: 0;
+  margin:1rem;
+  background: url(../seal.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  @media (max-width: $breakpoint_sm_max) {
+    margin: 0.3rem;
+    width: 45px;
+    margin-left: $sidebarToggleWidth+5;
+  }
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin-left: 100px;
+  color: $color-primary-contrast;
+  text-decoration: none;
+
+  @media (max-width: $breakpoint_sm_max) {
+    margin-left: $sidebarToggleWidth+5;
+    font-size: 1.1rem;
+    visibility: hidden;
+  }
+}
+
+.header-sidebar-toggle {
+  position: absolute;
+  border-radius: 0;
+  top: 0; 
+  bottom: 0;
+  left: 0; 
+  width: $sidebarToggleWidth;
+
+  @media (min-width: $breakpoint_md) {
+    display: none;
+  }
+}
+
+.header-search {
+  position: absolute;
+  margin: auto 0;
+  margin-right: 0.5rem;
+  border-radius: $round-border;
+  background-color: $color-primary-dark;
+  width: 250px;
+  height: 39px;
+  bottom: 0;
+  top: 0;
+  right: 1rem;
+  
+  @media (max-width: $breakpoint_xs_max) {
+    width: 200px;
+  }
+}
+
+.header-search-label {
+  position: absolute;
+  line-height: 38px;
+  left: 1rem;
+  opacity: 0.8;
+}
+
+.header-search-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 53px;
+  color: $color-primary-contrast;
+  font-size: 1.1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.header-search-submit {
+  position: absolute;
+  background-color: transparent;
+  top: 0; right: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

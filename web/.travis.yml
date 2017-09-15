@@ -1,0 +1,15 @@
+# Reference file for travis if 'web is separated into own repo eventually
+
+before_install:
+
+install:
+  - cd web
+  - npm install
+
+# Build the website
+script:
+  - npm run build
+  - ./binaries/hugo
+
+deploy:
+# Add Deploy steps below

@@ -1,0 +1,16 @@
+---
+hrs_structure:
+  title: '1'
+  chapter: '8'
+  statute: 8-10
+type: statute
+menu:
+  hrs:
+    identifier: HRS_0008-0010
+    parent: HRS0008
+    name: 8-10 Bodhi Day
+weight: 15090
+title: Bodhi Day
+full_title: 8-10 Bodhi Day
+---
+**[§8-10] Bodhi Day.** December 8 of each year shall be known and designated as "Bodhi Day" in recognition that on this day Prince Siddhartha Gautama, after six years of study and rigorous ascetic practices and meditation, attained "enlightenment" or "awakening" to the true nature of existence, which was later conceptualized as the "Four Noble Truths". This day is not and shall not be construed to be a state holiday. [L 1990, c 216, §1]

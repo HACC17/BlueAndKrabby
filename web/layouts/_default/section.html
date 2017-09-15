@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+  <div class="content container {{ .Params.type }}">
+
+    {{if eq .Params.type "chapter"}}
+      {{ partial "breadcrumb.html" . }}
+    {{ end }}
+
+    <div class="post">
+      <h1 class="{{ .Params.type }}-h1">
+        {{if eq .Params.type "title"}}Title {{ .Params.hrs_structure.title }}{{ end }} 
+        {{if eq .Params.type "chapter"}}Chapter {{ .Params.hrs_structure.chapter }}{{ end }} 
+      </h1>
+      <h2 class="{{ .Params.type }}-h2">{{ .Title }}</h2>
+
+        {{if eq .Params.type "title"}}
+          {{ $currentTitle := .Params.hrs_structure.title }}
+          {{ $chapters := where .Site.Pages ".Params.type" "chapter" }}
+          {{ $limitedchapters := where $chapters ".Params.hrs_structure.title" $currentTitle }}
+          {{if len $limitedchapters | gt 0}}
+            <p>Chapter</p>
+          {{ end }}
+          <ul class="posts">
+          {{ range $limitedchapters }}
+            {{ template "item-nav" . }}
+          {{ end }}
+          </ul>
+        {{ end }}
+
+
+        {{if eq .Params.type "chapter"}}
+          {{ $currentChapter := .Params.hrs_structure.chapter }}
+          {{ $statutes := where .Site.Pages ".Params.type" "statute" }}
+          {{ $limitedstatutes := where $statutes ".Params.hrs_structure.chapter" $currentChapter }}
+          {{if len $limitedstatutes | gt 0}}
+            <p>Section</p>
+          {{ end }}
+          <ul class="posts">
+          {{ range $limitedstatutes }}
+            {{ template "item-nav" . }}
+          {{ end }}
+          </ul>
+        {{ end }}
+
+      {{ .Content }}
+
+    </div>
+
+  </div>
+
+{{ end }}
+
+
+{{ define "item-nav" }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{.Params.full_title}}</a>
+  </li>
+{{ end }}
+

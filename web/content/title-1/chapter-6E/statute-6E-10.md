@@ -1,0 +1,30 @@
+---
+hrs_structure:
+  title: '1'
+  chapter: 6E
+  statute: '6E-10'
+type: statute
+menu:
+  hrs:
+    identifier: HRS_0006E-0010
+    parent: HRS0006E
+    name: 6E-10 Privately owned historic property
+weight: 11060
+title: Privately owned historic property
+full_title: 6E-10 Privately owned historic property
+---
+**§6E-10 Privately owned historic property.** (a) Before any construction, alteration, disposition or improvement of any nature, by, for, or permitted by a private landowner may be commenced which will affect an historic property on the Hawaii register of historic places, the landowner shall notify the department of the construction, alteration, disposition, or improvement of any nature and allow the department opportunity for review of the effect of the proposed construction, alteration, disposition, or improvement of any nature on the historic property. The proposed construction, alteration, disposition, or improvement of any nature shall not be commenced, or in the event it has already begun, continue, until the department shall have given its concurrence or ninety days have elapsed. Within ninety days after notification, the department shall:
+
+(1) Commence condemnation proceedings for the purchase of the historic property if the department and property owner do not agree upon an appropriate course of action;
+
+(2) Permit the owner to proceed with the owner's construction, alteration, or improvement; or
+
+(3) In coordination with the owner, undertake or permit the investigation, recording, preservation, and salvage of any historical information deemed necessary to preserve Hawaiian history, by any qualified agency for this purpose.
+
+(b) Nothing in this section shall be construed to prevent the ordinary maintenance or repair of any feature in or on an historic property that does not involve a change in design, material, or outer appearance or change in those characteristics which qualified the historic property for entry onto the Hawaii register of historic places.
+
+(c) Any person, natural or corporate, who violates the provisions of this section shall be fined not more than $1,000, and each day of continued violation shall constitute a distinct and separate offense under this section for which the offender may be punished.
+
+(d) If funds for the acquisition of needed property are not available, the governor may, upon the recommendation of the department allocate from the contingency fund an amount sufficient to acquire an option on the property or for the immediate acquisition, preservation, restoration, or operation of the property.
+
+(e) The department may enter, solely in performance of its official duties and only at reasonable times, upon private lands for examination or survey thereof. Whenever any member of the department duly authorized to conduct investigations and surveys of an historic or cultural nature determines that entry onto private lands for examination or survey of historic or cultural finding is required, the department shall give written notice of the finding to the owner or occupant of such property at least five days prior to entry. If entry is refused, the member may make a complaint to the district environmental court in the circuit in which such land is located. The district environmental court may thereupon issue a warrant, directed to any police officer of the circuit, commanding the officer to take sufficient aid, and, being accompanied by a member of the department, between the hours of sunrise and sunset, allow the member of the department to examine or survey the historic or cultural property. [L 1976, c 104, pt of §2; gen ch 1985; am L 1992, c 113, §2; am L 2008, c 228, §3; am L 2009, c 4, §3; am L 2014, c 218, §8]
