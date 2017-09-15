@@ -1,6 +1,18 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
+hrs_structure:
+  title: ''
+  chapter: ''
+  statute: ''
+type: 
+menu:
+  hrs:
+    identifier: 
+    parent: 
+    name: 
+weight: 
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+full_title: 
 draft: true
 ---
 
