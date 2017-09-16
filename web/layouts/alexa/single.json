@@ -1,9 +1,8 @@
 {
-  "statutes":[
-    {{ $len := (len .Site.Pages) }}{{ range $index, $element := .Site.Pages }}{{ if eq .Params.type "statute"}}{
-      "id": "{{ .Params.hrs_structure.statute }}",
+  "statutes": { {{ $len := (len .Site.Pages) }}{{ range $index, $element := .Site.Pages }}{{ if eq .Params.type "statute"}}
+    "{{ .Params.hrs_structure.statute }}": {
       "title": "{{ htmlEscape .Params.full_title }}",
       "context": "{{ htmlEscape (replace .Plain "\n" " ") }}"
     }{{ if lt $index (sub $len 1) }},{{ end }}{{ end }}{{ end }}
-  ]
+  }
 }
