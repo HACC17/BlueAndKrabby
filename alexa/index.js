@@ -36,7 +36,7 @@ var getSingleRequest = function(that, url) {
       
       if (bodyObj.context) {
         const msg = bodyObj.context;
-        that.emit(':tellWithCard', msg, SKILL_NAME, `HRS - ${bodyObj.title}\n${bodyObj.context}`);
+        that.emit(':tellWithCard', msg, `${bodyObj.title}`, `${bodyObj.context}`);
       } else {
         that.emit(':tell', SERVER_DOWN);
       }
@@ -110,9 +110,11 @@ var handlers = {
       res.on('end', () => {
         let bodyObj = JSON.parse(body);
         // This should be replaced by a true search engine
-        for (var i=0; i<bodyObj.chldren.length; i++) {
-          if (bodyObj.children[i].title.indexOf(symbol) !== -1) {
-            return getSingleRequest(this, bodyObj.children[i].path);
+        if (bodyObj.children){
+          for (var i=0; i<bodyObj.children.length; i++) {
+            if (bodyObj.children[i].title.toLowerCase().indexOf(symbol) !== -1) {
+              return getSingleRequest(this, bodyObj.children[i].path+'index.json');
+            }
           }
         }
         this.emit(':tell', `Sorry, I was unable to find information about a state ${symbol}`);
