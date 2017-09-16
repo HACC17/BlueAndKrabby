@@ -7,6 +7,7 @@ hrsIntent  give me {chapter} dash {statute} point {statuteVerse}
 hrsIntent  for {chapter} {C|chapterSuffix} dash {statute} point {statuteVerse}
 
 hrsStateSymbolIntent  what is the state {symbol}
+hrsStateSymbolIntent  what is the official {symbol}
 hrsStateSymbolIntent  tell me about the state {symbol}
 
 hrsAlohaSpiritIntent  what is the aloha spirit

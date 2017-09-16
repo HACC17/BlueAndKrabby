@@ -11,7 +11,7 @@
       {{ $chapters := where .Site.Pages ".Params.type" "chapter" }}
       {{ $limitedchapters := where $chapters ".Params.hrs_structure.title" $currentTitle }}
       {{ $len := (len $limitedchapters) }}
-      {{ range $index, $limitedchapters }}
+      {{ range $index, $element := $limitedchapters }}
         {{ template "section-json-nav" . }}
         {{ if lt $index (sub $len 1) }},{{end}}
       {{ end }}
@@ -22,7 +22,7 @@
       {{ $statutes := where .Site.Pages ".Params.type" "statute" }}
       {{ $limitedstatutes := where $statutes ".Params.hrs_structure.chapter" $currentChapter }}
       {{ $len := (len $limitedstatutes) }}
-      {{ range $index, $limitedstatutes }}
+      {{ range $index, $element := $limitedstatutes }}
         {{ template "section-json-nav" . }}
         {{ if lt $index (sub $len 1) }},{{end}}
       {{ end }}
