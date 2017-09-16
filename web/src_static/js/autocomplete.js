@@ -36,7 +36,7 @@ new autoComplete({
       return '<div class="autocomplete-suggestion" data-val="' + item.path + '">' + searchitem.replace(re, "<b>$1</b>") + '</div>';
     },
     onSelect: function (event, term, item) {
-      window.location.assign(hrs_baseurl + term);
+      window.location.assign(unescape(hrs_baseurl) + term);
     }
 });
 
