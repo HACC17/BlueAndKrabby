@@ -5,3 +5,4 @@ outputs:
   home: ["HTML", "JSON"]
   page: ["HTML", "JSON"]
   section: ["HTML", "JSON"]
+googleAnalytics: "UA-106596707-1"

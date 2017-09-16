@@ -3,7 +3,7 @@
   "title": "{{ .Title }}",
   "site": [
     {{ $len := (len .Site.Pages) }}
-    {{ range $index, .Site.Pages }}
+    {{ range $index, $element := .Site.Pages }}
     {
       {{ if eq .Params.type "statute" }}
         "key": "{{ .Params.hrs_structure.statute }}",
@@ -18,7 +18,6 @@
     }
     {{ if lt $index (sub $len 1) }},{{end}}
     {{ end }}
-    {}
   ],
   "context": "{{ htmlEscape (replace .Plain "\n" " ") }}"
 }

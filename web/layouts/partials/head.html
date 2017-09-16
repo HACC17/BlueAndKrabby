@@ -6,6 +6,7 @@
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta content="{{with .Params.tags}}{{ delimit . ", " }}{{end}}" name="keywords">
 
   {{ if .IsHome }}
   <title>{{ .Site.Title }}</title>
@@ -14,10 +15,10 @@
   {{ end }}
 
   <!-- CSS -->
-  <!-- <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
-  <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "vendor.css" }}" /> -->
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+  <!-- <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "vendor.css" }}" /> -->
+  <!-- <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" /> -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/vendor.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
 
   <!-- Icons -->
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">

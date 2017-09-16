@@ -1,55 +1,54 @@
 // initialize
-var cb;
+var autoCompleteTerm;
+var autoCompleteCB;
+var autoCompletePath = hrs_baseurl+'index.json';
 var xhr = new XMLHttpRequest();
-xhr.open('GET', hrs_baseurl+'index.json', true);
 
 xhr.onload = function() {
   if (xhr.status >= 200 && xhr.status < 400) {
     // Success!
-    console.log(xhr);
-    var data = JSON.parse(xhr.responseText);
-    cb(data);
+    var data = parseAutoCompleteData(xhr.responseText);
+    if (data.length === 0){
+      document.querySelector('.autocomplete-noResults').setAttribute('style','display:block;');
+    } else {
+      document.querySelector('.autocomplete-noResults').removeAttribute('style');
+    }
+    autoCompleteCB(data);
   } else {
     // We reached our target server, but it returned an error
-
   }
-};
-  
-xhr.abort = function() {
-  
 }
 
-xhr.onerror = function() {
-  // There was a connection error of some sort
-};
-
-console.log(hrs_baseurl+'index.json');
 new autoComplete({
     selector: 'input[name="auto"]',
     minChars: 2,
     source: function(term, response){
-      console.log('source');
       try { xhr.abort(); } catch(e){}
-      cb = response;
-      console.log(cb);
+      autoCompleteTerm = term;
+      autoCompleteCB = response;
+      xhr.open('GET', autoCompletePath, true);
       xhr.send();
+    },
+    renderItem: function (item, search) {
+      var searchitem = item.title;
+      search = search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      var re = new RegExp("(" + search.split(' ').join('|') + ")", "gi");
+      return '<div class="autocomplete-suggestion" data-val="' + item.path + '">' + searchitem.replace(re, "<b>$1</b>") + '</div>';
+    },
+    onSelect: function (event, term, item) {
+      window.location.assign(hrs_baseurl + term);
     }
 });
 
-function AJAXsimple(path) {
-  this.server ={};
+function parseAutoCompleteData(source){
+  var results = JSON.parse(source);
+  if (!results.site) return [];
 
-  this.init = function() {
-    if(typeof XMLHttpRequest != 'undefined'){
-      this.server = new XMLHttpRequest();
-      this.server.open('GET', path, true);
-      console.log("XMLHttpRequest created.");
-      return true;
+  var output = [];
+  for(var i=0; i<results.site.length; i++){
+    if (results.site[i].title && results.site[i].title.indexOf(autoCompleteTerm) !== -1) {
+      output.push(results.site[i]);
     }
-  };
-  this.send = function(){
-    if(this.init()){
-      this.server.send();
-    }
-  };
+  }
+  return output;
 }

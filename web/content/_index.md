@@ -1,8 +1,12 @@
 ---
 title: "Hawaii Revised Statutes"
+weight: 1
+menu:
+  hrs:
+    identifier: home
+    name: Home
 ---
-Aloha
 
-You may browse the statutes by title and chapter through the navigation.
+Aloha! You may browse the statutes by title and chapter through the navigation.
 
-Or you may begin entering the statute number in the box below.
+If you know the statute number already, you can use the quick finder in the box below.

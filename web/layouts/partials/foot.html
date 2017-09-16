@@ -1,5 +1,6 @@
 
   <!-- <script src="/js/{{ index .Site.Data.js.hash "main.js" }}"></script> -->
   <script src="{{ .Site.BaseURL }}js/main.js"></script>
+  {{ template "_internal/google_analytics_async.html" . }}
   </body>
 </html>
