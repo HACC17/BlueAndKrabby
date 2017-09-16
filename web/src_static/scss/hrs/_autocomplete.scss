@@ -20,7 +20,7 @@
   border-color: $color-primary-dark;
   font-size: 1.1rem;
   width: 100%;
-  padding: 16px 1rem 0;
+  padding: 16px 85px 0 1rem ;
   height: 55px;
   top: 0; bottom: 0;
   left: 0; right: 0;
@@ -39,4 +39,5 @@
   right: 5px;
   bottom: 0px;
   z-index: 11;
+  color: red;
 }

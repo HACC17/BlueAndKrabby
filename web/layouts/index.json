@@ -1,5 +1,5 @@
 {
-  "path": "{{ .RelPermalink }}",
+  "path": "{{ .Site.BaseURL }}{{ .URL | absURL }}",
   "title": "{{ .Title }}",
   "site": [
     {{ $len := (len .Site.Pages) }}
@@ -12,7 +12,7 @@
       {{ else if eq .Params.type "title" }}
         "key": "{{ .Params.hrs_structure.title }}",
       {{ end }}
-      "path": "{{ .RelPermalink }}",
+      "path": "{{ .URL | absURL }}",
       "type": "{{ .Params.type }}",
       "title": "{{ htmlEscape .Params.full_title }}"
     }
