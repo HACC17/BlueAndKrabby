@@ -1,5 +1,5 @@
 {
-  "name": "hrs-md-web",
+  "name": "hrs-web",
   "version": "1.0.0",
   "description": "This site generates the HRS website using the static site generator [Hugo](https://gohugo.io/).",
   "main": "index.html",
