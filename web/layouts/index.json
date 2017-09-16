@@ -1,6 +1,6 @@
 {
-  "path": "{{ .Site.BaseURL }}{{ .URL | absURL }}",
-  "title": "{{ .Title }}",
+  "path": "{{ .URL | absURL }}",
+  "title": "{{ htmlEscape .Title }}",
   "site": [
     {{ $len := (len .Site.Pages) }}
     {{ range $index, $element := .Site.Pages }}

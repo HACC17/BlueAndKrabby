@@ -3,3 +3,13 @@ hrsIntent  read statute {chapter} {B|chapterSuffix} dash {statute} dot {statuteV
 hrsIntent  what is statute {chapter} dash {statute}
 hrsIntent  tell me {chapter} {K|chapterSuffix} dash {statute}
 hrsIntent  what is {chapter} dash {statute} dot {statuteVerse}
+hrsIntent  give me {chapter} dash {statute} point {statuteVerse}
+hrsIntent  for {chapter} {C|chapterSuffix} dash {statute} point {statuteVerse}
+
+hrsStateSymbolIntent  what is the state {symbol}
+hrsStateSymbolIntent  tell me about the state {symbol}
+
+hrsAlohaSpiritIntent  what is the aloha spirit
+hrsAlohaSpiritIntent  tell me about the aloha spirit
+
+

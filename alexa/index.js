@@ -6,8 +6,11 @@ var APP_ID = "amzn1.ask.skill.854e4554-ce98-4d49-a2a8-73105ad7bbe9";
 var SKILL_NAME = "HRS-hacc17";
 var START_MESSAGE = "Hawaii Revised Statutes launched!";
 var HELP_MESSAGE = "I can tell you a Hawaii REVISED STATUTE. Tell me the statute, for example say... read statute one dash one. To exit say... exit.";
-var HELP_REPROMPT = "What can I help you with?";
+var HELP_REPROMPT = "Sorry, can you say that again?";
 var STOP_MESSAGE = "Aloha!";
+var SERVER_DOWN = "Sorry the HRS server isn't responding right now.";
+
+const hosturl = 'https://sammade.github.io/aloha-io';
 
 exports.handler = function(event, context, callback) {
   var alexa = Alexa.handler(event, context);
@@ -16,11 +19,40 @@ exports.handler = function(event, context, callback) {
   alexa.execute();
 };
 
+
+var getSingleRequest = function(that, url) {
+  
+  return https.get(url, res => {
+    res.setEncoding('utf8');
+    let body = '';
+    res.on('data', data => {
+      body += data;
+    });
+    res.on('error', function(e) {
+      that.emit(':tell', SERVER_DOWN);
+    });
+    res.on('end', () => {
+      let bodyObj = JSON.parse(body);
+      
+      if (bodyObj.context) {
+        const msg = bodyObj.context;
+        that.emit(':tellWithCard', msg, SKILL_NAME, `HRS - ${bodyObj.title}\n${bodyObj.context}`);
+      } else {
+        that.emit(':tell', SERVER_DOWN);
+      }
+    });
+  });
+
+};
+
 var handlers = {
   'LaunchRequest': function () {
-      this.emit(':tell', START_MESSAGE);
+      this.emit(':ask', `${START_MESSAGE} Ask me something`, HELP_REPROMPT);
   },
   'hrsIntent': function () {
+    const url = `${hosturl}/alexa/index.json`;
+
+    // Get Intentions
     var intentObj = this.event.request.intent;
     if (!intentObj.slots.chapter.value) {
       var speechOutput = 'What chapter?';
@@ -36,7 +68,7 @@ var handlers = {
     let statute = (intentObj.slots.statute && intentObj.slots.statute.value) ? intentObj.slots.statute.value : '';
     let verse = (intentObj.slots.statuteVerse && intentObj.slots.statuteVerse.value) ? intentObj.slots.statuteVerse.value : '';
 
-    const url = 'https://sammade.github.io/aloha-io/alexa/index.json';
+    // Get Request
     return https.get(url, res => {
       res.setEncoding('utf8');
       let body = '';
@@ -44,7 +76,7 @@ var handlers = {
         body += data;
       });
       res.on('error', function(e) {
-        this.emit(':tell', "Sorry the HRS server isn't responding right now.");
+        this.emit(':tell', SERVER_DOWN);
       });
       res.on('end', () => {
         let bodyObj = JSON.parse(body);
@@ -59,7 +91,39 @@ var handlers = {
         }
       });
     });
-      
+  },
+  'hrsStateSymbolIntent': function () {
+    const url = `${hosturl}/title-1/chapter-5/index.json`;
+
+    var intentObj = this.event.request.intent;
+    let symbol = (intentObj.slots.symbol && intentObj.slots.symbol.value) ? intentObj.slots.symbol.value : '';
+    
+    https.get(url, res => {
+      res.setEncoding('utf8');
+      let body = '';
+      res.on('data', data => {
+        body += data;
+      });
+      res.on('error', function(e) {
+        this.emit(':tell', SERVER_DOWN);
+      });
+      res.on('end', () => {
+        let bodyObj = JSON.parse(body);
+        // This should be replaced by a true search engine
+        for (var i=0; i<bodyObj.chldren.length; i++) {
+          if (bodyObj.children[i].title.indexOf(symbol) !== -1) {
+            return getSingleRequest(this, bodyObj.children[i].path);
+          }
+        }
+        this.emit(':tell', `Sorry, I was unable to find information about a state ${symbol}`);
+      });
+    });
+
+  },
+  'hrsAlohaSpiritIntent': function () {
+    const url = `${hosturl}/title-1/chapter-5/statute-5-7_5/index.json`;
+
+    return getSingleRequest(this, url);
   },
   'AMAZON.HelpIntent': function () {
       var speechOutput = HELP_MESSAGE;
@@ -73,3 +137,4 @@ var handlers = {
       this.emit(':tell', STOP_MESSAGE);
   }
 };
+

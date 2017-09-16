@@ -10,6 +10,7 @@
       "intent": "AMAZON.StopIntent"
     },
     {
+      "intent": "hrsIntent",
       "slots": [
         {
           "name": "chapter",
@@ -27,8 +28,19 @@
           "name": "statuteVerse",
           "type": "AMAZON.NUMBER"
         }
-      ],
-      "intent": "hrsIntent"
+      ]
+    },
+    {
+      "intent": "hrsStateSymbolIntent",
+      "slots": [
+        {
+          "name": "symbol",
+          "type": "SYMBOL_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "hrsAlohaSpiritIntent"
     }
   ]
 }

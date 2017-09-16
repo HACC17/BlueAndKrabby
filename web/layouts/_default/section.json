@@ -1,13 +1,11 @@
 {
-  "path": "{{ .RelPermalink }}",
-  "title": "{{ .Title }}",
+  "path": "{{ .URL | absURL }}",
+  "title": "{{ htmlEscape .Title }}",
   "volume": "{{ .Params.hrs_structure.title }}",
   "chapter": "{{ .Params.hrs_structure.chapter }}",
   "statute": "{{ .Params.hrs_structure.statute }}",
-  "context": "{{ replace .Plain "\n" " " }}",
-  "linkTitle": "{{ .Params.linkTitle }}",
+  "context": "{{ htmlEscape (replace .Plain "\n" " ") }}",
   "children" : [
-
     {{if eq .Params.type "title"}}
       {{ $currentTitle := .Params.hrs_structure.title }}
       {{ $chapters := where .Site.Pages ".Params.type" "chapter" }}
@@ -32,11 +30,10 @@
   ]
 }
 
-
 {{ define "section-json-nav" }}
 {
-    "path": "{{ .RelPermalink }}",
-    "title": "{{ .Params.full_title }}"
+    "path": "{{ .URL | absURL }}",
+    "title": "{{ htmlEscape .Params.full_title }}"
 }
 {{ end }}
 
