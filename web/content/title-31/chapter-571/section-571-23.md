@@ -1,0 +1,29 @@
+---
+hrs_structure:
+  division: '3'
+  volume: '12'
+  title: '31'
+  chapter: '571'
+  section: 571-23
+type: hrs_section
+tags:
+  - Property
+  - Family
+menu:
+  hrs:
+    identifier: HRS_0571-0023
+    parent: HRS0571
+    name: 571-23 Summons; notice; custody of minor
+weight: 85105
+title: Summons; notice; custody of minor
+full_title: 571-23 Summons; notice; custody of minor
+---
+**§571-23 Summons; notice; custody of minor.** After a petition under section 571-11(1) or (2) is filed in the interest of a minor, and after such investigation as the court may direct, the court shall issue a summons, unless the parties hereinafter named promise in writing to appear voluntarily, requiring the person or persons who have the custody or control of the minor to appear personally and bring the minor before the court at a time and place stated. If the person so summoned is not the parent or guardian of the minor, then the parent or guardian or both shall also be notified, by personal service before the hearing except as herein provided, of the pendency of the case and of the time and place appointed. Summons may be issued requiring the appearance of any other person whose presence, in the opinion of the judge, is necessary. If it appears that the minor is in such condition or surroundings that the minor's welfare requires taking the minor into custody, the judge may order, by endorsement upon the summons, or otherwise, that the person serving the summons shall take the minor into custody at once. A parent or guardian is entitled to the issuance of compulsory process for the attendance of witnesses on the parent's or guardian's own behalf or on behalf of the minor.
+
+Service of summons shall be made personally by the delivery of a copy thereof, together with a copy of the petition, to the person summoned, except that if the judge is satisfied that personal service of the summons or the notice provided for in the preceding paragraph is impracticable, the judge may order service by certified or registered mail addressed to the last known address, or by publication, or both. Service effected not less than forty-eight hours before the time fixed in the summons for the return thereof shall be sufficient to confer jurisdiction, provided that jurisdiction shall be conferred if any person who might be so summoned appears voluntarily at the time and place appointed and waives such service and such notice.
+
+Service of summons, process, or notice required by this chapter may be made by any suitable person under the direction of the court and upon request of the court shall be made by any police officer. The judge may authorize the payment of necessary travel expenses incurred by persons summoned or otherwise required to appear at the hearing of a case coming within the purview of this chapter. Section 621-7 shall apply to persons summoned under this section other than a parent, guardian, or other legal custodian of the child concerned. [L 1965, c 232, pt of §1; Supp, §333-14; [HRS §571-23](/title-31/chapter-571/section-571-23/); gen ch 1985]
+
+Rules of Court
+
+Service and summons, see HFCR rules 4, 5, 138, 139.

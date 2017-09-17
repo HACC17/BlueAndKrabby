@@ -1,0 +1,38 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '5'
+  title: '17'
+  chapter: 291D
+  section: 291D-6
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0291D-0006
+    parent: HRS0291D
+    name: 291D-6 Answer required
+weight: 49035
+title: Answer required
+full_title: 291D-6 Answer required
+---
+**§291D-6** **Answer required.** (a) A person who receives a notice of traffic infraction shall answer the notice within twenty-one days of the date of issuance of the notice. There shall be included with the notice of traffic infraction a preaddressed envelope directed to the traffic violations bureau of the applicable district court.
+
+(b) Provided that the notice of traffic infraction does not require an appearance in person at [a] hearing as set forth in section [291D-5(d)(10)], in answering a notice of traffic infraction, a person shall have the following options:
+
+(1) Admit the commission of the infraction in one of the following ways:
+
+(A) By mail or in person, by completing the appropriate portion of the notice of traffic infraction or preaddressed envelope and submitting it to the authority specified on the notice together with payment of the total amount stated on the notice of traffic infraction. Payment by mail shall be in the form of a check, money order, or by an approved credit or debit card. Payment in person shall be in the form of United States currency, check, money order, or by an approved credit or debit card; or
+
+(B) Via the Internet or by telephone, by submitting payment of the total amount stated on the notice of traffic infraction. Payment via the Internet or by telephone shall be by an approved credit or debit card;
+
+(2) Deny the commission of the infraction and request a hearing to contest the infraction by completing the appropriate portion of the notice of traffic infraction or preaddressed envelope and submitting it, either by mail or in person, to the authority specified on the notice. In lieu of appearing in person at a hearing, the person may submit a written statement of grounds on which the person contests the notice of traffic infraction, which shall be considered by the court as a statement given in court pursuant to section 291D-8(a); or
+
+(3) Admit the commission of the infraction and request a hearing to explain circumstances mitigating the infraction by completing the appropriate portion of the notice of traffic infraction or preaddressed envelope and submitting it, either by mail or in person, to the authority specified on the notice. In lieu of appearing in person at a hearing, the person may submit a written explanation of the mitigating circumstances, which shall be considered by the court as a statement given in court pursuant to section 291D-8(b).
+
+(c) When answering the notice of traffic infraction, the person shall affix the person's signature to the answer and shall state the address at which the person will accept future mailings from the court. No other response shall constitute an answer for purposes of this chapter. [L 1993, c 214, pt of §2; am L 2003, c 4, §1; am L 2005, c 48, §3; am L 2007, c 85, §5]
+
+Rules of Court
+
+Answer, see HCTR rule 8.

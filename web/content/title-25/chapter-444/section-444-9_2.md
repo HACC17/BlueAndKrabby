@@ -1,0 +1,26 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '10'
+  title: '25'
+  chapter: '444'
+  section: 444-9.2
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0444-0009_0002
+    parent: HRS0444
+    name: 444-9.2 Advertising
+weight: 33065
+title: Advertising
+full_title: 444-9.2 Advertising
+---
+**§444-9.2 Advertising.** (a) It is a misdemeanor for any person, including a person who is exempt by section 444-2 from this chapter, to advertise with or without any limiting qualifications as a contractor unless such person holds a valid license under this chapter for the goods and services advertised. "Advertise" as used in this section includes, but is not limited to, the issuance of any card, sign, or device to any person; the causing, permitting, or allowing of any sign or marking on or in any building, vehicle or structure; or advertising in any newspaper or magazine; any listing or advertising in any directory under a classification or heading that includes the word "contractor"; or commercials broadcast by airwave transmission.
+
+(b) A contractor may advertise in print or broadcast medium, as defined in subsection (a) only if the contractor includes in the advertisement or listing the contractor's applicable and current license number, and provides proof of the number's validity to the publisher or producer of the advertising medium. The publisher or producer of a print or broadcast advertising medium shall refuse to publish or broadcast an advertisement or listing for a contractor who does not comply with the provisions of this subsection. A publisher or producer who obtains a signed statement from the contractor which states that the contractor has read the text of the advertisement or listing, has an applicable and current contractors license for the goods and services advertised, has included all applicable and current license numbers in the advertisement or listing, and is aware of civil and criminal penalties for advertising as a contractor without a valid license, shall be entitled to a rebuttable presumption of compliance with this subsection.
+
+(c) Upon entry of either a final order of the contractors license board pursuant to chapter 91 or a judgment by a court of competent jurisdiction finding that a contractor has advertised in violation of either section 444-9 or 444-9.2(a), the public utility furnishing telephone service to the contractor shall disconnect the telephone number contained in the advertisement or listing.
+
+(d) The publisher or producer of a print or broadcast advertising medium shall not be liable in any suit, action, or claim arising from its refusal to list or accept advertisements pursuant to subsection (b). Good faith compliance by a public utility with subsection (c) is a complete defense to any civil or criminal action brought against it arising from the termination of telephone service. [L 1974, c 112, pt of §1(1); am L 1984, c 132, §1; am L 1988, c 247, §1]

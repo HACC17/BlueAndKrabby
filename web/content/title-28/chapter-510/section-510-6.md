@@ -1,0 +1,27 @@
+---
+hrs_structure:
+  division: '3'
+  volume: '12'
+  title: '28'
+  chapter: '510'
+  section: 510-6
+type: hrs_section
+tags:
+  - Property
+  - Family
+menu:
+  hrs:
+    identifier: HRS_0510-0006
+    parent: HRS0510
+    name: 510-6 Incapacity of spouse
+weight: 27030
+title: Incapacity of spouse
+full_title: 510-6 Incapacity of spouse
+---
+**§510-6 Incapacity of spouse.** (a) Whenever the husband or the wife is non compos mentis, or has been convicted of a felony and imprisoned for a period of more than one year, or whenever the husband or the wife is an habitual drunkard, or for any other reason is incapacitated to receive, manage, control, dispose of, or otherwise deal with community property, the other spouse may commence an action in the circuit court of the circuit in which the plaintiff resides or of the circuit wherein any of the community property is located or situated, stating the name of the incapacitated spouse, a description or summary of all community property, both real and personal, as far as known, and the facts which render the other spouse incapacitated to receive, manage, control, dispose of, or otherwise deal with community property, and praying that the spouse filing the complaint be substituted for the incapacitated spouse, as to the right to receive, manage, control, dispose of, and otherwise deal with all or any designated portion or portions of the community property, then owned and thereafter to be acquired, which would otherwise be under the management and control of the incapacitated spouse.
+
+(b) In all such cases service of process shall be had as in other civil actions; provided that where it is alleged that the other spouse is non compos mentis a guardian ad litem shall be appointed having such powers as in other civil actions.
+
+(c) Upon the hearing, the court shall enter judgment either dismissing the complaint or adjudging the spouse filing the same to have such power of receiving, managing, controlling, and disposing of and dealing with all or any designated portion or portions of community property, then owned and thereafter to be acquired, which would otherwise be under the management and control of the incapacitated spouse, and containing such other provisions, all as to the court may appear to be just, proper, equitable, and to the best interests of the community.
+
+(d) In case of any change in conditions after the entry of judgment pursuant to this section, either spouse may by motion showing the change in conditions, apply to the same court for the modification or rescission of the judgment. In such case notice to the other spouse shall be given in such manner as the court may direct. Upon the hearing of the motion the court shall either deny the motion or modify or rescind the prior judgment, as to the court may appear to be just, proper, equitable, and to the best interests of the community. [L 1945, c 273, pt of §1; RL 1955, §326-6; [HRS §510-6](/title-28/chapter-510/section-510-6/); am L 1972, c 107, §1(a)]

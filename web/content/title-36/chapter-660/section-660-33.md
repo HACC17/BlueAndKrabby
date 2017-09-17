@@ -1,0 +1,27 @@
+---
+hrs_structure:
+  division: '4'
+  volume: '13'
+  title: '36'
+  chapter: '660'
+  section: 660-33
+type: hrs_section
+tags:
+  - Court
+  - Judicial Proceeding
+menu:
+  hrs:
+    identifier: HRS_0660-0033
+    parent: HRS0660
+    name: '660-33 Discharge, effect of'
+weight: 67155
+title: 'Discharge, effect of'
+full_title: '660-33 Discharge, effect of'
+---
+**§660-33 Discharge, effect of.** No person who has been discharged upon a writ of habeas corpus shall be again imprisoned or restrained for the same cause, unless the person is indicted therefor, or convicted thereof, or committed for want of bail, by some court of record, having jurisdiction of the cause, or unless after a discharge for default of proof, or for some material default in the commitment in a criminal case, the person is again arrested on sufficient proof, and committed by legal process, for the same offense. [L 1870, c 32, §30; RL 1925, §2756; RL 1935, §4341; RL 1945, §10382; RL 1955, §239-33; [HRS §660-33](/title-36/chapter-660/section-660-33/); gen ch 1985]
+
+Case Notes
+
+This section relates to a final discharge, not to judgment of discharge which has been arrested by an appeal. 13 H. 534 (1901).
+
+Decision discharging prisoner conclusively determines that the prisoner was not liable to be held on the state of facts then existing. 15 H. 276 (1903).

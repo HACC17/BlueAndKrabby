@@ -1,0 +1,25 @@
+---
+hrs_structure:
+  division: '4'
+  volume: '13'
+  title: '36'
+  chapter: '654'
+  section: 654-5
+type: hrs_section
+tags:
+  - Court
+  - Judicial Proceeding
+menu:
+  hrs:
+    identifier: HRS_0654-0005
+    parent: HRS0654
+    name: 654-5 Delivery
+weight: 53025
+title: Delivery
+full_title: 654-5 Delivery
+---
+**[§654-5] Delivery.** The officer, having taken possession of the property or any part thereof, shall forthwith deliver the same to the plaintiff, unless before the actual delivery to him, the defendant who had possession, or any person claiming an interest therein and a right to the possession thereof upon making an affidavit of his interest and of his right to the possession stating the grounds thereof, executes a bond to the plaintiff in such amount and with such sureties as are approved by the court, conditioned that he will appear in and defend the action, and deliver the property to the plaintiff, if the plaintiff recovers judgment therefor, in as good condition as it was when the action was commenced, and that he will pay all costs and damages that may be adjudged against him for the taking or detention of the property. Upon the furnishing of the bond the property shall be relinquished to the defendant who had possession, unless the bond is furnished by another person who has, by proper pleadings, presented an affirmative claim to the property and has complied with the provisions of this chapter applicable to a plaintiff, in which case the court shall determine the custody of the property. [L Sp 1949, c 7, pt of §1; RL 1955, §244-25; [HRS §654-26](/title-36/chapter-654/section-654-26/); am L 1972, c 90, §1(e); ren [HRS §654-5](/title-36/chapter-654/section-654-5/)]
+
+Cross References
+
+Bond, see §78-20.

@@ -1,0 +1,32 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '7'
+  title: '21'
+  chapter: '383'
+  section: 383-76
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0383-0076
+    parent: HRS0383
+    name: 383-76 Refunds and adjustments
+weight: 77305
+title: Refunds and adjustments
+full_title: 383-76 Refunds and adjustments
+---
+**§383-76 Refunds and adjustments.** (a) If not later than four years after the date of payment of any amount as a contribution or contributions or interest thereon or penalty with respect thereto, an employing unit which has made such payment erroneously makes application for an adjustment thereof in connection with subsequent contribution payments, or for a refund thereof because the adjustment cannot be made within a reasonable time, and if the department of labor and industrial relations determines that payment of such contribution or contributions or interest or penalty or any portion thereof was erroneous, the department shall allow the employing unit to make an adjustment thereof, without interest, in connection with subsequent contribution payments by the employing unit, or if the adjustment cannot be made within a reasonable time, the department shall refund from the unemployment compensation fund or the administration fund as may be appropriate, without interest, the amount erroneously paid. For like cause and within the same period, adjustment or refund may be so made on the department's own initiative. Any number of such payments erroneously made by an employing unit may form the basis of one application. The four-year limitation period stated above shall be applicable with respect to payments made in the year 1937 and in all subsequent years.
+
+(b) The applicant shall be promptly notified of the action of the department upon any application for adjustment or refund pursuant to subsection (a) of this section. In case any such application is denied in whole or in part, the applicant, within thirty days after the date of mailing of notice of the action to the applicant's last known address, or in the absence of such mailing within thirty days after the delivery of the notice to the applicant, may appeal from such denial to the circuit court of the judicial circuit wherein is the principal place of business of the applicant or the circuit court of the first judicial circuit. The department shall be the party respondent to any such judicial proceedings. The procedure in the trial before the circuit court shall be in accordance with the procedure applicable to actions under section 40-35\. Proceedings for review by the intermediate appellate court may be taken and had, subject to chapter 602, in the same manner, but not inconsistent with this chapter, as is provided in civil actions. In case the final determination in any such judicial proceedings shall be in favor of the employing unit, in whole or in part, any amount determined by such final judgment to have been erroneously paid shall be adjusted or refunded, without interest and without the addition of any other charges, in the same manner as other adjustments or refunds under this chapter.
+
+(c) An employing unit shall be entitled to receive an adjustment or refund pursuant to subsection (a) of this section or to appeal from the denial of an application therefor pursuant to subsection (b) of this section whether or not the erroneously made payment or payments forming the basis of the application or appeal have been made under protest.
+
+(d) The remedy given in this section is in addition to the remedies provided in section 383-74; provided that no payment made as the result of an assessment made pursuant to section 383-70(c) shall be made the subject of an appeal pursuant to this section.
+
+(e) In case any final determination in any proceedings provided for in section 383-74 shall be in favor of the employing unit, in whole or in part, the amount found in such proceedings to have been erroneously paid by the employing unit shall be refunded to the employing unit in the same manner as other refunds under this chapter. [L 1939, c 219, §9(e); am L 1941, c 304, §1, subs 31; RL 1945, §4267; am L 1953, c 41, §1(4); RL 1955, §93-75; am L Sp 1959 2d, c 1, §27; [HRS §383-76](/title-21/chapter-383/section-383-76/); am L 1987, c 119, §4; am L 2004, c 202, §41; am L 2006, c 94, §1; am L 2010, c 109, §1]
+
+Rules of Court
+
+Appeal to circuit court, see HRCP rule 72; to supreme court, see Hawaii Rules of Appellate Procedure.

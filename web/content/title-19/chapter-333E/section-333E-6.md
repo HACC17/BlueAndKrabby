@@ -1,0 +1,22 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '6'
+  title: '19'
+  chapter: 333E
+  section: '333E-6'
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0333E-0006
+    parent: HRS0333E
+    name: 333E-6 Confidentiality of records
+weight: 54035
+title: Confidentiality of records
+full_title: 333E-6 Confidentiality of records
+---
+**§333E-6 Confidentiality of records.** (a) All certificates, applications, records, and reports made for the purposes of this chapter that are maintained, used, or disclosed by health care providers as defined in chapter 334, health plans as defined in title 45 Code of Federal Regulations section 160.103, and health care clearinghouses as defined in title 45 Code of Federal Regulations section 160.103, and directly or indirectly identifying a person who receives services because of a developmental disability shall be kept confidential and shall not be disclosed by any person except as allowed by title 45 Code of Federal Regulations part 164, subpart E.
+
+(b) Nothing in this section shall preclude the application of more restrictive rules of confidentiality set forth for records covered by title 42 Code of Federal Regulations part 2, relating to the confidentiality of alcohol and drug abuse patient records, or disclosure deemed necessary under the federal Developmental Disabilities Act of 1984, P.L. 98-527, to protect and advocate for the rights of persons with developmental disabilities who reside in facilities for persons with developmental disabilities. [L 1986, c 343, §2; am L 2014, c 214, §3]

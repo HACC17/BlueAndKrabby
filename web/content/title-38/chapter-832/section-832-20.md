@@ -1,0 +1,21 @@
+---
+hrs_structure:
+  division: '5'
+  volume: '14'
+  title: '38'
+  chapter: '832'
+  section: 832-20
+type: hrs_section
+tags:
+  - Crime
+  - Criminal Proceeding
+menu:
+  hrs:
+    identifier: HRS_0832-0020
+    parent: HRS0832
+    name: '832-20 Guilt or innocence of accused, when inquired into'
+weight: 41100
+title: 'Guilt or innocence of accused, when inquired into'
+full_title: '832-20 Guilt or innocence of accused, when inquired into'
+---
+**§832-20 Guilt or innocence of accused, when inquired into.** The guilt or innocence of the accused as to the crime of which the accused is charged may not be inquired into by the governor or in any proceeding after the demand for extradition accompanied by a charge of crime in legal form as above provided has been presented to the governor, except as it may be involved in identifying the person held as the person charged with the crime. [L 1941, c 99, §20; RL 1945, §10650; RL 1955, §250-20; [HRS §713-20](/title-37/chapter-713/section-713-20/); ren L 1972, c 9, pt of §1; gen ch 1985]

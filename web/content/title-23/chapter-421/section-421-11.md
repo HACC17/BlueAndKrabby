@@ -1,0 +1,28 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '8'
+  title: '23'
+  chapter: '421'
+  section: 421-11
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0421-0011
+    parent: HRS0421
+    name: '421-11 Membership or stock certificates, transfers, dividends,'
+weight: 37055
+title: 'Membership or stock certificates, transfers, dividends,'
+full_title: '421-11 Membership or stock certificates, transfers, dividends,'
+---
+**§421-11 Membership or stock certificates, transfers, dividends, preferred stock.** (a) No certificate for membership or stock shall be issued until fully paid for, but bylaws may provide that a member may vote and hold office prior to payment in full for the member's membership or stock.
+
+(b) Dividends in excess of eight per cent on the actual cash value of the consideration received by the association shall not be paid on common or preferred stock or membership capital, but dividends may be cumulative.
+
+(c) Net margins in excess of dividends and additions to reserves and excess shall be distributed on the basis of patronage, and if the bylaws so provide, distribution of such net margins may be restricted to members or may be made at the same or different rate for members and nonmembers. The books of the association shall show the interest of members and nonmembers in the reserves and excess. The bylaws may provide that any distribution to a nonmember, eligible for membership, may be credited to the nonmember until the amount thereof equals the value of a membership certificate or a share of the association's common stock. The distribution credited to the account of a nonmember may be transferred to the reserve fund at the option of the board if, after two years, the amount is less than the value of the membership certificate or a share of common stock.
+
+(d) The bylaws may fix a time within which a member shall receive from the association, after the member has notified the association of the member's withdrawal, or after the adoption of a resolution by the board terminating the member's membership, the value in money of the member's membership interest in the association as appraised by the board of directors. If the board of directors approves the member's designation of a transferee of the member's membership interest, the association shall be under no obligation to pay the member the value of the member's interest.
+
+(e) An association may issue preferred stock to members and nonmembers. Preferred stock may be redeemed or retired by the association on such terms and conditions as may be provided in the articles and printed on the stock certificate. Preferred stockholders shall not be entitled to vote, but no change in their priority or preference rights shall be effective until the written consent of the holders of two-thirds of the preferred stock has been obtained. Payment for preferred stock may be made in cash, services, or property on the basis of the fair value of the stock, services, and property as determined by the board. [L 1949, c 234, pt of §1; RL 1955, §176-12; [HRS §421-11](/title-23/chapter-421/section-421-11/); am L 1982, c 257, §1; gen ch 1985]

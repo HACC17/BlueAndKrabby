@@ -1,0 +1,28 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '7'
+  title: '21'
+  chapter: '392'
+  section: 392-28
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0392-0028
+    parent: HRS0392
+    name: 392-28 Duplication of benefits not permitted
+weight: 85080
+title: Duplication of benefits not permitted
+full_title: 392-28 Duplication of benefits not permitted
+---
+**§392-28 Duplication of benefits not permitted.** No temporary disability benefits shall be payable for any period of disability for which the employee is entitled to receive:
+
+(1) Weekly benefits under the Employment Security Law or similar laws of this State or of any other state or of the United States, or under any temporary disability benefits law of any other state or of the United States except as provided in section 392-66.
+
+(2) Weekly disability insurance benefits under 42 United States Code Annotated [section] 423.
+
+(3) Weekly benefits for total disability under the Workers' Compensation Law of this State or any other state or of the United States, except benefits for permanent partial or permanent total disability previously incurred. If the claimant does not receive benefits under such workers' compensation law and the claimant's entitlement to such benefits is seriously disputed, the employee, if otherwise eligible, shall receive temporary disability benefits under this chapter, but any insurer or employer or the trust fund for disability benefits providing such benefits shall be subrogated, as hereinafter provided, to the employee's right to benefits under the workers' compensation law for the period of disability for which the employee received benefits under this chapter to the extent of the benefits so received.
+
+(4) Indemnity payments for wage loss under any applicable employers' liability law of this State, or of any other state or of the United States. If an employee has received benefits under this chapter for a period of disability for which the employee is entitled to such indemnity payments, any insurer or employer or the trust fund for disability benefits providing such benefits shall be subrogated to the employee's right to such indemnity payments in the amount of the benefits paid under this chapter as hereinafter provided. [L 1969, c 148, pt of §1; am L 1975, c 41, §1; gen ch 1985; am L 2013, c 100, §8]

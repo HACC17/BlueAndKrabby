@@ -1,0 +1,34 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '8'
+  title: '23'
+  chapter: '414'
+  section: 414-264
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0414-0264
+    parent: HRS0414
+    name: 414-264 Shareholders' action
+weight: 24580
+title: Shareholders' action
+full_title: 414-264 Shareholders' action
+---
+**[§414-264] Shareholders' action.** (a) Shareholders' action respecting a transaction is effective for purposes of section 414-262(b)(2) if a majority of the votes entitled to be cast by the holders of all qualified shares were cast in favor of the transaction after:
+
+(1) Notice to shareholders describing the director's conflicting interest transaction;
+
+(2) Provision of the information referred to in subsection (d); and
+
+(3) Required disclosure to the shareholders who voted on the transaction (to the extent the information was not known by them).
+
+(b) For purposes of this section, "qualified shares" means any shares entitled to vote with respect to the director's conflicting interest transaction except shares that, to the knowledge, before the vote, of the secretary (or other officer or agent of the corporation authorized to tabulate votes), are beneficially owned (or the voting of which is controlled) by a director who has a conflicting interest respecting the transaction or by a related person of the director, or both.
+
+(c) A majority of the votes entitled to be cast by the holders of all qualified shares constitutes a quorum for purposes of action that complies with this section. Subject to subsections (d) and (e), shareholders' action that otherwise complies with this section is not affected by the presence of holders, or the voting, of shares that are not qualified shares.
+
+(d) For purposes of compliance with subsection (a), a director who has a conflicting interest respecting the transaction, before the shareholders' vote, shall inform the secretary (or other officer or agent of the corporation authorized to tabulate votes) of the number, and the identity of persons holding or controlling the vote, of all shares that the director knows are beneficially owned (or the voting of which is controlled) by the director or by a related person of the director, or both.
+
+(e) If a shareholders' vote does not comply with subsection (a) solely because of a failure of a director to comply with subsection (d), and if the director establishes that the director's failure did not determine and was not intended by the director to influence the outcome of the vote, the court, with or without further proceedings respecting section 414-262(b)(3), may take such action respecting the transaction and the director, and give such effect, if any, to the shareholders' vote, as it considers appropriate in the circumstances. [L 2000, c 244, pt of §1]

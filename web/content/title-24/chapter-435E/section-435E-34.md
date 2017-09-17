@@ -1,0 +1,32 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '9'
+  title: '24'
+  chapter: 435E
+  section: '435E-34'
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0435E-0034
+    parent: HRS0435E
+    name: 435E-34 Peer review
+weight: 34130
+title: Peer review
+full_title: 435E-34 Peer review
+---
+**§435E-34 Peer review.** (a) A peer review committee or committees shall be established by the trust agreement to review the qualifications of any physician and surgeon to participate or continue to participate in the interindemnity arrangement, and to review the quality of medical services rendered by any participating member, as well as the validity of medical malpractice claims made against participating members.
+
+(b) Any physician and surgeon, prior to becoming a participating member of the interindemnity arrangement, shall be reviewed and approved by a majority of the members of the peer review committee.
+
+(c) No peer review committee, or any of its members, shall be liable for any action taken by the committee in reviewing the qualifications of a physician and surgeon to participate or continue to participate, or the quality of medical services rendered, or the validity of a medical malpractice claim, unless it is alleged and proved that such action was taken with actual malice. [L 1977, c 182, pt of §1]
+
+Cross References
+
+Chiropractic peer review, see §663-1.8.
+
+Health care peer review, see chapter 671D.
+
+Professional society peer review, see §663-1.7.

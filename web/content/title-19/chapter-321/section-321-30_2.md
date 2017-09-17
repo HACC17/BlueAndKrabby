@@ -1,0 +1,24 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '6'
+  title: '19'
+  chapter: '321'
+  section: 321-30.2
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0321-0030_0002
+    parent: HRS0321
+    name: 321-30.2 Civil monetary penalty special fund
+weight: 7395
+title: Civil monetary penalty special fund
+full_title: 321-30.2 Civil monetary penalty special fund
+---
+**[§321-30.2]  Civil monetary penalty special fund.** (a) There is established the civil monetary penalty special fund, to be administered by the department of health. The fund shall consist of moneys collected by the United States Department of Health and Human Services Centers for Medicare and Medicaid Services as federally imposed civil monetary penalty funds when health care facilities or agencies do not meet medicare certification requirements as determined by the department of health when it conducts medicare certification surveys and complaint investigations on health care facilities or agencies in Hawaii in accordance with section 1864 of the Social Security Act. Moneys in the fund shall be expended by the department of health as approved by the Centers for Medicare and Medicaid Services. Not more than $30,000 of the moneys in the fund may be used during any fiscal year for the activities carried out by the department of health as approved by the Centers for Medicare and Medicaid Services.
+
+(b) Pursuant to federal law, civil monetary penalty special fund moneys shall not be subject to deposit into the general fund for any reason.
+
+(c) The department of health shall submit a report to the legislature concerning the status of the civil monetary penalty special fund, including the amount of moneys deposited into and expended from the civil monetary penalty special fund, and the sources of receipts and uses of expenditures, no later than twenty days prior to the convening of each regular session. [L 2015, c 71, §1]

@@ -1,0 +1,24 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '10'
+  title: '25'
+  chapter: '437'
+  section: 437-53
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0437-0053
+    parent: HRS0437
+    name: '437-53 Sale, assignment, or transfer of franchise to qualified purchaser'
+weight: 18265
+title: 'Sale, assignment, or transfer of franchise to qualified purchaser'
+full_title: '437-53 Sale, assignment, or transfer of franchise to qualified purchaser'
+---
+**[§437-53] Sale, assignment, or transfer of franchise to qualified purchaser.** (a) A manufacturer or distributor shall not unreasonably withhold consent to the sale, assignment, or transfer of the franchise to a qualified purchaser capable of being licensed as a dealer.
+
+(b) The dealer shall notify the manufacturer or distributor, in writing, of its desire to sell, assign, or transfer its franchise and identify the proposed transferee's name, address, financial qualifications, and business experience. Along with such notice, the dealer shall also provide the manufacturer or distributor with completed application forms and related information generally used by the manufacturer or distributor to conduct its review of such a proposal, and a copy of all agreements regarding the proposed sale, assignment, or transfer. The manufacturer or distributor shall, within thirty days of receipt of the application and all supporting documentation as specified therein, review the application and identify in writing the additional information, data, or documents, if any, needed by the manufacturer or distributor to complete its review. If the manufacturer or distributor does not reject the application within sixty days of receipt of the completed application and all supporting documentation or within sixty days of receipt of any additional information, data, or documents timely requested by the manufacturer or distributor, the application shall be considered approved, unless the sixty-day deadline is extended by mutual agreement of the manufacturer or distributor and the dealer.
+
+(c) If a manufacturer or distributor denies a dealer's proposed sale, assignment, or transfer of the franchise, the dealer may file a petition in the manner prescribed in section 437-51, within sixty days of the notice of denial. The manufacturer or distributor shall have the burden of proof to demonstrate at a hearing pursuant to a timely filed complaint that the proposed transferee is not of good moral character or does not meet the written, reasonable, and uniformly applied business standards or qualifications of the manufacturer relating to the financial qualifications of the transferee and business experience of the transferee or the transferee's executive management. [L 2010, c 164, pt of §2]

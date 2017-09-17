@@ -1,0 +1,92 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '7'
+  title: '20'
+  chapter: '346'
+  section: 346-37
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0346-0037
+    parent: HRS0346
+    name: 346-37 Recovery of payments and costs of medical
+weight: 8230
+title: Recovery of payments and costs of medical
+full_title: 346-37 Recovery of payments and costs of medical
+---
+**§346-37 Recovery of payments and costs of medical assistance.** (a) If a recipient under this chapter dies leaving an estate and does not have a surviving spouse, child, father, mother, grandfather, grandmother, grandchild, stepfather, stepmother, or any designated heir, the department shall have a valid claim against the estate for the amount of social services overpayments, financial assistance overpayments, or burial payments granted. The department shall file a claim against the estate of a deceased recipient of medical assistance for the amount of medical assistance granted, only if the recipient was age fifty-five or over when such medical assistance was received and there is no surviving spouse, or surviving child who is under twenty-one years of age, or blind, or disabled. The department shall file a claim against the estate of a recipient of medical assistance who was an inpatient in a nursing facility, intermediate care facility for individuals with intellectual disabilities, or other medical institution only if there is no surviving spouse or surviving child who is under twenty-one years of age, or blind, or disabled.
+
+(b) If any portion of any public assistance, including medical assistance, food stamps, or burial payment, was obtained by any fraudulent device, including but not limited to those under section 346-34, or if any public assistance, including medical assistance, food stamps, or burial payment, was furnished or provided after receipt of income or resources which were not reported to the department as required by this chapter or by the department, the department may file a claim against the estate of the deceased recipient notwithstanding subsection (a).
+
+(c) If the department has provided medical assistance or burial payment to a person who was injured, suffered a disease, or died under circumstances creating a tort or other liability or payment obligation against a third person, the department shall have a right to recover from the third person an amount not to exceed the full amount of the costs of medical assistance or burial payment furnished or to be furnished by the department.
+
+(d) The department, as to this right of reimbursement, shall also be subrogated to all rights or claims that a claimant has against the third person for medical assistance and burial payments not to exceed the full extent of the costs of medical assistance or burial payment furnished or to be furnished by the department.
+
+To enforce its rights, the department may intervene or join in any action or proceeding brought by a claimant against the third person. If the action or proceeding is not commenced within six months after the first day on which medical assistance or burial payment is furnished by the department in connection with the injury, disease, or death involved, the department may institute and prosecute legal proceedings against the third person for the injury, disease, or death, in a state court, either alone (in its own name or in the name of a claimant) or in conjunction with the claimant.
+
+(e) An attorney representing a claimant or third person shall make reasonable inquiry as to whether the claimant has received or is receiving from the department medical assistance related to the incident involved in the action.  If the claimant, claimant's attorney, or claimant's heirs, representatives, or beneficiaries, or any third person have received from the department actual notice of its right to reimbursement or if they have reason to know that the claimant has received or is receiving from the department medical assistance related to the incident, then the claimant, claimant's attorney, claimant's heirs, representatives, or beneficiaries, or third person or third person's attorney shall give to the department timely written notice of any claim or action against a third person.  At any time during the pendency of any claim or action, the claimant, claimant's attorney if represented, claimant's heirs, representatives, or beneficiaries, or third person or third person's attorney may contact the department to ascertain the full amount of the costs of medical assistance or burial payment made, which information shall be provided in a reasonable time by the department.  Upon obtaining a judgment or reaching a settlement through negotiation or legal proceedings, but before the release of any award or settlement proceeds to any person:
+
+(1) The claimant's attorney or third person or third person's attorney, if the attorney has received actual notice from the department of a lien or if the attorney or third person has reason to know that a lien exists; or
+
+(2) The claimant or the claimant's heirs, representatives, or beneficiaries, if not represented by an attorney who has received actual notice of the lien,
+
+shall notify the department immediately in order to ascertain and satisfy the department's right to reimbursement for costs of medical assistance or burial payment made.
+
+(f) If liability is found to exist, or if the issue of third-party liability is settled or compromised without a finding of liability, regardless of who institutes legal proceedings or seeks other means of recovering, the department shall have a right to recover up to the full amount of the costs of medical assistance or burial payment made from a settlement, award, or judgment. To aid in the recovery of the costs, the department shall have a first lien for up to the full amount of the costs of medical assistance or burial payment made against the proceeds from damages recovered in a settlement, award, or judgment.  The lien shall attach as provided by subsection (g).
+
+(g) The lien of the department for reimbursement of costs of medical assistance or burial payments under subsection (f), shall attach by a written notice of lien served upon the claimant's attorney or upon the third person, the third person's agent, attorney, or insurance company.  The method of service shall be by certified or registered mail, return receipt requested, or by delivery of the notice of lien personally to these individuals. Service by certified or registered mail is complete upon receipt. The notice of lien shall state the name of the injured, diseased, or deceased person, the amount of the lien, and the date of the accident or incident that caused the injuries, disease, or death that necessitated the department's medical assistance or burial payments. If the notice of lien is served upon the claimant's attorney, the notice of lien shall state that the claimant's attorney shall pay the lien from the proceeds of any judgment, settlement, or compromise based on the incident or accident as provided in this section.  If the notice of lien is served upon the third person, or the third person's agent, attorney, or insurance company, the notice of lien shall state that the third person shall pay the lien as provided in this section prior to disbursing any of the proceeds to the claimant or to the claimant's attorney. A notice of lien may be amended from time to time until extinguished, each amendment taking effect upon proper service.
+
+When restitution is sought in a criminal proceeding from a third person who has caused injury to a recipient of medical assistance, a written notice of lien and an itemized list of payments made by the department that identifies the provider of services, the dates of services, the amounts billed and paid, and the dates of payments, shall be provided to the court and to the person against whom restitution is sought. Absent a good faith basis contesting the amount or validity of a specific line item charge or charges in the lien, the entire lien amount shall be presumed valid by the court in determining the amount of restitution pursuant to section 706-646.
+
+(h) The lien shall attach as provided by subsection (g). If a notice of lien is properly served upon the attorney representing the claimant as provided in subsection (g), that attorney shall pay the lien as provided in this section prior to disbursing any of the proceeds of the suit or settlement to the attorney's client. If a notice of lien is properly served upon the third person, the third person's agent or attorney, or the third person's insurance company, as provided in subsection (g), it shall be the responsibility of the person receiving the notices to pay the lien as provided in this section prior to disbursing any of the proceeds to the claimant's attorney. The lien shall be satisfied from that portion of the settlement, award, or judgment allocated or allocable to payments by the department for medical assistance and burial payments. Any allocation by a judge, jury, arbitrator, or similar dispute resolution person or tribunal shall be binding; provided that the department's medical assistance and burial payments are included as part of the case or claims brought by the claimant in any action. Any allocation by the claimant or third party may be considered but is not binding on the department. If there is no allocation, a reasonable allocation shall be determined by agreement, administrative hearing under subsection (i), or a court of competent jurisdiction.
+
+If, after having received timely written notice of any claim or action under subsection (e), the department did not intervene or join in the action or prosecute its own claims or actively participate with claimant or claimant's attorney in the prosecution of claims, or a distribution agreement was not entered into between the parties, reimbursement shall be as follows: If the lien is less than or equal to one-third of the settlement, award, or judgment, and there is no allocation by a judge, jury, arbitrator, or similar dispute resolution person or tribunal, then there shall be a rebuttable presumption that the amount of reimbursement due the department is the total payments for medical assistance or burial payments by the department or one-third of the settlement, award, or judgment, whichever is less. Any party challenging this rebuttable presumption shall bear the burden of proof. The department's fair share of claimant's reasonable attorney's fees and expenses shall be deducted from the department's lien recovery. There shall be a rebuttable presumption that one-third of the department's gross reimbursement amount plus a proportionate share of the general excise tax is a reasonable amount for the department's contribution towards claimant's attorney's fees and expenses. Any party challenging this rebuttable presumption shall bear the burden of proof.
+
+If the department alone prosecutes claims that include its medical assistance or burial payments, it shall not be required to reduce its lien on account of attorney's fees or expenses, if any, incurred by the claimant or claimant's attorney.
+
+If the claimant's attorney and the department contribute to the recovery of medical assistance or burial payments made by the department, then the department's fair contribution toward the claimant's attorney's fees and costs incurred shall be a reasonable amount based solely upon legitimate costs and services rendered by the claimant or claimant's attorney in recovering the lien amount. Any dispute regarding the department's determination of its contribution to claimant's attorney's fees and costs may be submitted to administrative hearing under subsection (i) or a court of competent jurisdiction.  The value of services contributed by the claimant and department may be considered in fairly allocating fees and costs between the claimant and department where both contribute to recovering the lien amount.
+
+The department's lien, after reduction for its contribution to claimant's attorney's fees and expenses, shall not exceed one-third of the settlement, award, or judgment. Payment of one-third of the settlement, award, or judgment to the department and two-thirds to the claimant and claimant's attorney shall satisfy the entire lien if the department's lien, after reduction for its contribution to claimant's attorney's fees and expenses, exceeds one-third of the settlement, award, or judgment. Any claimant who asserts that reimbursement to the department should be less than one-third of the settlement, award, or judgment, under the circumstances of that claim, shall bear the burden of proof.
+
+(i) If there is a dispute between the claimant, the claimant's agent or the claimant's attorney, and the department concerning the existence of the lien or the amount of the lien, or the amount to be reimbursed, the claimant, the claimant's agent, or the claimant's attorney may submit the dispute to a court of competent jurisdiction or request in writing an administrative hearing on the dispute. After receipt by the department of a written request, the department shall conduct an administrative hearing within a reasonable period of time. Chapter 91, including any provisions for judicial review or appeal, shall apply to the hearing. Funds sufficient to fully satisfy the reimbursement rights of the department shall be either retained by the person served with the notice of lien, shall be paid to the department, or otherwise reserved subject to agreement with the department pending a decision by the court or the department and any subsequent judicial review or appeal.
+
+(j) Upon the recovery of any claim as provided in this section, the amount recovered shall be paid into the treasury of the State, and if the amount for which claim was paid was in part from federal funds, the proper portion thereof shall be paid by the director of finance into the treasury of the United States, and the director of finance shall report the payment to the department.
+
+(k) Any person who is subject to the lien who fails to pay the full amount due under this section to the department for reimbursement of the costs of medical assistance, although able to do so from the proceeds of the suit or settlement, shall be personally liable to the department for any damage proximately caused to the department by the failure.
+
+(l) No action taken by the department in connection with the rights under this section shall deny to the claimant the recovery for that portion of the claimant's damages not covered under this section.
+
+(m) For purposes of this section:
+
+"Claimant" includes an injured or diseased person, the person's guardian, or the personal representative, estate, dependents, or survivors, of the deceased person.
+
+"Costs of medical assistance" furnished or to be furnished by the department includes:
+
+(1) The value or cost of medical care services provided directly by the department;
+
+(2) The amount paid by the department to a provider for medical care services rendered or to be rendered; and
+
+(3) The value or cost of medical care services rendered or to be rendered by a provider that has received the equivalent of an insurance benefit, capitation rate, and other fee or like charge paid by the department or by a medical care insurer to provide for medical care services.
+
+"Third person" includes any person, business, corporation, partnership, or entity of any kind or nature, including employers and insurance carriers, that is potentially liable to the claimant for any tort, liability, payment, reimbursement, or benefit of any kind or nature by reason of any injury, disease, or death.
+
+(n) The department may agree with a provider or medical care insurer for the provision of medical care services or medical assistance to any claimant, and the agreement may provide for the department to be the exclusive entity authorized to recover all costs of medical assistance rendered to a claimant. The department may recover all costs through the use of the lien procedures established by this section.
+
+(o) In third-party liability situations, the medical assistance program of the department shall be fully reimbursed the amount due under this section or funds sufficient to fully reimburse the department the amount due under this section shall be retained by the person served with the notice of lien or otherwise reserved in a manner agreeable to the department before the claimant receives any money from the settlement or award. This section is not intended to restrict or diminish the right of the department to settle or compromise its reimbursement rights under this section for less than the full amount due or enter into any agreement with claimant, claimant's attorney or representative, or other party for the distribution of proceeds from a suit or settlement. [L 1941, c 296, pt of §1; RL 1945, §4842; RL 1955, §108-23; am L Sp 1959 2d, c 1, §14; am L 1963, c 114, §1; [HRS §346-37](/title-20/chapter-346/section-346-37/); am L 1972, c 32, §2; am L 1975, c 137, pt of §2; am L 1980, c 206, §1; am L 1982, c 147, §17; gen ch 1985; am L 1994, c 187, §§4, 5; am L 1997, c 201, §1; am L 1999, c 52, §2; am L 2001, c 50, §2; am L 2011, c 220, §11; am L 2012, c 211, §4]
+
+Cross References
+
+Medicaid fraud unit, see §28-91.
+
+Case Notes
+
+State's lien cannot be evaded by settlement agreement between injured person and putative tortfeasor covering only special damages. Validity and amount of subrogated claim is for court to decide. 69 H. 21, 731 P.2d 157 (1987).
+
+Subsection (j) (1997) grants the State recovery of its costs for medical assistance from special damages and does not limit the State to accepting a pro rata share of claimant's recovery; a settling claimant cannot waive recovery of special damages, but the State is entitled to and may recover its medical assistance expenses from the special damages obtained. 101 H. 466, 71 P.3d 417 (2003).
+
+The clear and unambiguous language of this section (1997), establishes a priority that the medical assistance lien be paid to the department of human services before the recipient of the medical assistance is reimbursed; thus, trial court erred when it reduced the amount of the department's statutory lien. 101 H. 473 (App.), 71 P.3d 424 (2002).
+
+Cited: 73 H. 403, 833 P.2d 890 (1992).

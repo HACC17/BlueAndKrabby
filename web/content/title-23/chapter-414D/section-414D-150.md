@@ -1,0 +1,40 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '8'
+  title: '23'
+  chapter: 414D
+  section: 414D-150
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0414D-0150
+    parent: HRS0414D
+    name: 414D-150 Director conflict of interest
+weight: 25445
+title: Director conflict of interest
+full_title: 414D-150 Director conflict of interest
+---
+**§414D-150 Director conflict of interest.** (a) A conflict of interest transaction is a transaction with the corporation in which a director of the corporation has a direct or indirect interest. A conflict of interest transaction is not voidable or the basis for imposing liability on the director if the transaction was fair at the time it was entered into or is approved as provided in subsection (b).
+
+(b) A transaction in which a director has a conflict of interest may be approved if:
+
+(1) In the case of a public benefit corporation, the transaction is approved by the attorney general, before or after the transaction is consummated;
+
+(2) The material facts of the transaction and the director's interest were disclosed or known to the board of directors or a committee of the board and the transaction was authorized, approved, or ratified by the board or committee of the board; or
+
+(3) The material facts of the transaction and the director's interest were disclosed or known to the members and they authorized, approved, or ratified the transaction.
+
+(c) For purposes of this section, a director of the corporation has an indirect interest in a transaction if:
+
+(1) Another entity in which the director has a material interest or in which the director is a general partner is a party to the transaction; or
+
+(2) Another entity of which the director is a director, officer, or trustee is a party to the transaction.
+
+(d) For purposes of subsection (b), a conflict of interest transaction is authorized, approved, or ratified if it receives the affirmative vote of a majority of the directors either on the board or on the committee, who have no direct or indirect interest in the transaction; provided that a transaction may not be authorized, approved, or ratified under this section by a single director. If a majority of the directors on the board who have no direct or indirect interest in the transaction vote to authorize, approve, or ratify the transaction, a quorum is present for the purpose of taking action under this section. The presence of or a vote cast by a director with a direct or indirect interest in the transaction does not affect the validity of any action taken under subsection [(b)(2)]; provided the transaction is otherwise approved as provided in subsection (b).
+
+(e) For purposes of subsection [(b)(3)], a conflict of interest transaction is authorized, approved, or ratified by the members if it receives a majority of the votes entitled to be counted under this subsection. Votes cast by or voted under the control of a director who has a direct or indirect interest in the transaction, and votes cast by or voted under the control of an entity described in subsection (c)(1), may not be counted in a vote of members to determine whether to authorize, approve, or ratify a conflict of interest transaction under subsection [(b)(3)]. The vote of these members, however, is counted in determining whether the transaction is approved under other sections of this chapter. A majority of the voting power, whether or not present, that are entitled to be counted in a vote on the transaction under this subsection constitutes a quorum for the purpose of taking action under this section.
+
+(f) The articles, the bylaws, or a resolution of the board may impose additional requirements on conflict of interest transactions. [L 2001, c 105, pt of §1; am L 2004, c 171, §8]

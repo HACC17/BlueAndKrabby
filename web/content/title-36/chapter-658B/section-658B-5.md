@@ -1,0 +1,25 @@
+---
+hrs_structure:
+  division: '4'
+  volume: '13'
+  title: '36'
+  chapter: 658B
+  section: 658B-5
+type: hrs_section
+tags:
+  - Court
+  - Judicial Proceeding
+menu:
+  hrs:
+    identifier: HRS_0658B-0005
+    parent: HRS0658B
+    name: 658B-5 Determining the amount of the money of certain contract claims
+weight: 60025
+title: Determining the amount of the money of certain contract claims
+full_title: 658B-5 Determining the amount of the money of certain contract claims
+---
+**[§658B-5] Determining the amount of the money of certain contract claims.** (a) If an amount contracted to be paid in a foreign money is measured by a specified amount of a different money, the amount to be paid is determined on the conversion date.
+
+(b) If an amount contracted to be paid in a foreign money is to be measured by a different money at the exchange rate prevailing on a date prior to default, that exchange rate applies only for payments made a reasonable time after default, not to exceed thirty days. Thereafter, conversion is made at the bank- offered spot rate on the conversion date.
+
+(c) A monetary claim is neither usurious nor unconscionable because the agreement on which it is based provides that the amount of the debtor's obligation to be paid in the debtor's money must, when received by the creditor, equal a specified amount of the foreign money of the country of the creditor. If, because of unexcused delay in payment of a judgment or award, the amount received by the creditor does not equal the amount of the foreign money specified in the agreement, the court or arbitrator, as the case may be, shall have jurisdiction to and shall, amend the judgment or award accordingly. [L 1990, c 50, pt of §1]

@@ -1,0 +1,22 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '7'
+  title: '21'
+  chapter: '382'
+  section: 382-4
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0382-0004
+    parent: HRS0382
+    name: 382-4 Employees under government operation
+weight: 76020
+title: Employees under government operation
+full_title: 382-4 Employees under government operation
+---
+**§382-4 Employees under government operation.** In operating the plant and facilities of each company the governor, so far as possible and to the extent employees are needed, shall employ the personnel employed by the company upon the seizure and taking of possession thereof or immediately prior to the disruption of service by the company, including employees on strike or locked out, if the disruption is due to a strike or lockout. Persons so employed by the governor or otherwise employed by the governor shall not by reason of such employment be or become entitled to civil service, retirement, vacation, or other benefits provided by law for other employees of the State, nor shall they be required to possess the qualifications of other government employees, and no person shall be ineligible for employment by reason of the fact that the person is not a citizen of the United States or a resident of the State; provided that if it is necessary to employ persons who were not theretofore employed by the company, those persons shall possess the residence qualifications prescribed by section 78-1.
+
+The salaries and wage rates of the persons employed by the State shall be the same as those which existed in the industry immediately prior to the disruption of service occasioning the emergency. There shall be no deductions from such salaries and wages except as authorized by law in the case of other state employees. The hours of employment shall be the same as existed in the industry immediately prior to the disruption of service and insofar as possible the other conditions of employment shall be the same as then existed, and neither the governor nor the designated agency shall have authority to enter into negotiations with any such company or with any labor organization for a collective bargaining contract with respect to wages, hours, and other terms and conditions of employment in the industry. All services performed in the employ of the State in government operations under this chapter shall constitute employment for the purposes of chapters 383 and 386 and to the extent of the services the State shall be deemed an employer within the meaning of such chapters and shall make the contributions required of a new employer as prescribed by chapter 383\. [L 1951, c 209, pt of §4; RL 1955, §92-5; [HRS §382-4](/title-21/chapter-382/section-382-4/); gen ch 1985; am L 2006, c 48, §6]

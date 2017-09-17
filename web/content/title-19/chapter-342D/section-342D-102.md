@@ -1,0 +1,40 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '6'
+  title: '19'
+  chapter: 342D
+  section: 342D-102
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0342D-0102
+    parent: HRS0342D
+    name: 342D-102 Prohibited discharges; limitations on discharges
+weight: 76310
+title: Prohibited discharges; limitations on discharges
+full_title: 342D-102 Prohibited discharges; limitations on discharges
+---
+**[§342D-102] Prohibited discharges; limitations on discharges.** (a) Except as provided in subsection (g), a person may not discharge untreated sewage from a commercial passenger vessel into the marine waters of the State.
+
+(b) Except as provided in subsection (g) or section 342D-111, a person shall not discharge wastewater from a commercial passenger vessel into the marine waters of the State that has suspended solids greater than one hundred milligrams per liter or a fecal coliform count greater than forty colonies per one hundred milliliters except that the department, by rule, may adopt a protocol for retesting for fecal coliform, if this discharge limit for fecal coliform is exceeded, under which a discharger will be considered to be in compliance with the fecal coliform limit if the geometric mean of fecal coliform count in the samples considered under the protocol does not exceed forty colonies per one hundred milliliters. Upon submission by the owner or operator of a large commercial passenger vessel of a plan for interim protective measures, the department shall extend the time for compliance of that vessel with this subsection for a period of time that ends not later than December 31, 2006\. Upon submission by the owner or operator of a small commercial passenger vessel of a plan for interim protective measures, the department shall extend the time for compliance of that vessel with this subsection.
+
+(c) The department, by rule, may establish numeric or narrative standards for other parameters for wastewater discharged from commercial passenger vessels that are more stringent than the effluent limitation standards and processing requirements of the Federal Water Pollution Control Act, as amended, and regulations adopted under the same. In adopting rules under this subsection, the department shall consider the best available scientific information on the environmental effects of the regulated discharges, the materials and substances handled on the vessels, vessel movement effects, and the availability of new technologies for wastewater.
+
+(d) Except as provided in subsections (f) and (g) or section 342D-111, a person shall not discharge wastewater from a large commercial passenger vessel into the marine waters of the State unless:
+
+(1) The vessel is underway and proceeding at a speed of not less than six knots;
+
+(2) The vessel is at least one nautical mile from the nearest shore, except in areas designated by the department;
+
+(3) The discharge complies with all applicable vessel effluent standards established under federal and state law; provided that the standards established under federal law may be adopted by rule by the department; and
+
+(4) The vessel is not in an area where the discharge of wastewater is prohibited.
+
+(e) Except as provided in subsection (g) or section 342D-111, a person may not discharge sewage from a small commercial passenger vessel unless the sewage has been processed through a properly operated and properly maintained marine sanitation device.
+
+(f) Subsection (d)(1) and (2) do not apply to a discharge permitted under federal law.
+
+(g) Subsections (a) to (e) do not apply to discharges made for the purpose of securing the safety of the commercial passenger vessel or saving life at sea if all reasonable precautions have been taken for the purpose of preventing or minimizing the discharge. [L 2005, c 217, pt of §1]

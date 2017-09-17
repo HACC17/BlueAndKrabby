@@ -1,0 +1,26 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '8'
+  title: '23'
+  chapter: '421'
+  section: 421-20
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0421-0020
+    parent: HRS0421
+    name: 421-20 Associations are not in restraint of trade
+weight: 37100
+title: Associations are not in restraint of trade
+full_title: 421-20 Associations are not in restraint of trade
+---
+**§421-20 Associations are not in restraint of trade.** (a) No association complying with the terms hereof shall be deemed to be a conspiracy or a combination in restraint of trade, or an illegal monopoly; or be deemed to have been formed for the purpose of lessening competition or fixing prices arbitrarily, nor shall the contracts between the association and its members, or any agreements authorized in this chapter, be construed as an unlawful restraint of trade, or as part of a conspiracy or combination to accomplish an improper or illegal purpose or act. (b) An association may acquire, exchange, interpret, and disseminate to its members, to other cooperative associations, and otherwise, past, present, and prospective crop, market, statistical, economic, and other similar information relating to the business of the association, either directly or through an agent created or selected by it or by the other associations acting in conjunction with it.
+
+(c) An association may advise its members in respect to the adjustment of their current and prospective production of agricultural commodities or products and its relation to the prospective volume of consumption, selling prices, and existing or potential surplus, to the end that every market may be served from the most convenient productive areas under a program of orderly marketing that will assure adequate supplies without undue enhancement of prices or the accumulation of any undue surplus. [L 1949, c 234, pt of §1; RL 1955, §176-21; [HRS §421-20](/title-23/chapter-421/section-421-20/); am L 2001, c 129, §63]
+
+Cross References
+
+Restraint of trade exemption, see §480-11.

@@ -1,0 +1,45 @@
+---
+hrs_structure:
+  division: '5'
+  volume: '14'
+  title: '37'
+  chapter: '706'
+  section: 706-663
+type: hrs_section
+tags:
+  - Crime
+  - Criminal Proceeding
+menu:
+  hrs:
+    identifier: HRS_0706-0663
+    parent: HRS0706
+    name: 706-663 Sentence of imprisonment for misdemeanor and petty
+weight: 20295
+title: Sentence of imprisonment for misdemeanor and petty
+full_title: 706-663 Sentence of imprisonment for misdemeanor and petty
+---
+**§706-663 Sentence of imprisonment for misdemeanor and petty misdemeanor.** _[Repeal and reenactment on July 1, 2020\. L 2016, c 217, §8.]_ After consideration of the factors set forth in sections 706-606 and 706-621, the court may sentence a person who has been convicted of a misdemeanor or a petty misdemeanor to imprisonment for a definite term to be fixed by the court and not to exceed one year in the case of a misdemeanor or thirty days in the case of a petty misdemeanor, subject to earlier release pursuant to section 353-36\. [L 1972, c 9, pt of §1; am L 1986, c 314, §41; am L 2016, c 217, §2]
+
+COMMENTARY ON §706-663
+
+This section of the Code continues the previous policy of the law of providing definite sentences (not to exceed one year) in the case of misdemeanors,[1] and adds a new category of minor criminal offenses, designated as petty misdemeanors, for which imprisonment not exceeding 30 days is authorized. The court is free within the statutory maximum to choose a shorter definite period of confinement.
+
+Indeterminate terms of imprisonment are not provided for misdemeanors or petty misdemeanors because the gravity of the offenses and the character of most such offenders would not warrant the authorization of a longer prison term. The flexibility sought to be achieved by indeterminate sentences decreases as the maximum authorized term of imprisonment decreases. In view of this fact and in view of the fact that resources devoted to the determination of minimum terms of imprisonment have decreasing marginal utility as maximum authorized terms decrease, the Code provides for definite terms in cases of misdemeanors and petty misdemeanors.
+
+SUPPLEMENTAL COMMENTARY ON §706-663
+
+Act 217, Session Laws 2016, amended this section by making a conforming amendment. Act 217 authorized the director of public safety to release detainees or inmates charged on or after July 1, 2016, with petty misdemeanor or misdemeanor offenses; provided that the detainee or inmate is not disqualified based on present charges or past arrest or conviction of certain serious or violent offenses. The legislature found that correctional facilities in Hawaii suffer from persistent overcrowding and that this condition adversely affects the ability of the State to adequately provide for the safe, secure, and humane incarceration of inmates in its care and custody. Act 217 provided a reasonable alternative to incarceration that would relieve overcrowded jail conditions in Hawaii. Senate Standing Committee Report No. 3563, Conference Committee Report No. 70-16.
+
+Case Notes
+
+Where trial court's rationale for imposing jail time reflected the factors listed in §706-606, and the jail time imposed did not exceed the maximum jail term authorized by this section, trial court did not clearly exceed the bounds of reason nor disregard rules or principles of law or practice to defendant's substantial detriment in imposing a jail term; thus, trial court did not abuse its discretion in sentencing defendant to one hundred twenty days' imprisonment. 116 H. 403 (App.), 173 P.3d 550 (2007).
+
+Because there was no provision in §706-605 for the imposition of anger management or other treatment programs, but §706-624(2)(j) authorized the imposition of, inter alia, mental health treatment as a discretionary term of probation, district court erred by sentencing defendant to both the thirty-day term of imprisonment (the maximum term of imprisonment for a petty misdemeanor) and anger management classes for defendant's harassment conviction (a petty misdemeanor). Defendant could have been sentenced to a thirty-day term of incarceration or a six-month term of probation, but not both, and thus defendant's sentence was illegal. 130 H. 332 (App.), 310 P.3d 1033 (2013).
+
+Cited: 146 F.3d 661 (1998).
+
+**__________**
+
+**§706-663** **Commentary:**
+
+1\. See H.R.S. §701-2.

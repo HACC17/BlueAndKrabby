@@ -1,0 +1,24 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '8'
+  title: '23'
+  chapter: '425'
+  section: 425-119
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0425-0119
+    parent: HRS0425
+    name: 425-119 Liability of purported partner
+weight: 46230
+title: Liability of purported partner
+full_title: 425-119 Liability of purported partner
+---
+**§425-119 Liability of purported partner.** (a) If a person, by word or conduct, purports to be a partner, or consents to being represented by another as a partner, in a partnership or with one or more persons not partners, the purported partner is liable to a person to whom the representation is made, if that person, relying on the representation, enters into a transaction with the actual or purported partnership. If the representation, either by the purported partner or by a person with the purported partner's consent, is made in a public manner, the purported partner is liable to a person who relies upon the purported partnership even if the purported partner is not aware of being held out as a partner to the claimant. If partnership liability results, the purported partner is liable with respect to that liability as if the purported partner were a partner. If no partnership liability results, the purported partner is liable with respect to that liability jointly and severally with any other person consenting to the representation.
+
+(b) If a person is thus represented to be a partner in an existing partnership, or with one or more persons not partners, the purported partner is an agent of persons consenting to the representation to bind them to the same extent and in the same manner as if the purported partner were a partner, with respect to persons who enter into transactions in reliance upon the representation. If all of the partners of the existing partnership consent to the representation, a partnership act or obligation results. If fewer than all of the partners of the existing partnership consent to the representation, the person acting and the partners consenting to the representation are jointly and severally liable.
+
+(c) Except as otherwise provided in subsections (a) and (b), persons who are not partners as to each other are not liable as partners to other persons. [L 1999, c 284, pt of §1]

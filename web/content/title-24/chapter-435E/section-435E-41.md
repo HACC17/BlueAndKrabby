@@ -1,0 +1,68 @@
+---
+hrs_structure:
+  division: '2'
+  volume: '9'
+  title: '24'
+  chapter: 435E
+  section: '435E-41'
+type: hrs_section
+tags:
+  - Business
+menu:
+  hrs:
+    identifier: HRS_0435E-0041
+    parent: HRS0435E
+    name: 435E-41 Unfair methods of competition and deceptive acts or practices
+weight: 34135
+title: Unfair methods of competition and deceptive acts or practices
+full_title: 435E-41 Unfair methods of competition and deceptive acts or practices
+---
+**PART IV. UNFAIR COMPETITION AND**
+
+**DECEPTIVE ACTS OR PRACTICES**
+
+**§435E-41 Unfair methods of competition and deceptive acts or practices.** The following are unfair methods of competition and deceptive acts or practices with respect to cooperative corporations or interindemnity arrangements under this chapter:
+
+(1) Making any false or misleading statement as to, or issuing, circulating, or causing to be made, issued, or circulated, any estimate, illustration, circular, or statement misrepresenting the terms of any interindemnity arrangement or the benefits or advantages promised thereby, or making any misleading representation or any misrepresentation as to the financial condition of an interindemnity arrangement, or making any misrepresentation to any participating member for the purpose of inducing or tending to induce the member to lapse, forfeit, or surrender his or her rights to indemnification under the interindemnity arrangement. It shall be a false or misleading statement to state or represent that a cooperative corporation or interindemnity arrangement is or constitutes "insurance" or an "insurance company" or an "insurance policy".
+
+(2) Making or disseminating or causing to be made or disseminated before the public in this State, in any newspaper or other publication, or any advertising device, or by public outcry or proclamation, or in any other manner or means whatsoever, any statement containing any assertion, representation, or statement with respect to such cooperative corporations or interindemnity arrangements, or with respect to any person in the conduct of such cooperative corporations or interindemnity arrangements, which is untrue, deceptive, or misleading, and which is known, or which by the exercise of reasonable care should be known, to be untrue, deceptive, or misleading. It shall be a false or misleading statement to state or represent that a cooperative corporation or interindemnity arrangement is or constitutes "insurance" or an "insurance company" or an "insurance policy".
+
+(3) Entering into any agreement to commit, or by any concerted action committing, any act of boycott, coercion, or intimidation resulting in or tending to result in an unreasonable restraint of, or monopoly in, such cooperative corporations or interindemnity arrangements.
+
+(4) Filing with any supervisory or other public official, or making, publishing, disseminating, circulating, or delivering to any person, or placing before the public, or causing directly or indirectly, to be made, published, disseminated, circulated, or delivered to any person, or placed before the public any false statement of financial conditions of such a cooperative corporation or interindemnity arrangement with intent to deceive.
+
+(5) Making any false entry in any book, report, or statement of such a cooperative corporation or interindemnity arrangement with intent to deceive any agent or examiner lawfully appointed to examine into its condition or into any of its affairs, or any public official to whom such a cooperative corporation or interindemnity arrangement is required by law to report or who has authority by law to examine into its conditions or into any of its affairs, or, with like intent, wilfully omitting to make a true entry of any material fact pertaining to a cooperative corporation or interindemnity arrangement in any book, report, or statement of a cooperative corporation or interindemnity arrangement.
+
+(6) Making or disseminating, or causing to be made or disseminated, before the public in this State, in any newspaper or other publication, or any other advertising device, or by public outcry or proclamation, or in any other manner or means whatever, whether directly or by implication, any statement that such a cooperative corporation or interindemnity arrangement is insured against insolvency, or otherwise protected by law.
+
+(7) Knowingly committing or performing with such frequency as to indicate a general business practice any of the following unfair claims settlement practices:
+
+(A) Misrepresenting to claimants pertinent facts or provisions relating to any coverage at issue.
+
+(B) Failing to acknowledge and act promptly upon communications with respect to claims arising under such interindemnity arrangements.
+
+(C) Failing to adopt and implement reasonable standards for the prompt investigation and processing of claims arising under such interindemnity arrangement.
+
+(D) Failing to affirm or deny coverage of claims within a reasonable time after proof of claim requirements have been completed and submitted by the participating member.
+
+(E) Not attempting in good faith to effectuate prompt, fair, and equitable settlements of claims in which liability has become reasonably clear.
+
+(F) Compelling participating members to institute litigation to recover amounts due under an interindemnity arrangement by offering substantially less than the amounts ultimately recovered in actions brought by such participating members when such participating members have made claims under such interindemnity arrangements for amounts reasonably similar to the amounts ultimately recovered.
+
+(G) Attempting to settle a claim by a participating member for less than the amount to which a reasonable person would have believed he or she was entitled by reference to written or printed advertising material accompanying or made part of an application for membership in such an interindemnity arrangement.
+
+(H) Attempting to settle claims on the basis of an interindemnity arrangement which was altered without notice to the participating member.
+
+(I) Failing, after payment of a claim, to inform participating members, upon request by them, of the coverage under which payment has been made.
+
+(J) Making known to claimants a practice of such cooperative corporation or interindemnity arrangement of appealing from arbitration awards in favor of claimants for the purpose of compelling them to accept settlements or compromises less than the amount awarded in arbitration.
+
+(K) Delaying the investigation or payment of claims by requiring a claimant, or the claimant's physician or advanced practice registered nurse, to submit a preliminary claim report, and then requiring the subsequent submission of formal proof of loss forms, both of which submissions contain substantially the same information.
+
+(L) Failing to settle claims promptly, where liability has become apparent, under one portion of an interindemnity arrangement in order to influence settlements under other portions of the interindemnity arrangement.
+
+(M) Failing to provide promptly a reasonable explanation of the basis relied on in the interindemnity arrangement, in relation to the facts of applicable law, or the denial of a claim or for the offer of a compromise settlement.
+
+(N) Directly advising a claimant not to obtain the services of an attorney.
+
+(O) Misleading a claimant as to the applicable statute of limitations. [L 1977, c 182, pt of §1; am L 2014, c 45, §13]

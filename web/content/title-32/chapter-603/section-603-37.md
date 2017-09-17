@@ -1,0 +1,31 @@
+---
+hrs_structure:
+  division: '4'
+  volume: '13'
+  title: '32'
+  chapter: '603'
+  section: 603-37
+type: hrs_section
+tags:
+  - Court
+  - Judicial Proceeding
+menu:
+  hrs:
+    identifier: HRS_0603-0037
+    parent: HRS0603
+    name: 603-37 Change of venue
+weight: 16135
+title: Change of venue
+full_title: 603-37 Change of venue
+---
+**§603-37 Change of venue.** After the parties shall have had an opportunity to be heard, any circuit court may, upon satisfactory proof that a fair and impartial trial cannot be had in any civil case pending in the court, or, in its discretion, upon satisfactory proof that it would be more fair and equitable to the parties thereto if any civil case pending in the court were heard in another jurisdiction, change the venue to some other circuit and order the record to be transferred thereto; provided that any circuit court may, in its discretion, upon the consent of all the parties to any civil case pending in the court, change the venue to some other circuit court and order the record to be transferred thereto. [L 1892, c 57, pt of §36; am L 1903, c 32, pt of §10; am L 1921, c 157, pt of §1; RL 1925, pt of §2247; RL 1935, pt of §3643; RL 1945, pt of §9647; RL 1955, pt of §215-17; am L 1957, c 195, §1; [HRS §603-37](/title-32/chapter-603/section-603-37/); am L 1972, c 88, §3(p)]
+
+Rules of Court
+
+Hawaii Rules of Civil Procedure do not extend or limit jurisdiction or venue, see HRCP rule 82.
+
+Case Notes
+
+Change of venue and discretion therein. 9 H. 360 (1894); 11 H. 314, 317 (1898); 20 H. 7, 11 (1910); in ejectment, 19 H. 334 (1909); 31 H. 65 (1929).
+
+Where action is brought in wrong circuit, this section cannot be used as a remedy to transfer case to proper circuit. 47 H. 271, 386 P.2d 880 (1963).
