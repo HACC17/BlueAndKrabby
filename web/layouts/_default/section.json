@@ -19,7 +19,7 @@
 
     {{if eq .Params.type "chapter"}}
       {{ $currentChapter := .Params.hrs_structure.chapter }}
-      {{ $hrsSections := where .Site.Pages ".Params.type" "hrsSection" }}
+      {{ $hrsSections := where .Site.Pages ".Params.type" "hrs_section" }}
       {{ $limitedhrsSections := where $hrsSections ".Params.hrs_structure.chapter" $currentChapter }}
       {{ $len := (len $limitedhrsSections) }}
       {{ range $index, $element := $limitedhrsSections }}
