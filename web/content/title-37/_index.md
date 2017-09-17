@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title37
     name: Title 37. Hawaii Penal Code
-weight: 185
+weight: 200
 title: Hawaii Penal Code
 full_title: Title 37. Hawaii Penal Code
 ---

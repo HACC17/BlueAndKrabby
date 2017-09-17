@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title27
     name: Title 27. Uniform Commercial Code
-weight: 135
+weight: 145
 title: Uniform Commercial Code
 full_title: Title 27. Uniform Commercial Code
 ---

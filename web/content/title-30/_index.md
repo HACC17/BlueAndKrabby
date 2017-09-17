@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title30
     name: Title 30. Guardians and Trustees
-weight: 150
+weight: 160
 title: Guardians and Trustees
 full_title: Title 30. Guardians and Trustees
 ---

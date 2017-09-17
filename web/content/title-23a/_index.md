@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title23a
     name: Title 23a. Other Business Entities
-weight: 195
+weight: 120
 title: Other Business Entities
 full_title: Title 23a. Other Business Entities
 ---

@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title32
     name: Title 32. Courts and Court Officers
-weight: 160
+weight: 175
 title: Courts and Court Officers
 full_title: Title 32. Courts and Court Officers
 ---

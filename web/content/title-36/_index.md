@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title36
     name: Title 36. Civil Remedies and Defenses and Special Proceedings
-weight: 180
+weight: 195
 title: Civil Remedies and Defenses and Special Proceedings
 full_title: Title 36. Civil Remedies and Defenses and Special Proceedings
 ---

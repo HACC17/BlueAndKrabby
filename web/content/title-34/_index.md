@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title34
     name: Title 34. Pleadings and Procedure
-weight: 170
+weight: 185
 title: Pleadings and Procedure
 full_title: Title 34. Pleadings and Procedure
 ---

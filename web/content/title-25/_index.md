@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title25
     name: Title 25. Professions and Occupations
-weight: 125
+weight: 130
 title: Professions and Occupations
 full_title: Title 25. Professions and Occupations
 ---

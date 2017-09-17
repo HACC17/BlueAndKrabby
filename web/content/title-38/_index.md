@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title38
     name: Title 38. Procedural and Supplementary Provisions
-weight: 190
+weight: 205
 title: Procedural and Supplementary Provisions
 full_title: Title 38. Procedural and Supplementary Provisions
 ---

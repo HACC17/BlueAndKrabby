@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title31
     name: Title 31. Family
-weight: 155
+weight: 170
 title: Family
 full_title: Title 31. Family
 ---

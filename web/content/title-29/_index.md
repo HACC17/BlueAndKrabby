@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title29
     name: Title 29. Decedents' Estates
-weight: 145
+weight: 155
 title: Decedents' Estates
 full_title: Title 29. Decedents' Estates
 ---

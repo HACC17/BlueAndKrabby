@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title28
     name: Title 28. Property
-weight: 140
+weight: 150
 title: Property
 full_title: Title 28. Property
 ---

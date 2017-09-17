@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title26
     name: Title 26. Trade Regulation and Practice
-weight: 130
+weight: 140
 title: Trade Regulation and Practice
 full_title: Title 26. Trade Regulation and Practice
 ---

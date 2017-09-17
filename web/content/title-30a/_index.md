@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title30a
     name: Title 30a. Uniform Probate Code
-weight: 205
+weight: 165
 title: Uniform Probate Code
 full_title: Title 30a. Uniform Probate Code
 ---

@@ -156,112 +156,110 @@ function writeFile(newpath, data) {
 // --- Create Files for Title Pages  --- 
 
 function createTitlePages() {
-  titleInfo = {
-    '1':'General Provisions',
-    '2':'Elections',
-    '3':'Legislature',
-    '4':'State Organization and Administration, Generally',
-    '5':'State Financial Administration',
-    '6':'County Organization and Administration',
-    '7':'Public Officers and Employees',
-    '8':'Public Proceedings and Records',
-    '9':'Public Property, Purchasing and Contracting',
-    '10':'Public Safety and Internal Security',
-    '11':'Agriculture and Animals',
-    '12':'Conservation and Resources',
-    '13':'Planning and Economic Development',
-    '14':'Taxation',
-    '15':'Transportation and Utilities',
-    '16':'Intoxicating Liquor',
-    '17':'Motor and Other Vehicles',
-    '18':'Education',
-    '19':'Health',
-    '20':'Social Services',
-    '21':'Labor and Industrial Relations',
-    '22':'Banks and Financial Institutions',
-    '23':'Corporations and Partnerships',
-    '23a':'Other Business Entities',
-    '24':'Insurance',
-    '25':'Professions and Occupations',
-    '25a':'General Business Provisions',
-    '26':'Trade Regulation and Practice',
-    '27':'Uniform Commercial Code',
-    '28':'Property',
-    '29':'Decedents\' Estates',
-    '30':'Guardians and Trustees',
-    '30a':'Uniform Probate Code',
-    '31':'Family',
-    '32':'Courts and Court Officers',
-    '33':'Evidence',
-    '34':'Pleadings and Procedure',
-    '35':'Appeal and Error',
-    '36':'Civil Remedies and Defenses and Special Proceedings',
-    '37':'Hawaii Penal Code',
-    '38':'Procedural and Supplementary Provisions',
-  };
+  let titleInfo = [
+    { num:'1', title:'General Provisions' },
+    { num:'2', title:'Elections'},
+    { num:'3', title:'Legislature'},
+    { num:'4', title:'State Organization and Administration}, Generally'},
+    { num:'5', title:'State Financial Administration'},
+    { num:'6', title:'County Organization and Administration'},
+    { num:'7', title:'Public Officers and Employees'},
+    { num:'8', title:'Public Proceedings and Records'},
+    { num:'9', title:'Public Property}, Purchasing and Contracting'},
+    { num:'10', title:'Public Safety and Internal Security'},
+    { num:'11', title:'Agriculture and Animals'},
+    { num:'12', title:'Conservation and Resources'},
+    { num:'13', title:'Planning and Economic Development'},
+    { num:'14', title:'Taxation'},
+    { num:'15', title:'Transportation and Utilities'},
+    { num:'16', title:'Intoxicating Liquor'},
+    { num:'17', title:'Motor and Other Vehicles'},
+    { num:'18', title:'Education'},
+    { num:'19', title:'Health'},
+    { num:'20', title:'Social Services'},
+    { num:'21', title:'Labor and Industrial Relations'},
+    { num:'22', title:'Banks and Financial Institutions'},
+    { num:'23', title:'Corporations and Partnerships'},
+    { num:'23a', title:'Other Business Entities'},
+    { num:'24', title:'Insurance'},
+    { num:'25', title:'Professions and Occupations'},
+    { num:'25a', title:'General Business Provisions'},
+    { num:'26', title:'Trade Regulation and Practice'},
+    { num:'27', title:'Uniform Commercial Code'},
+    { num:'28', title:'Property'},
+    { num:'29', title:'Decedents\' Estates'},
+    { num:'30', title:'Guardians and Trustees'},
+    { num:'30a', title:'Uniform Probate Code'},
+    { num:'31', title:'Family'},
+    { num:'32', title:'Courts and Court Officers'},
+    { num:'33', title:'Evidence'},
+    { num:'34', title:'Pleadings and Procedure'},
+    { num:'35', title:'Appeal and Error'},
+    { num:'36', title:'Civil Remedies and Defenses and Special Proceedings'},
+    { num:'37', title:'Hawaii Penal Code'},
+    { num:'38', title:'Procedural and Supplementary Provisions'}
+  ];
 
   let re = new RegExp(/^([0-9]+)/i);
 
   let allPromises = [];
 
   //loop thru titles
-  let arrKeys = Object.keys(titleInfo);
-  for (let i=0; i<arrKeys.length; i++) {
-    if( titleInfo.hasOwnProperty(arrKeys[i]) ) {
+  for (let i=0; i<titleInfo.length; i++) {
 
-      let division = '';
-      let volume = '';
+    let division = '';
+    let volume = '';
 
-      let r = arrKeys[i].match(re);
-      let titleNumOnly = parseInt(r[1]);
-      
-      if (titleNumOnly < 22) division = '1';
-      else if (titleNumOnly < 28) division = '2';
-      else if (titleNumOnly < 32) division = '3';
-      else if (titleNumOnly < 37) division = '4';
-      else division = '5';
+    let r = titleInfo[i].num.match(re);
+    let titleNumOnly = parseInt(r[1]);
+    
+    if (titleNumOnly < 22) division = '1';
+    else if (titleNumOnly < 28) division = '2';
+    else if (titleNumOnly < 32) division = '3';
+    else if (titleNumOnly < 37) division = '4';
+    else division = '5';
 
-      if (titleNumOnly < 6) volume = '1';
-      else if (titleNumOnly < 10) volume = '2';
-      else if (titleNumOnly < 13) volume = '3';
-      else if (titleNumOnly < 15) volume = '4';
-      else if (titleNumOnly < 19) volume = '5';
-      else if (titleNumOnly < 20) volume = '6';
-      else if (titleNumOnly < 22) volume = '7';
-      else if (titleNumOnly < 24) volume = '8';
-      else if (titleNumOnly < 25) volume = '9';
-      else if (titleNumOnly < 26) volume = '10';
-      else if (titleNumOnly < 27) volume = '11';
-      else if (titleNumOnly < 32) volume = '12';
-      else if (titleNumOnly < 37) volume = '13';
-      else volume = '14';
+    if (titleNumOnly < 6) volume = '1';
+    else if (titleNumOnly < 10) volume = '2';
+    else if (titleNumOnly < 13) volume = '3';
+    else if (titleNumOnly < 15) volume = '4';
+    else if (titleNumOnly < 19) volume = '5';
+    else if (titleNumOnly < 20) volume = '6';
+    else if (titleNumOnly < 22) volume = '7';
+    else if (titleNumOnly < 24) volume = '8';
+    else if (titleNumOnly < 25) volume = '9';
+    else if (titleNumOnly < 26) volume = '10';
+    else if (titleNumOnly < 27) volume = '11';
+    else if (titleNumOnly < 32) volume = '12';
+    else if (titleNumOnly < 37) volume = '13';
+    else volume = '14';
 
-      // Create meta
-      let meta = {
-        hrs_structure: {
-          division: division,
-          volume: volume,
-          title: arrKeys[i],
-          chapter: '',
-          section: ''
-        },
-        type: 'title',
-        menu: {
-          hrs: {
-            identifier: `title${arrKeys[i]}`,
-            name: `Title ${arrKeys[i]}. ${titleInfo[arrKeys[i]]}`
-          }
-        },
-        weight: (5 * (i + 1)),
-        title: titleInfo[arrKeys[i]],
-        full_title: `Title ${arrKeys[i]}. ${titleInfo[arrKeys[i]]}`
-      };
-      let allMeta = Object.assign({}, meta, addCustomMetaAllFiles);
+    // Create meta
+    let meta = {
+      hrs_structure: {
+        division: division,
+        volume: volume,
+        title: titleInfo[i].num,
+        chapter: '',
+        section: ''
+      },
+      type: 'title',
+      menu: {
+        hrs: {
+          identifier: `title${titleInfo[i].num}`,
+          name: `Title ${titleInfo[i].num}. ${titleInfo[i].title}`
+        }
+      },
+      weight: (5 * (i + 1)),
+      title: titleInfo[i].title,
+      full_title: `Title ${titleInfo[i].num}. ${titleInfo[i].title}`
+    };
+    let allMeta = Object.assign({}, meta, addCustomMetaAllFiles);
 
-      //write file
-      let path = Path.join(destFileDir, `title-${arrKeys[i]}`, '_index.md');
-      allPromises.push(writeFile(path, "---\n" + yaml.safeDump(allMeta) + "---\n"));
-    } 
+    //write file
+    let path = Path.join(destFileDir, `title-${titleInfo[i].num}`, '_index.md');
+    allPromises.push(writeFile(path, "---\n" + yaml.safeDump(allMeta) + "---\n"));
+  
   } 
 
   return Promise.all(allPromises).then((val)=>val);

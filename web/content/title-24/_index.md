@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title24
     name: Title 24. Insurance
-weight: 120
+weight: 125
 title: Insurance
 full_title: Title 24. Insurance
 ---

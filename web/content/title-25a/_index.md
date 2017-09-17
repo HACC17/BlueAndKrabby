@@ -10,7 +10,7 @@ menu:
   hrs:
     identifier: title25a
     name: Title 25a. General Business Provisions
-weight: 200
+weight: 135
 title: General Business Provisions
 full_title: Title 25a. General Business Provisions
 ---
