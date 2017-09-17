@@ -4,7 +4,7 @@ hrs_structure:
   volume: '1'
   title: '4'
   chapter: ''
-  statute: ''
+  section: ''
 type: title
 menu:
   hrs:

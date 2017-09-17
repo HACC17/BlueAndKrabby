@@ -1,0 +1,30 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '1'
+  title: '5'
+  chapter: '39'
+  section: 39-94
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0039-0094
+    parent: HRS0039
+    name: 39-94 Arrangement of statements and schedules and forms; incorporation
+weight: 57265
+title: Arrangement of statements and schedules and forms; incorporation
+full_title: 39-94 Arrangement of statements and schedules and forms; incorporation
+---
+**§39-94 Arrangement of statements and schedules and forms; incorporation.** In preparing the statements and supporting schedules required by this part, the director of finance may arrange, group, and set forth such information and figures in such manner as the director deems necessary or advisable. Such information and figures need not be set out or arranged in the same order as is set forth in this part, so long as the information and figures required by this part are set forth.
+
+All findings certified to in accordance with this part shall be deemed to be incorporated into subsequent statements and supporting schedules to the extent relevant thereto. Such findings need not be made again in any subsequent statement or supporting schedule, nor need the legal and financial basis for such findings be set forth again.
+
+The state highway system established in part III of chapter 264 shall be deemed to be a public system that produces revenues and user tax receipts. All liquid fuel taxes as defined in section 243-1, other than taxes on aviation fuel as defined in that section, and all vehicle weight taxes as defined in section 249-33 which are paid into the state highway fund created by section 248-8 and which are not required by sections 243-6 and 248-9 to be paid to the counties shall be deemed to be user taxes derived in the utilization of the functions and services furnished by the state highway system.
+
+Amounts received from the federal government for the payment or reimbursement of costs of operation, maintenance, and repair of a public undertaking, improvement, or system or for the payment of the principal and interest of bonds issued for such public undertaking, improvement, or system, and for the payment or reimbursement of costs of administering, operating, and maintaining a loan program or for the payment of subsidies for a loan program, may be considered and treated as revenues of such undertaking, improvement, system, or loan program. If such amounts are deposited in the general fund immediately upon their receipt by the State, such amounts shall be deducted from the general fund revenues when determining the net general fund revenues for the purposes of this part, to the extent such amounts are utilized to justify or support a determination that bonds of the State may be excluded when determining the total outstanding indebtedness of the State for the purposes of section 13 of Article VII of the Constitution.
+
+The director of finance may compose and adopt and have printed or otherwise reproduced any forms the director deems will facilitate the preparation and understanding of statements and supporting schedules required by this part.
+
+All departments, boards, authorities, and officers of the State shall cooperate with the director of finance to the extent required to enable the director to prepare the statements and supporting schedules required by this part. [L 1979, c 57, pt of §10]

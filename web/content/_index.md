@@ -9,4 +9,4 @@ menu:
 
 Aloha! You may browse the statutes by title and chapter through the navigation.
 
-If you know the statute number already, you can use the quick finder in the box below.
+If you know the section number already, you can use the quick finder in the box below.

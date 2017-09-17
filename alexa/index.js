@@ -4,8 +4,8 @@ const https = require('https');
 
 var APP_ID = "amzn1.ask.skill.854e4554-ce98-4d49-a2a8-73105ad7bbe9";
 var SKILL_NAME = "HRS-hacc17";
-var START_MESSAGE = "Hawaii Revised Statutes launched!";
-var HELP_MESSAGE = "I can tell you a Hawaii REVISED STATUTE. Tell me the statute, for example say... read statute one dash one. To exit say... exit.";
+var START_MESSAGE = "Hawaii Revised Statutes started!";
+var HELP_MESSAGE = "I can tell you a Hawaii REVISED STATUTE. Tell me the section, for example say... read section one dash one. To exit say... exit.";
 var HELP_REPROMPT = "Sorry, can you say that again?";
 var STOP_MESSAGE = "Aloha!";
 var SERVER_DOWN = "Sorry the HRS server isn't responding right now.";
@@ -87,7 +87,7 @@ var handlers = {
           const msg = bodyObj.statutes[statuteName].context;
           this.emit(':tellWithCard', msg, SKILL_NAME, `HRS - ${bodyObj.statutes[statuteName].title}\n${bodyObj.statutes[statuteName].context}`);
         } else {
-          this.emit(':tell', `Sorry there is no statute ${chapter} ${chapterSuffix} dash ${statute} ${statuteVerseVoice}`);
+          this.emit(':tell', `Sorry there is no section ${chapter} ${chapterSuffix} dash ${statute} ${statuteVerseVoice}`);
         }
       });
     });
@@ -123,7 +123,7 @@ var handlers = {
 
   },
   'hrsAlohaSpiritIntent': function () {
-    const url = `${hosturl}/title-1/chapter-5/statute-5-7_5/index.json`;
+    const url = `${hosturl}/title-1/chapter-5/section-5-7_5/index.json`;
 
     return getSingleRequest(this, url);
   },

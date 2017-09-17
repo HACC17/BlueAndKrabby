@@ -5,8 +5,8 @@
     {{ $len := (len .Site.Pages) }}
     {{ range $index, $element := .Site.Pages }}
     {
-      {{ if eq .Params.type "statute" }}
-        "key": "{{ .Params.hrs_structure.statute }}",
+      {{ if eq .Params.type "hrsSection" }}
+        "key": "{{ .Params.hrs_structure.section }}",
       {{ else if eq .Params.type "chapter" }}
         "key": "{{ .Params.hrs_structure.chapter }}",
       {{ else if eq .Params.type "title" }}

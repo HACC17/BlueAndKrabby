@@ -1,0 +1,17 @@
+{
+  "path": "{{ .RelPermalink }}",
+  "title": "{{ htmlEscape .Title }}",
+  "type": "{{ .Params.type }}",
+  "structure": {
+    "volume": "{{ .Params.hrs_structure.volume }}",
+    "chapter": "{{ .Params.hrs_structure.chapter }}",
+    "section": "{{ .Params.hrs_structure.section }}"
+  },
+  {{ if .NextInSection }}
+  "prev": "{{.NextInSection.Permalink}}",
+  {{ end }}
+  {{ if .PrevInSection }}
+  "next": "{{.PrevInSection.Permalink}}",
+  {{ end }}
+  "context": "{{ htmlEscape (replace .Plain "\n" " ") }}"
+}

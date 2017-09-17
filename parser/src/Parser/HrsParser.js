@@ -8,80 +8,6 @@ function isChapterPage(fileName) {
   return (fileName[fileName.length-1] === '-');
 }
 
-
-// Probably better to filter by chapter but since chapters combine numbers and letters 
-// it's simplier to use weight
-function getTitle(volume, weight) {
-  if (volume === 1){
-    if (weight < 20000) return '1';
-    if (weight < 34000) return '2';
-    if (weight < 44000) return '3';
-    if (weight < 52000) return '4';
-    return '5';
-  }
-  if (volume === 2){
-    if (weight < 28000) return '6';
-    if (weight < 52000) return '7';
-    if (weight < 62000) return '8';
-    return '9';
-  }
-  if (volume === 3){
-    if (weight < 33000) return '10';
-    if (weight < 66000) return '11';
-    return '12';
-  }
-  if (volume === 4){
-    if (weight < 57000) return '13';
-    return '14';
-  }
-  if (volume === 5){
-    if (weight < 37000) return '15';
-    if (weight < 38000) return '16';
-    if (weight < 54000) return '17';
-    return '18';
-  }
-  if (volume === 6){
-    return '19';
-  }
-  if (volume === 7){
-    if (weight < 58000) return '20';
-    return '21';
-  }
-  if (volume === 8){
-    if (weight < 24000) return '22';
-    if (weight < 50000) return '23';
-    return '23a';
-  }
-  if (volume === 9){
-    return '24';
-  }
-  if (volume === 10){
-    if (weight < 99000) return '25';
-    return '25a';
-  }
-  if (volume === 11){
-    if (weight < 76000) return '26';
-    return '27';
-  }
-  if (volume === 12){
-    if (weight < 54000) return '28';
-    if (weight < 65000) return '29';
-    if (weight < 84000) return '30';
-    if (weight < 85000) return '30a';
-    return '31';
-  }
-  if (volume === 13){
-    if (weight < 28000) return '32';
-    if (weight < 36000) return '33';
-    if (weight < 47000) return '34';
-    if (weight < 49000) return '35';
-    return '36';
-  }
-  if (volume === 14){
-    if (weight < 30000) return '37';
-    return '38';
-  }
-}
 function getDivision(volume) {
   if ( volume < 8) return '1';
   if ( volume < 12) return '2';
@@ -89,12 +15,76 @@ function getDivision(volume) {
   if ( volume < 14) return '4';
   return '5'
 }
+
 function getDivisionTag(volume) {
   if ( volume < 8) return ['Government'];
   if ( volume < 12) return ['Business'];
   if ( volume < 13) return ['Property', 'Family'];
   if ( volume < 14) return ['Court', 'Judicial Proceeding'];
   return ['Crime', 'Criminal Proceeding']
+}
+
+function titleFromChapter(chapter) {
+  let re = new RegExp(/^([0-9]+)/i);
+  let r = chapter.match(re);
+  let chapterNumber = parseInt(r[1]);
+
+  if (parseInt(chapterNumber) < 11) return '1';
+  if (parseInt(chapterNumber) < 21) return '2';
+  if (parseInt(chapterNumber) < 26) return '3';
+  if (parseInt(chapterNumber) < 36) return '4';
+  if (parseInt(chapterNumber) < 46) return '5';
+  if (parseInt(chapterNumber) < 76) return '6';
+  if (parseInt(chapterNumber) < 91) return '7';
+  if (parseInt(chapterNumber) < 101) return '8';
+  if (parseInt(chapterNumber) < 121) return '9';
+  if (parseInt(chapterNumber) < 141) return '10';
+  if (parseInt(chapterNumber) < 171) return '11';
+  if (parseInt(chapterNumber) < 201) return '12';
+  if (parseInt(chapterNumber) < 231) return '13';
+  if (parseInt(chapterNumber) < 261) return '14';
+  if (parseInt(chapterNumber) < 281) return '15';
+  if (parseInt(chapterNumber) < 286) return '16';
+  if (parseInt(chapterNumber) < 296) return '17';
+  if (parseInt(chapterNumber) < 321) return '18';
+  if (parseInt(chapterNumber) < 346) return '19';
+  if (parseInt(chapterNumber) < 371) return '20';
+  if (parseInt(chapterNumber) < 401) return '21';
+  if (parseInt(chapterNumber) < 414) return '22';
+  if (parseInt(chapterNumber) < 428) return '23';
+  if (parseInt(chapterNumber) < 431) return '23a';
+  if (parseInt(chapterNumber) < 436) return '24';
+  if (parseInt(chapterNumber) < 474) return '25';
+  if (parseInt(chapterNumber) < 476) return '25a';
+  if (parseInt(chapterNumber) < 490) return '26';
+  if (parseInt(chapterNumber) < 501) return '27';
+  if (parseInt(chapterNumber) < 531) return '28';
+  if (parseInt(chapterNumber) < 551) return '29';
+  if (parseInt(chapterNumber) < 560) return '30';
+  if (parseInt(chapterNumber) < 571) return '30a';
+  if (parseInt(chapterNumber) < 601) return '31';
+  if (parseInt(chapterNumber) < 621) return '32';
+  if (parseInt(chapterNumber) < 631) return '33';
+  if (parseInt(chapterNumber) < 641) return '34';
+  if (parseInt(chapterNumber) < 651) return '35';
+  if (parseInt(chapterNumber) < 701) return '36';
+  if (parseInt(chapterNumber) < 801) return '37';
+  return '38';
+}
+
+function generatePathFromSection(section) {
+  let re = new RegExp(/^([0-9a-z]+)/i);
+  let r = section.match(re);
+  return `/title-${titleFromChapter(r[1])}/chapter-${r[1]}/section-${section.replace('.','_').replace(':','-')}/`;
+}
+function replacerAsLink(match, p1, offset, string) {
+  let urlVersion = `[${match}](${generatePathFromSection(p1)})`;
+  return urlVersion;
+}
+function convertLinks(string) {
+  let re = new RegExp(/HRS §([a-z0-9:\.-]+)/ig);
+  let r = string.replace(re, replacerAsLink);
+  return r;
 }
 
 module.exports.getDataFromPath = function (path, weight) {
@@ -111,7 +101,7 @@ module.exports.getDataFromPath = function (path, weight) {
       let volumeNumber = parseInt(r[1]);
       let r2 = r[6].split('_');
       let r3 = r2[0].split('-');
-      let statute = '';
+      let section = '';
       let chapter = '';
       if (r3[0]=='AM') { r3.shift();}
       for (let i=0; i<r3.length; i++) {
@@ -122,26 +112,26 @@ module.exports.getDataFromPath = function (path, weight) {
           continue;
         }
         if (r3[i]) {
-          statute += (i===r3.length-1) ? '-' : ':';
-          statute += parseInt(r3[i]);
+          section += (i===r3.length-1) ? '-' : ':';
+          section += parseInt(r3[i]);
         }
       }
-      statute += (r2[1] && !isNaN(parseInt(r2[1]))) ? '.'+parseInt(r2[1]) : '';
+      section += (r2[1] && !isNaN(parseInt(r2[1]))) ? '.'+parseInt(r2[1]) : '';
 
-        
+      // Other metadata that we could have but right now don't need
       // chapterStart: parseInt(r[2]),
       // chapterEnd: parseInt(r[3]),
-      //r[5].toLowerCase() - is the abbreviation of the document
+      // r[5].toLowerCase() - is the abbreviation of the document if we want to do the other types of documents like the us constitution
 
-      // Get Type - Title, Chapter, Statute
-      let type = (statute !== '') ? 'statute': 'chapter'; // there's no files for titles
+      // Get Type - Title, Chapter, Section
+      let type = (section !== '') ? 'hrs_section': 'chapter'; // there's no files for titles
 
       // Create Menu Meta
       let menuMeta = {};
       if (isChapterPage(fileName)) {
         Object.assign(menuMeta, { 
           identifier: parentName,
-          parent: `title${getTitle(volumeNumber, weight)}`
+          parent: `title${titleFromChapter(chapter)}`
         });
       } else {
         Object.assign(menuMeta, { 
@@ -154,9 +144,9 @@ module.exports.getDataFromPath = function (path, weight) {
         hrs_structure: {
           division: getDivision(volumeNumber),
           volume: volumeNumber.toString(),
-          title: getTitle(volumeNumber, weight),
+          title: titleFromChapter(chapter),
           chapter: chapter,
-          statute: (statute !== '') ? chapter+statute : '',
+          section: (section !== '') ? chapter+section : '',
         },
         type: type,
         tags: getDivisionTag(volumeNumber),
@@ -174,7 +164,7 @@ module.exports.getDataFromPath = function (path, weight) {
   return {};
 };
 
-module.exports.getDataFromFile = function (data, metaFromPath, megaTitles) {
+module.exports.getDataFromFile = function (path, data, metaFromPath, megaTitles) {
   return new Promise((resolve) => {
     let name = '';    
     let menuMeta = metaFromPath.menu;
@@ -185,22 +175,33 @@ module.exports.getDataFromFile = function (data, metaFromPath, megaTitles) {
     // Convert to markdown
     let mdString = toMarkdown(minimalhtml.content);
 
+    // Find links to other HRS
+    mdString = convertLinks(mdString);
+
     // sanitize title
     let titlewhitespace = htmlclean(minimalhtml.title);
 
-    if (metaFromPath.hrs_structure.statute && !megaTitles.sections.hasOwnProperty(metaFromPath.hrs_structure.statute)) {
-      console.log(`Attention! Wasn't able to find the title for statute ${metaFromPath.hrs_structure.statute}`);
-    } else if (metaFromPath.hrs_structure.chapter && !megaTitles.chapters.hasOwnProperty(metaFromPath.hrs_structure.chapter)) {
-      console.log(`Attention! Wasn't able to find the title for chapter ${metaFromPath.hrs_structure.chapter}`);
-    }  
-    if (metaFromPath.hrs_structure.statute && megaTitles.sections[metaFromPath.hrs_structure.statute]) {
-      titlewhitespace = megaTitles.sections[metaFromPath.hrs_structure.statute];
-      name = `${metaFromPath.hrs_structure.statute} ${titlewhitespace}`;
-    } else if (metaFromPath.hrs_structure.chapter && megaTitles.chapters[metaFromPath.hrs_structure.chapter]) {
-      titlewhitespace = megaTitles.chapters[metaFromPath.hrs_structure.chapter];
-      name = `Chapter ${metaFromPath.hrs_structure.chapter} ${titlewhitespace}`;
+    try {
+      // Announce that something about the title is worth a look
+      if (metaFromPath.hrs_structure.section && !megaTitles.sections.hasOwnProperty(metaFromPath.hrs_structure.section)) {
+        Logger.report(`Attention! Wasn't able to find the title for section ${metaFromPath.hrs_structure.section}`);
+      } else if (metaFromPath.hrs_structure.chapter && !megaTitles.chapters.hasOwnProperty(metaFromPath.hrs_structure.chapter)) {
+        Logger.report(`Attention! Wasn't able to find the title for chapter ${metaFromPath.hrs_structure.chapter}`);
+      }  
+
+      // Set Title and Name
+      if (metaFromPath.hrs_structure.section && megaTitles.sections[metaFromPath.hrs_structure.section]) {
+        titlewhitespace = megaTitles.sections[metaFromPath.hrs_structure.section];
+        name = `${metaFromPath.hrs_structure.section} ${titlewhitespace}`;
+      } else if (metaFromPath.hrs_structure.chapter && megaTitles.chapters[metaFromPath.hrs_structure.chapter]) {
+        titlewhitespace = megaTitles.chapters[metaFromPath.hrs_structure.chapter];
+        name = `Chapter ${metaFromPath.hrs_structure.chapter} ${titlewhitespace}`;
+      }
+      menuMeta.hrs.name = name;
+    } catch(e) {
+      Logger.report(`Problem parsing ${path}.`);
     }
-    menuMeta.hrs.name = name;
+
 
     resolve({
       meta: {

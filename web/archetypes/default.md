@@ -3,7 +3,7 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 hrs_structure:
   title: ''
   chapter: ''
-  statute: ''
+  section: ''
 type: 
 menu:
   hrs:

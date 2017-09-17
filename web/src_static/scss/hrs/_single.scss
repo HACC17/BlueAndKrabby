@@ -1,17 +1,17 @@
-.statute-h1, .chapter-h1, .title-h1 {
+.hrsSection-h1, .chapter-h1, .title-h1 {
   color: $color-primary-dark;
   font-size: 1.3rem;
   margin-bottom: 0;
 }
 
-.statute-h1 {
+.hrsSection-h1 {
   &:before {
     content: '\00A7';
     font-size: 1.0rem;
   }
 }
 
-.statute-h2, .chapter-h2, .title-h2 {
+.hrsSection-h2, .chapter-h2, .title-h2 {
   font-size: 1.9rem;
   margin-top: 0;
 }

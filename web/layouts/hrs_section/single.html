@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+  <div class="content container hrsSection">
+
+    {{ partial "breadcrumb.html" . }}
+    
+    <div class="simpleNav-top">
+      {{ partial "simpleNav.html" . }}
+    </div>
+
+    <div class="post">
+      <h1 class="hrsSection-h1">{{ .Params.hrs_structure.section }}</h1>
+      <h2 class="hrsSection-h2">{{ .Title }}</h2>
+      {{ .Content }}
+    </div>
+
+    {{ partial "simpleNav.html" . }}
+
+  </div>
+
+{{ end }}

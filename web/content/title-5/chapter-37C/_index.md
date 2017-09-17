@@ -4,7 +4,7 @@ hrs_structure:
   volume: '1'
   title: '5'
   chapter: 37C
-  statute: ''
+  section: ''
 type: chapter
 tags:
   - Government

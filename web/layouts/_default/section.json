@@ -3,7 +3,7 @@
   "title": "{{ htmlEscape .Title }}",
   "volume": "{{ .Params.hrs_structure.title }}",
   "chapter": "{{ .Params.hrs_structure.chapter }}",
-  "statute": "{{ .Params.hrs_structure.statute }}",
+  "section": "{{ .Params.hrs_structure.section }}",
   "context": "{{ htmlEscape (replace .Plain "\n" " ") }}",
   "children" : [
     {{if eq .Params.type "title"}}
@@ -19,10 +19,10 @@
 
     {{if eq .Params.type "chapter"}}
       {{ $currentChapter := .Params.hrs_structure.chapter }}
-      {{ $statutes := where .Site.Pages ".Params.type" "statute" }}
-      {{ $limitedstatutes := where $statutes ".Params.hrs_structure.chapter" $currentChapter }}
-      {{ $len := (len $limitedstatutes) }}
-      {{ range $index, $element := $limitedstatutes }}
+      {{ $hrsSections := where .Site.Pages ".Params.type" "hrsSection" }}
+      {{ $limitedhrsSections := where $hrsSections ".Params.hrs_structure.chapter" $currentChapter }}
+      {{ $len := (len $limitedhrsSections) }}
+      {{ range $index, $element := $limitedhrsSections }}
         {{ template "section-json-nav" . }}
         {{ if lt $index (sub $len 1) }},{{end}}
       {{ end }}

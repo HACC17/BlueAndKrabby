@@ -51,9 +51,11 @@ function main(){
         Logger.console(`${totalFolders} Folders`);
         Logger.console(`${totalFilesRead} Files Parsed`);
         Logger.console(`${totalFilesWritten} Files Written`);
+        Logger.console('Please check output/report.txt for any warnings.');
       }).catch((err)=>{
         Logger.console("");
         Logger.console(`Error - ${err.message}`);
+        Logger.console(err);
       });
       
     });
@@ -93,7 +95,7 @@ function parseFileForTitle(path) {
   if (filepath[filepath.length-1] === '-') {
     Logger.status(`... Getting file titles: ${path}`);
     return Util.readfile(path)
-      .then(HrsTitleParser.getTitlesFromFile)
+      .then(data=>HrsTitleParser.getTitlesFromFile(data, path))
       .then((data)=>{
         addToMegaTitles(path, data);
         return;
@@ -109,7 +111,7 @@ function extractData(path, weight) {
   let metaFromCustom = addCustomMetaAllFiles;
 
   return Util.readfile(path)
-    .then(data=>HrsParser.getDataFromFile(data, metaFromPath, megaTitles))
+    .then(data=>HrsParser.getDataFromFile(path, data, metaFromPath, megaTitles))
     .then((fileData)=>{
       ++totalFilesRead;
 
@@ -122,16 +124,21 @@ function extractData(path, weight) {
 
 
 function transformData(path, dataObj) {
-  let newpath = '';
-  // Change Path and Filename
-  if (dataObj.meta.type === 'chapter') {
-    newpath = Path.join(destFileDir, `title-${dataObj.meta.hrs_structure.title}`, `chapter-${dataObj.meta.hrs_structure.chapter}`, '_index.md');
-  } else if (dataObj.meta.type === 'statute') {
-    let urlstatute = dataObj.meta.hrs_structure.statute.replace(':', '-').replace('.', '_');
-    newpath = Path.join(destFileDir, `title-${dataObj.meta.hrs_structure.title}`, `chapter-${dataObj.meta.hrs_structure.chapter}`, `statute-${urlstatute}.md`);
+  try {
+    let newpath = '';
+    
+    // Change Path and Filename
+    if (dataObj.meta.type === 'chapter') {
+      newpath = Path.join(destFileDir, `title-${dataObj.meta.hrs_structure.title}`, `chapter-${dataObj.meta.hrs_structure.chapter}`, '_index.md');
+    } else if (dataObj.meta.type === 'hrs_section') {
+      let FILENAME = dataObj.meta.hrs_structure.section.replace(':', '-').replace('.', '_');
+      newpath = Path.join(destFileDir, `title-${dataObj.meta.hrs_structure.title}`, `chapter-${dataObj.meta.hrs_structure.chapter}`, `section-${FILENAME}.md`);
+    }
+  
+    return writeFile(newpath, "---\n" + yaml.safeDump(dataObj.meta) + "---\n" + dataObj.content);        
+  } catch(e) {
+    Logger.report(`Problem transforming from ${path}`);
   }
-
-  return writeFile(newpath, "---\n" + yaml.safeDump(dataObj.meta) + "---\n" + dataObj.content);    
 }
 
 
@@ -157,18 +164,18 @@ function addToMegaTitles (path, data) {
   if (data) {
     for (let chapter of data.chapter) {
       if (megaTitles.chapters.hasOwnProperty(chapter.key)) {
-        Logger.console(`path: ${path} | title for chapter ${chapter.key} already exists!`);
+        Logger.report(`path: ${path} | title for chapter ${chapter.key} already exists!`);
         continue;
       }
       megaTitles.chapters[chapter.key]=chapter.title;
     }
     for (let section of data.section) {
       if (megaTitles.sections.hasOwnProperty(section.key)) {
-        Logger.console(`path: ${path} | title for section ${section.key} already exists!`);
+        Logger.report(`path: ${path} | title for section ${section.key} already exists!`);
         continue;
       }
       if (section.title.startsWith('to ')) {
-        Logger.console(`path: ${path} | title for section ${section.key} needs manual attention (range)`);
+        Logger.report(`path: ${path} | title for section ${section.key} needs manual attention (range)`);
       }
       megaTitles.sections[section.key]=section.title;
     }

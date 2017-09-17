@@ -4,7 +4,7 @@ hrs_structure:
   volume: '1'
   title: '2'
   chapter: 15D
-  statute: ''
+  section: ''
 type: chapter
 tags:
   - Government

@@ -1,0 +1,22 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '1'
+  title: '2'
+  chapter: '11'
+  section: 11-23
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0011-0023
+    parent: HRS0011
+    name: 11-23 Changing register; striking names of disqualified voters
+weight: 20170
+title: Changing register; striking names of disqualified voters
+full_title: 11-23 Changing register; striking names of disqualified voters
+---
+**§11-23 Changing register; striking names of disqualified voters.** (a) Whenever the clerk receives from the department of health or any informing agency, information of the death, loss of voting rights of a person sentenced for a felony as provided in section 831-2, adjudication as an incapacitated person under the provisions of chapter 560, loss of citizenship, or any other disqualification to vote, of any person registered to vote in that county, or who the clerk has reason to believe may be registered to vote therein, the clerk shall thereupon make such investigation as may be necessary to prove or disprove the information, giving the person concerned, if available, notice and an opportunity to be heard. If after the investigation the clerk finds that the person is dead, or incapacitated to the extent that the person lacks sufficient understanding or capacity to make or communicate responsible decisions concerning voting, or has lost voting rights pursuant to section 831-2, or has lost citizenship, or is disqualified for any other reason to vote, the clerk shall remove the name of the person from the register.
+
+(b) The clerk shall make and keep an index of all information furnished to the clerk under any requirements of law concerning any of the matters in this section. Whenever any person applies to register as a voter, the clerk shall, before registering the person, consult the index for the purpose of ascertaining whether or not the person is in any manner disqualified to vote. Any person whose name is removed from the register of voters under this section may appeal in the manner provided by sections 11-26 and 11-51, and such proceedings shall be had upon the appeal as in other appeals under these sections. [L 1970, c 26, pt of §2; am L 1980, c 198, §1; am L 1983, c 34, §1; am L 2002, c 15, §2]

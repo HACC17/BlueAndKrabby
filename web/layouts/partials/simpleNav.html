@@ -3,7 +3,7 @@
   {{ with .NextInSection }}
   <a class="btn btn-primary simpleNav-left" href="{{ .Permalink }}">
     <i class="fa fa-chevron-left" aria-hidden="true"></i>
-    {{ .Params.hrs_structure.statute }}
+    {{ .Params.hrs_structure.section }}
   </a> 
   {{ end }}
   
@@ -11,7 +11,7 @@
 
   {{ with .PrevInSection }}
   <a class="btn btn-primary simpleNav-right" href="{{.Permalink}}">
-    {{ .Params.hrs_structure.statute }}
+    {{ .Params.hrs_structure.section }}
     <i class="fa fa-chevron-right" aria-hidden="true"></i>
   </a>
   {{ end }}

@@ -4,7 +4,7 @@ hrs_structure:
   volume: '1'
   title: '3'
   chapter: 21E
-  statute: ''
+  section: ''
 type: chapter
 tags:
   - Government

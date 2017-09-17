@@ -30,13 +30,13 @@
 
         {{if eq .Params.type "chapter"}}
           {{ $currentChapter := .Params.hrs_structure.chapter }}
-          {{ $statutes := where .Site.Pages ".Params.type" "statute" }}
-          {{ $limitedstatutes := where $statutes ".Params.hrs_structure.chapter" $currentChapter }}
-          {{if len $limitedstatutes | gt 0}}
+          {{ $hrsSections := where .Site.Pages ".Params.type" "hrsSection" }}
+          {{ $limitedhrsSections := where $hrsSections ".Params.hrs_structure.chapter" $currentChapter }}
+          {{if len $limitedhrsSections | gt 0}}
             <p>Section</p>
           {{ end }}
           <ul class="posts">
-          {{ range $limitedstatutes }}
+          {{ range $limitedhrsSections }}
             {{ template "item-nav" . }}
           {{ end }}
           </ul>

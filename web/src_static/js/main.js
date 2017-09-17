@@ -15,7 +15,7 @@ function sidebarScroll() {
   var currentElem = document.querySelector('.sidebar li.current');
   if (!currentElem || !container) return;
 
-  var topPos = currentElem.offsetTop;
+  var topPos = currentElem.offsetTop - (container.clientHeight/4);
   container.scrollTop = topPos;
 }
 

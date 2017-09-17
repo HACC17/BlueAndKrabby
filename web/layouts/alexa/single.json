@@ -1,6 +1,6 @@
-{ {{ $statutes := where .Site.Pages ".Params.type" "statute" }}{{ $len := (len $statutes) }}
-  "statutes": { {{ range $index, $entry := $statutes }}
-    "{{ .Params.hrs_structure.statute }}": {
+{ {{ $sections := where .Site.Pages ".Params.type" "hrsSection" }}{{ $len := (len $sections) }}
+  "sections": { {{ range $index, $entry := $sections }}
+    "{{ .Params.hrs_structure.section }}": {
       "title": "{{ htmlEscape .Params.full_title }}",
       "context": "{{ htmlEscape (replace .Plain "\n" " ") }}"
     }{{ if lt $index (sub $len 1) }},{{ end }}{{ end }}
