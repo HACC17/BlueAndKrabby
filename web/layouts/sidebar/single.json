@@ -1,0 +1,3 @@
+{ 
+  "hrs_menu": {{.Site.Menus.hrs | jsonify}}
+}

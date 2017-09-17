@@ -23,7 +23,10 @@
   <!-- Icons -->
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
 
-  <script>var hrs_baseurl = "{{ .Site.BaseURL }}";</script>
+  <script>
+    var hrs_baseurl = "{{ .Site.BaseURL }}";
+    var hrs_identifier = "{{ .Page.URL }}";
+  </script>
 </head>
 
 <body>

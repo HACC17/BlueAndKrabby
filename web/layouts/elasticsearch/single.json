@@ -1,3 +1,3 @@
 {{ range $index, $element := .Site.Pages }}
-{{ if eq .Params.type "hrsSection"}}{ "index" : { "_index": "hrs", "_type": "{{with .Params.type}}{{ . }}{{end}}", "_id": "{{ .Params.menu.hrs.identifier}}" } }
+{{ if eq .Params.type "hrs_section"}}{ "index" : { "_index": "hrs", "_type": "{{with .Params.type}}{{ . }}{{end}}", "_id": "{{ .Params.menu.hrs.identifier}}" } }
 { "path": "{{ .RelPermalink }}", "title": "{{ htmlEscape .Params.full_title }}", "tags": [{{with .Params.tags}}{{ delimit . ", " }}{{end}}], "context": "{{ htmlEscape (replace .Plain "\n" " ") }}" }{{ end }}{{end}}

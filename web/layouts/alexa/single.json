@@ -1,4 +1,4 @@
-{ {{ $sections := where .Site.Pages ".Params.type" "hrsSection" }}{{ $len := (len $sections) }}
+{ {{ $sections := where .Site.Pages ".Params.type" "hrs_section" }}{{ $len := (len $sections) }}
   "sections": { {{ range $index, $entry := $sections }}
     "{{ .Params.hrs_structure.section }}": {
       "title": "{{ htmlEscape .Params.full_title }}",

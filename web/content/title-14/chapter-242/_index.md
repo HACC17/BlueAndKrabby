@@ -11,7 +11,7 @@ tags:
 menu:
   hrs:
     identifier: HRS_0242
-    parent: HRS0242
+    parent: title14
     name: Chapter 242 Mortgage Loan Exemption--Repealed
 weight: 74005
 title: Mortgage Loan Exemption--Repealed
