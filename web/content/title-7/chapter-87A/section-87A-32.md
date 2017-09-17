@@ -1,0 +1,34 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '7'
+  chapter: 87A
+  section: 87A-32
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0087A-0032
+    parent: HRS0087A
+    name: 87A-32 State and county contributions; active employees
+weight: 40135
+title: State and county contributions; active employees
+full_title: 87A-32 State and county contributions; active employees
+---
+**[§87A-32] State and county contributions; active employees.** (a) The State, through the department of budget and finance, and the counties, through their respective departments of finance, shall pay to the fund a monthly contribution equal to the amount established under chapter 89C or specified in the applicable public sector collective bargaining agreements, whichever is appropriate, for each of their respective employee-beneficiaries and employee-beneficiaries with dependent-beneficiaries, which shall be used toward the payment of costs of a health benefits plan; provided that:
+
+(1) The monthly contribution shall be a specified dollar amount;
+
+(2) The monthly contribution shall not exceed the actual cost of a health benefits plan;
+
+(3) If both husband and wife are employee-beneficiaries, the total contribution by the State or the county shall not exceed the monthly contribution for a family plan; and
+
+(4) If the State or any of the counties establish cafeteria plans in accordance with Title 26, United States Code section 125, the Internal Revenue Code of 1986, as amended, and section 78-30, the monthly contribution for those employee-beneficiaries who participate in a cafeteria plan shall be made through the cafeteria plan, and the payments made by the State or counties shall include their respective contributions to the fund and their employee-beneficiary's share of the cost of the employee-beneficiary's health benefits plan.
+
+(b) The State, through the department of budget and finance, and the counties, through their respective departments of finance, shall pay to the fund a monthly contribution equal to the amount established under chapter 89C or specified in the applicable public sector collective bargaining agreement, whichever is applicable, for each of their respective employees, to be used toward the payment of group life insurance benefits for each employee. [L 2001, c 88, pt of §1]
+
+Revision Note
+
+In subsection (a)(4), reference to "section 78-30" substituted for "part II of chapter 78".

@@ -1,0 +1,20 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '9'
+  chapter: 103D
+  section: 103D-1214
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0103D-1214
+    parent: HRS0103D
+    name: 103D-1214 Proceeds
+weight: 66675
+title: Proceeds
+full_title: 103D-1214 Proceeds
+---
+**[§103D-1214] Proceeds.** Except as otherwise provided in section 103D-1213 or by any other law, all moneys received from the sale of any state property by any office, department, board, establishment, institution, or other agency shall be deposited with the director of finance to the credit of the general fund where the operation of the agency is financed from the general fund; provided that where any state property has been purchased with moneys in a special fund, the proceeds of the sale shall be paid into or credited to the special fund. In any case of doubt as to the application of any such proceeds, the administrator of the state procurement office shall determine the fund or appropriation to which the proceeds shall be credited pursuant to this section, and the administrator's decision shall be final. [L 1994, c 186, pt of §1]

@@ -1,0 +1,20 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '9'
+  chapter: '103'
+  section: 103-22.1
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0103-0022_0001
+    parent: HRS0103
+    name: Chapter 103 Expenditure of Public Money and Public Contracts
+weight: 64095
+title: Expenditure of Public Money and Public Contracts
+full_title: Chapter 103 Expenditure of Public Money and Public Contracts
+---
+**§103-22.1 REPEALED.** L 1999, c 149, §29.

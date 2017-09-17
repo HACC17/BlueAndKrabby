@@ -1,0 +1,22 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '3'
+  title: '12'
+  chapter: '188'
+  section: 188-1
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0188-0001
+    parent: HRS0188
+    name: 188-1 to 14 Repealed
+weight: 93005
+title: to 14 Repealed
+full_title: 188-1 to 14 Repealed
+---
+**PART I. FISHING RIGHTS--REPEALED**
+
+**§§188-1 to 14 REPEALED.** L 1985, c 94, §7.

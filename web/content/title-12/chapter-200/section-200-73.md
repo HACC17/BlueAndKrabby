@@ -1,0 +1,26 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '3'
+  title: '12'
+  chapter: '200'
+  section: 200-73
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0200-0073
+    parent: HRS0200
+    name: 200-73 Unlawful to possess certain vessels or hulls
+weight: 114345
+title: Unlawful to possess certain vessels or hulls
+full_title: 200-73 Unlawful to possess certain vessels or hulls
+---
+**[§200-73] Unlawful to possess certain vessels or hulls.** No person shall possess a vessel or hull, knowing that the vessel hull identification number, placed on the same by the manufacturer or the owner for the purpose of identification, has been changed, altered, erased, or mutilated for the purpose of changing the identity of the vessel or hull thereof. Any vessel or hull from which the vessel hull identification number carved, burned, stamped, embossed, or otherwise permanently affixed to the hull by the manufacturer or by the owner, has been removed, defaced, or altered shall be caused by the chairperson to be taken into custody and, if not identified, disposed of pursuant to part III. If identified, the chairperson shall:
+
+(1) Notify the owner at the owner's last known address or the address shown on the records of the department or United States Coast Guard, and all lien holders who have properly filed a financing statement, referencing the name of the registered owner, in the bureau of conveyances or who are shown on the records of the department or United States Coast Guard;
+
+(2) Authorize restoration of the original vessel hull identification number or if unknown, assign a new number; and
+
+(3) Restore the vessel or hull to the owner upon payment to the State of all costs and expenses incurred by the State causing the vessel to be taken into custody. [L 1991, c 272, pt of §2]

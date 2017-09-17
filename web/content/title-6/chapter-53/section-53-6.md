@@ -1,0 +1,30 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '6'
+  chapter: '53'
+  section: 53-6
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0053-0006
+    parent: HRS0053
+    name: 53-6 Initiation and approval of redevelopment plan
+weight: 14030
+title: Initiation and approval of redevelopment plan
+full_title: 53-6 Initiation and approval of redevelopment plan
+---
+**§53-6 Initiation and approval of redevelopment plan.** (a) Before adopting a redevelopment plan, the redevelopment agency shall be assured that satisfactory housing facilities are available or that reasonable provisions will be made for the temporary housing of individuals and families displaced by the removal of living facilities from the redevelopment project. In making the determination the agency may confer with the Hawaii public housing authority with respect to the possible placement of displaced families in projects owned and operated by the authority.
+
+(b) The agency shall submit the redevelopment plan to the planning commission for study and approval thereof. The planning commission may approve, amend and approve, or disapprove the plan. If the planning commission disapproves the plan or amends the plan and the amendment is not approved by the agency, the agency may submit the plan as disapproved or amended to the council which may nevertheless approve or amend and approve the plan by resolution, but only by the affirmative vote of at least five of its members, after holding a public hearing and subject to the procedure set forth in the next paragraph.
+
+After the planning commission has approved a redevelopment plan, and upon acceptance thereof by the agency if amended, the agency shall submit the plan to the council which shall hold a public hearing thereon, after giving published notice thereof on three separate days, the first publication to be at least ten days before the date of the hearings, and may approve, amend and approve, or disapprove the plan by resolution; provided that the council shall not approve, or amend and approve, the plan unless it finds that the redevelopment project area is a blighted area within the urban limits of the county; and provided further that any amendment made by the council must be accepted by the agency before final approval by the council. If the council approves a redevelopment plan, published notice of the approval shall be given by at least three publications and further proceedings with respect to the redevelopment project covered by the plan shall be stayed for a period of thirty days after the first publication of the notice. Actions, suits, or proceedings to contest the validity of the proceedings prescribed by the foregoing provisions of this chapter or of the redevelopment plan shall be barred upon the expiration of the period of thirty days, and no action thereafter commenced shall raise any question concerning the validity of the proceedings provided by the foregoing provisions of this chapter or of the redevelopment plan, and in all actions, suits, or proceedings commenced after the expiration of the period of thirty days, except as to matters affecting jurisdiction, the validity of the proceedings prescribed by the foregoing provisions of this chapter and of the plan shall be conclusively presumed. Upon the expiration of the thirty-day period, the agency may further proceed with the redevelopment project or projects covered by the redevelopment plan. Upon acquisition of the lands in the redevelopment project by the agency, the lands shall automatically be rezoned as to land use in conformance with provisions of the approved redevelopment plan.
+
+(c) Hearings and trial upon any issue raised in any action, suit, or proceeding in any court involving the construction, interpretation, or validity of this chapter, or involving the legality or validity of any action taken or proposed to be taken under or pursuant to this chapter, whether by way of injunction, suit for declaratory judgment, submission on agreed statement of facts, or otherwise, shall be given precedence in the trial courts and, on appeal. An appeal to the intermediate appellate court, subject to chapter 602, shall lie from any decision of any trial court holding valid or invalid any provision of this chapter, or any contract made or proposed, or other action taken or proposed to be taken, under or pursuant to this chapter.
+
+(d) Whenever the agency determines that a proposed redevelopment project or an auxiliary redevelopment project initiated pursuant to this chapter may be undertaken by the owners of project lands therein or by developers of the owners as effectively, expeditiously, and economically as if undertaken as a public undertaking by the agency itself, then the redevelopment plan for the project approved and adopted pursuant to this section shall include a provision for the execution of the project by an alternative method of private development thereof on the basis of an agreement between the agency and the owners or developers and imposing such requirements, restrictions, and sanctions as the agency may deem necessary to effectuate the basic purposes of this chapter and to assure the successful completion of the project by private development.
+
+If at any time after the initial adoption of the redevelopment plan, the agency determines that a change in the plan is in the public interest and in furtherance of the purpose of redevelopment, the plan or any part thereof may be amended by following the same procedure as set forth above for the adoption of the original plan. [L 1949, c 379, pt of §4; am L 1951, c 244, pt of §3; am L 1955, c 271, §1(g); RL 1955, §143-7; am L 1959, c 63, §1 and c 214, §1; am L 1965, c 101, §1(f) and (g); [HRS §53-6](/title-6/chapter-53/section-53-6/); am L 1987, c 337, §5(1); am L 1997, c 350, §14; am L 2004, c 202, §7; am L 2005, c 196, §26(a); am L 2006, c 94, §1 and c 180, §16; am L 2010, c 109, §1]

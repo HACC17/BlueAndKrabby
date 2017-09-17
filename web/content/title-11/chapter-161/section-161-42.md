@@ -1,0 +1,22 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '3'
+  title: '11'
+  chapter: '161'
+  section: 161-42
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0161-0042
+    parent: HRS0161
+    name: 161-42 Refusal and withdrawal of inspection
+weight: 56140
+title: Refusal and withdrawal of inspection
+full_title: 161-42 Refusal and withdrawal of inspection
+---
+**[§161-42] Refusal and withdrawal of inspection.** The board may, for such period, or indefinitely, as it deems necessary to effectuate the purposes of this chapter, refuse to provide, or withdraw, inspection service under this chapter with respect to any establishment if it determines, after opportunity for a hearing is accorded to the applicant for, or recipient of, the service, that the applicant or recipient is unfit to engage in any business requiring inspection under this chapter because the applicant or recipient, or anyone responsibly connected with the applicant or recipient, has been convicted, in any federal or state court, of (1) any felony, or (2) more than one violation under any law, based upon the acquiring, handling, or distributing of adulterated, mislabeled, or deceptively packaged food or upon fraud in connection with transactions in food. This section shall not affect in any way other provisions of this chapter for withdrawal of inspection services from establishments failing to maintain sanitary conditions or to destroy condemned carcasses, poultry or poultry products.
+
+For the purpose of this section a person shall be deemed to be responsibly connected with the business if the person was a partner, officer, director, holder, or owner of ten per cent or more of its voting stock or employee in a managerial or executive capacity. The determination and order of the board with respect thereto under this section shall be final and conclusive unless the affected applicant for, or recipient of, inspection service files application for judicial review within thirty days after the effective date of such order in the appropriate court as provided in part VII. Judicial review of any such order shall be upon the record upon which the determination and order are based. [L 1969, c 212, §28; gen ch 1985]

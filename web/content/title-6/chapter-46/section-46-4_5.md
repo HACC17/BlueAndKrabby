@@ -1,0 +1,22 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '6'
+  chapter: '46'
+  section: 46-4.5
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0046-0004_0005
+    parent: HRS0046
+    name: '46-4.5 Ordinances establishing historical, cultural, and'
+weight: 3075
+title: 'Ordinances establishing historical, cultural, and'
+full_title: '46-4.5 Ordinances establishing historical, cultural, and'
+---
+**[§46-4.5] Ordinances establishing historical, cultural, and scenic districts.** No ordinance to establish a historical, cultural, and scenic district around the environs of the Hawaii state capitol shall be valid unless the requirements and objectives in creating such a district and the criteria and procedure to determine whether a proposed improvement would in fact accomplish such objectives and requirements are first approved by the governor of the State; provided further that the State need not conform to any decision relating to any state property within such district if it determines that such decision is not in conformance to the criteria and procedures previously approved or that such decision cannot be accomplished because of funding limitations.
+
+No requirement under any existing ordinance relating to the construction, alteration, repair, relocation or demolition of any structure within any historical, cultural, and scenic district of which the Hawaii state capitol is a part shall be effective as to any state property until the objectives and requirements and the criteria and procedures required by this section have been approved by the governor of the State. [L 1973, c 215, §§1, 2]

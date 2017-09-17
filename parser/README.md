@@ -1,6 +1,8 @@
 # HRS parser
 
-This application quickly parses and transforms the original HRS site .htm files to markdown content versions. The idea is to get the current pages translatted to structured content. Once it is structured this data can be used by a static site generator immediately or it can easily be transformed into other mediums (ex. database, json, pdf).
+This application quickly parses and transforms the original HRS site .htm files to markdown content versions. The idea is to get the current pages translatted to structured content. Once it is structured this data can be used by a static site generator immediately or it can easily be transformed into other mediums (ex. database, json, pdf). 
+
+This application was intended to be only used once, to get the user 90% of the way there to structured data. Since files have already been transformed, any new transformations should be on the structured content itself. This script should only be modified and re-run if original content is not accounted for.
 
 ## Requirements
 * Node 6.*
@@ -82,7 +84,7 @@ Sept 17, 2017: Parser reports
 
 ## TODO
 
-*   Chapter files can be cleaned up dramatically by referencing the sections by links and cleaning up weird formatting done from source file.
+*   Chapter files can be cleaned up dramatically by referencing the sections by links and cleaning up weird formatting done from source file (this isn't something that the parser itself needs to do).
 
 *   Parsing titles still contain errors as the source files aren't clean. Refer to `output/report.txt` after every execution for a starting point on what titles to check. A list of the titles the parser extracted is also generated as a file at `output/000000titles.json`. Titles are mainly gathered from parsing the lists inside the chapter pages (ex. HRS_0001-.htm).  A known issue are when there's a range of sections specified (usually to designate repeal). 
 

@@ -1,0 +1,20 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '6'
+  chapter: '47'
+  section: 47-24
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0047-0024
+    parent: HRS0047
+    name: 47-24 Validation of proceedings
+weight: 4120
+title: Validation of proceedings
+full_title: 47-24 Validation of proceedings
+---
+**§47-24 Validation of proceedings.** All proceedings heretofore taken with respect to the contracting of general obligation bonded indebtedness and the issuance, sale, execution and delivery of bonds by or on behalf of a county, are hereby validated, ratified, approved and confirmed, notwithstanding any defects or irregularities in any such proceedings or in the issuance, execution, sale or delivery, and the bonds so issued or to be issued are and shall be binding, legal, valid and enforceable obligations of the county. [L 1989, c 80, pt of §2]

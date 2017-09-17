@@ -1,0 +1,24 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '5'
+  title: '15'
+  chapter: '264'
+  section: 264-44
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0264-0044
+    parent: HRS0264
+    name: 264-44 Maintenance of state highway system
+weight: 13220
+title: Maintenance of state highway system
+full_title: 264-44 Maintenance of state highway system
+---
+**§264-44 Maintenance of state highway system.** (a) The maintenance of the state highway system may be performed either by public employment or by contract, or the director of transportation may have the maintenance performed by the county in which the highways are situated, by public employment or by contract, upon authorization of the legislative body of the county concerned.
+
+(b) All maintenance work shall consider the extent to which work undertaken will increase traffic congestion and the director shall ensure that action is taken to reasonably minimize any adverse impact. The feasibility of off-hour maintenance work shall be considered for all maintenance work that results in significant traffic congestion or delay.
+
+(c) As used in this section, "off-hour maintenance work" means maintenance work performed between the hours of six o'clock p.m. and six o'clock a.m. [L 1967, c 163, §3; [HRS §264-44](/title-15/chapter-264/section-264-44/); am L 1992, c 42, §3]

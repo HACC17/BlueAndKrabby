@@ -1,0 +1,98 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '4'
+  title: '14'
+  chapter: '237'
+  section: 237-24.7
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0237-0024_0007
+    parent: HRS0237
+    name: 237-24.7 Additional amounts not taxable
+weight: 68195
+title: Additional amounts not taxable
+full_title: 237-24.7 Additional amounts not taxable
+---
+**§237-24.7 Additional amounts not taxable.** In addition to the amounts not taxable under section 237-24, this chapter shall not apply to:
+
+(1) Amounts received by the operator of a hotel from the owner of the hotel or from a time share association, and amounts received by the suboperator of a hotel from the owner of the hotel, from a time share association, or from the operator of the hotel, in amounts equal to and which are disbursed by the operator or suboperator for employee wages, salaries, payroll taxes, insurance premiums, and benefits, including retirement, vacation, sick pay, and health benefits. As used in this paragraph:
+
+"Employee" means employees directly engaged in the day-to-day operation of the hotel and employed by the operator or suboperator.
+
+"Hotel" means an operation as defined in section 445-90 or a time share plan as defined in section 514E-1.
+
+"Operator" means any person who, pursuant to a written contract with the owner of a hotel or time share association, operates or manages the hotel for the owner or time share association.
+
+"Owner" means the fee owner or lessee under a recorded lease of a hotel.
+
+"Suboperator" means any person who, pursuant to a written contract with the operator, operates or manages the hotel as a subcontractor of the operator.
+
+"Time share association" means an "association" as that term is defined in section 514E-1;
+
+(2) Amounts received by the operator of a county transportation system operated under an operating contract with a political subdivision, where the political subdivision is the owner of the county transportation system. As used in this paragraph:
+
+"County transportation system" means a mass transit system of motorized buses providing regularly scheduled transportation within a county.
+
+"Operating contract" or "contract" means a contract to operate and manage a political subdivision's county transportation system, which provides that:
+
+(A) The political subdivision shall exercise substantial control over all aspects of the operator's operation;
+
+(B) The political subdivision controls the development of transit policy, service planning, routes, and fares; and
+
+(C) The operator develops in advance a draft budget in the same format as prescribed for agencies of the political subdivision. The budget must be subject to the same constraints and controls regarding the lawful expenditure of public funds as any public sector agency, and deviations from the budget must be subject to approval by the appropriate political subdivision officials involved in the budgetary process.
+
+"Operator" means any person who, pursuant to an operating contract with a political subdivision, operates or manages a county transportation system.
+
+"Owner" means a political subdivision that owns or is the lessee of all the properties and facilities of the county transportation system (including buses, real estate, parking garages, fuel pumps, maintenance equipment, office supplies, etc.), and that owns all revenues derived therefrom;
+
+(3) Surcharge taxes on rental motor vehicles imposed by chapter 251 and passed on and collected by persons holding certificates of registration under that chapter;
+
+(4) Amounts received by the operator of orchard properties from the owner of the orchard property in amounts equal to and which are disbursed by the operator for employee wages, salaries, payroll taxes, insurance premiums, and benefits, including retirement, vacation, sick pay, and health benefits. As used in this paragraph:
+
+"Employee" means an employee directly engaged in the day-to-day operations of the orchard properties and employed by the operator.
+
+"Operator" means a producer who, pursuant to a written contract with the owner of the orchard property, operates or manages the orchard property for the owner where the property contains an area sufficient to make the undertaking economically feasible.
+
+"Orchard property" means any real property that is used to raise trees with a production life cycle of fifteen years or more producing fruits or nuts having a normal period of development from the initial planting to the first commercially saleable harvest of not less than three years.
+
+"Owner" means a fee owner or lessee under a recorded lease of orchard property;
+
+(5) Taxes on nursing facility income imposed by chapter 346E and passed on and collected by operators of nursing facilities;
+
+(6) Amounts received under property and casualty insurance policies for damage or loss of inventory used in the conduct of a trade or business located within the State or a portion thereof that is declared a natural disaster area by the governor pursuant to section 209-2;
+
+(7) Amounts received as compensation by community organizations, school booster clubs, and nonprofit organizations under a contract with the chief election officer for the provision and compensation of precinct officials and other election-related personnel, services, and activities, pursuant to section 11-5;
+
+(8) Interest received by a person domiciled outside the State from a trust company (as defined in section 412:8-101) acting as payment agent or trustee on behalf of the issuer or payees of an interest bearing instrument or obligation, if the interest would not have been subject to tax under this chapter if paid directly to the person domiciled outside the State without the use of a paying agent or trustee; provided that if the interest would otherwise be taxable under this chapter if paid directly to the person domiciled outside the State, it shall not be exempt solely because of the use of a Hawaii trust company as a paying agent or trustee;
+
+(9) Amounts received by a management company from related entities engaged in the business of selling interstate or foreign common carrier telecommunications services in amounts equal to and which are disbursed by the management company for employee wages, salaries, payroll taxes, insurance premiums, and benefits, including retirement, vacation, sick pay, and health benefits. As used in this paragraph:
+
+"Employee" means employees directly engaged in the day-to-day operation of related entities engaged in the business of selling interstate or foreign common carrier telecommunications services and employed by the management company.
+
+"Management company" means any person who, pursuant to a written contract with a related entity engaged in the business of selling interstate or foreign common carrier telecommunications services, provides managerial or operational services to that entity.
+
+"Related entities" means:
+
+(A) An affiliated group of corporations within the meaning of section 1504 (with respect to affiliated group defined) of the federal Internal Revenue Code of 1986, as amended;
+
+(B) A controlled group of corporations within the meaning of section 1563 (with respect to definitions and special rules) of the federal Internal Revenue Code of 1986, as amended;
+
+(C) Those entities connected through ownership of at least eighty per cent of the total value and at least eighty per cent of the total voting power of each such entity (or combination thereof), including partnerships, associations, trusts, S corporations, nonprofit corporations, limited liability partnerships, or limited liability companies; and
+
+(D) Any group or combination of the entities described in paragraph (C) constituting a unitary business for income tax purposes;
+
+whether or not the entity is located within or without the State or licensed under this chapter; and
+
+(10) Amounts received as grants under section 206M-15\. [L 1989, c 351, §1; am L 1991, c 229, §1 and c 263, §10; am L 1992, c 252, §1; am L 1993, c 129, §§2, 4 and c 315, §2; am L 1994, c 230, §§2, 4; am L 1995, c 11, §16, c 71, §4, and c 133, §1; am L 1998, c 214, §2 and c 245, §2; am L 1999, c 165, §2; am L 2001, c 35, §3; am L 2007, c 239, §§2, 4; am L 2009, c 196, §5; am L 2010, c 91, §1; am L 2013, c 163, §1]
+
+Note
+
+The aggregate amount of tax exempted by L 2007, c 239 shall not exceed $400,000 per calendar year (repealed December 31, 2012). L 2009, c 196, §6; L 2010, c 91, §2; L 2013, c 163, §2.
+
+Cross References
+
+Qualified improvement tax credit, see chapter 235D.

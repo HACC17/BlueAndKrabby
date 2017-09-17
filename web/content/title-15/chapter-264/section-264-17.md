@@ -1,0 +1,24 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '5'
+  title: '15'
+  chapter: '264'
+  section: 264-17
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0264-0017
+    parent: HRS0264
+    name: 264-17 Public hearing
+weight: 13095
+title: Public hearing
+full_title: 264-17 Public hearing
+---
+**[§264-17] Public hearing.** Any state or county agency which prepares proposed plans for a major public highway project shall provide an opportunity for a public hearing at the earliest practicable time before the proposed plans for the project are finalized and commitments have been made by the state or county to the plans or the project. The public hearing shall be conducted and notice given in an adequate manner to apprise all interested persons of the proposed routes and scope of the projects and allow an opportunity for all interested persons to submit data, views, or arguments, orally or in writing. The public hearing required under this section may be held in conjunction with a public hearing held on the project to meet the requirement of any federal, state or county law provided the provisions of this section are satisfied.
+
+The proposing agency shall satisfy any requirement for holding a public hearing under this section if adequate notice of the opportunity for the public hearing on the project is given to interested persons and no written requests for the hearing are received by the agency within a reasonable time.
+
+This section shall not apply to the construction of highway projects where the governor has made a formal determination that the construction of the project is urgently needed because of an emergency, a natural disaster, or a catastrophic failure. [L 1976, c 163, §1]

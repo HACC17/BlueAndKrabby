@@ -1,0 +1,24 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '5'
+  title: '15'
+  chapter: 261E
+  section: '261E-11'
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0261E-0011
+    parent: HRS0261E
+    name: '261E-11 Suspension, change, and revocation of certificates'
+weight: 9055
+title: 'Suspension, change, and revocation of certificates'
+full_title: '261E-11 Suspension, change, and revocation of certificates'
+---
+**[§261E-11] Suspension, change, and revocation of certificates.** (a) Certificates shall be effective from the date specified and shall remain in effect until suspended or terminated as provided in this section.
+
+(b) Any certificate, upon application of the certificate holder, in the discretion of the air carrier commission, may be amended or revoked in whole or in part. Upon complaint, or on the commission's own initiative, a certificate may be suspended, changed, or revoked in whole or in part for wilful failure by the holder or any related company to comply with this chapter, or with any lawful order or rule of the commission, or with any term, condition, or limitation of the certificate. No certificate shall be revoked except upon application of the holder unless the certificate holder or any related company wilfully fails to comply, within a reasonable time that shall not be fewer than thirty days and that shall be fixed by the commission, with a lawful order of the commission, rule of the commission, or to a term, condition, or limitation of the certificate or permit.
+
+(c) The right to engage in transportation by virtue of any certificate issued pursuant to section 261E-8 or by virtue of temporary authority or approval granted under section 261E-9 or 261E-10, may be suspended by the commission upon reasonable notice of not fewer than fifteen days to the carrier, but without hearing or other proceedings, for failure to comply by the carrier or any related company, with the terms of the certificate or temporary authority or approval or with any lawful order or rule of the commission regarding the certificate or temporary authority or approval. [L Sp 2008, c 1, pt of §2]

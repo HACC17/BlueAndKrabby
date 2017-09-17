@@ -1,0 +1,20 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '6'
+  chapter: '49'
+  section: 49-13
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0049-0013
+    parent: HRS0049
+    name: 49-13 Revenue bonds not a general or moral obligation of the county
+weight: 8065
+title: Revenue bonds not a general or moral obligation of the county
+full_title: 49-13 Revenue bonds not a general or moral obligation of the county
+---
+**§49-13 Revenue bonds not a general or moral obligation of the county.** Unless otherwise provided in this section, revenue bonds issued under this chapter shall be payable solely from and secured by the revenue, or the user taxes, or combination of both, pledged to the payment thereof, of the undertaking or loan program for which the revenue bonds have been issued, or secured solely by and payable from a special fund to be maintained from the revenue, or user taxes, or combination of both, pledged to the special fund, and shall not constitute a general or moral obligation of the county or a charge upon the general fund of the county, nor shall the full faith and credit of the county be pledged to the payment of the principal and interest thereof. Revenue bonds issued for the purpose of establishing and administering a loan program authorized by law may also be secured by a pledge of all or a portion of undertakings, mortgages, and other obligations held by the county as security for a loan made under the program. Each revenue bond issued under this chapter shall recite in substance that the revenue bonds and the interest thereon are payable from and secured by the revenue, or the user taxes, or combination of both, pledged to the payment thereof, of the undertaking or loan program for which the revenue bond is issued, or secured by and payable from a special fund to be maintained from the revenue, or user taxes, or combination of both, pledged to the special fund, and that the revenue bond is not a general or moral obligation of the county and the full faith and credit of the county are not pledged to the payment of the principal and interest. [L 1989, c 80, pt of §3]

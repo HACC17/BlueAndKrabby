@@ -1,0 +1,32 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '3'
+  title: '11'
+  chapter: '147'
+  section: 147-57
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0147-0057
+    parent: HRS0147
+    name: '147-57 Department, rules and regulations, contracts, cooperation, fees'
+weight: 40150
+title: 'Department, rules and regulations, contracts, cooperation, fees'
+full_title: '147-57 Department, rules and regulations, contracts, cooperation, fees'
+---
+**§147-57 Department, rules and regulations, contracts, cooperation, fees.** The department of agriculture, in addition to powers granted by this part or any other law, shall have all powers necessary or convenient to carry out and effectuate this part, including the following:
+
+(1) To prescribe rules and regulations, not inconsistent with this part, respecting: the standards for grading and classifying, and the grades, standards, and classification for, food products; the inspection, grading, and classification of food products; the determination and certification of the grade, classification, quality, and condition of food products and such other pertinent facts as the department may deem advisable; the licensing of inspectors, graders, and samplers and the duties of such inspectors, graders, and samplers; methods of test, analysis, and examination in determining the grade, classification, quality, and condition of food products; the official word or words, figure, or letter to indicate official grade or standards of quality or condition of food products; the design, form, and use of official labels and statements for use on packages or containers of products inspected, graded, classified, and certified under this part; and continuous factory inspection, grading, classification, and certification of food products;
+
+(2) To contract with the United States Department of Agriculture for the services of an inspector or inspectors employed by the department and the establishment of a cooperative inspection service with the United States government;
+
+(3) To cooperate with the United States or any department thereof, in accomplishing the matters or things provided for herein;
+
+(4) To fix, assess, and collect, or cause to be collected, fees for inspecting or classifying food products, such fees to be on a uniform basis in an amount reasonably necessary to cover, as nearly as may be, the cost of the inspection and the administration of this part; provided that the department may adjust the fees to be collected hereunder to meet the expenses necessary to carry out the provisions hereof and may prescribe a different scale of fees for different localities; and provided further that the department may prescribe a reasonable charge for traveling expenses and services. Charges for continuous factory inspection and grading may be fixed, assessed, and collected on such contract basis as will reimburse the State for the salary and all expenses of the factory inspector or grader, to which shall be added an appropriate percentage of charges assessed to cover, as nearly as practicable, administrative overhead expense. [L 1947, c 195, §7; RL 1955, §22-46; am L Sp 1959 2d, c 1, §22; am L 1961, c 132, §2; [HRS §147-57](/title-11/chapter-147/section-147-57/)]
+
+Cross References
+
+Rulemaking, see chapter 91.

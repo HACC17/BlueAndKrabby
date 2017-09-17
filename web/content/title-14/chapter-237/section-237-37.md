@@ -1,0 +1,30 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '4'
+  title: '14'
+  chapter: '237'
+  section: 237-37
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0237-0037
+    parent: HRS0237
+    name: 237-37 Refunds and credits
+weight: 68350
+title: Refunds and credits
+full_title: 237-37 Refunds and credits
+---
+**§237-37 Refunds and credits.** If the amount already paid exceeds that which should have been paid on the basis of the tax recomputed as provided in section 237-36, the excess so paid shall be immediately refunded to the taxpayer in the manner provided in section 231-23(c). The taxpayer may, at the taxpayer's election, apply an overpayment credit to taxes subsequently accruing hereunder. All refunds and the details thereof, including the names of the persons receiving the refund and the amount refunded shall be accessible for the inspection of the public in the office of the department of taxation in the taxation district in which the person receiving the refund made the person's returns.
+
+No recourse may be had except under section 40-35 or by appeal for refunds of taxes paid pursuant to an assessment by the director of taxation, provided that if the assessment by the director shall contain clerical errors, transposition of figures, typographical errors, and errors in calculation or if there shall be an illegal or erroneous assessment, the usual refunds procedures shall apply. No refund or overpayment credit may be had under this section in any event unless the original payment of the tax was due to the law having been interpreted or applied in respect of the taxpayer concerned differently than in respect of taxpayers generally. As to all tax payment for which a refund or credit is not authorized by this section (including without prejudice to the generality of the foregoing cases of unconstitutionality) the remedies provided by appeal or under section 40-35 are exclusive. [L 1935, c 141, pt of §7; RL 1945, §5468; am L 1953, c 125, pt of §10; RL 1955, §117-32; am L 1957, c 34, §11(1) and c 152, §1; am L Sp 1959 2d, c 1, §16; am L 1963, c 45, §2; am L 1967, c 37, §1; [HRS §237-37](/title-14/chapter-237/section-237-37/); gen ch 1985]
+
+Revision Note
+
+Section "231-23(c)" substituted for "231-23(d)".
+
+Case Notes
+
+Exclusive remedy provision construed as applying only where disputed tax has been paid and a refund is being sought. 57 H. 1, 548 P.2d 246.

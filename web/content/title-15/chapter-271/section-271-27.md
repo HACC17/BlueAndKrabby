@@ -1,0 +1,62 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '5'
+  title: '15'
+  chapter: '271'
+  section: 271-27
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0271-0027
+    parent: HRS0271
+    name: 271-27 Unlawful operation
+weight: 25150
+title: Unlawful operation
+full_title: 271-27 Unlawful operation
+---
+**§271-27 Unlawful operation.** (a) Any person intentionally, knowingly, or recklessly violating any provision of this chapter, or any rule, requirement, or order thereunder, or any term or condition of any certificate or permit for which a penalty is not otherwise provided, shall be guilty of a misdemeanor. In addition, any shipper or consignee located in this State, or any officer, employee, agent, or representative thereof, who intentionally, knowingly, or recklessly engages the services of any person violating any provision of this chapter, or any rule, requirement, or order, or any term or condition of any certificate or permit for which a penalty is not otherwise provided, shall be guilty of a misdemeanor.
+
+(b) Any person, whether carrier, shipper, or consignee, or any officer, employee, agent, or representative thereof, who intentionally, knowingly, or recklessly offers, grants, or gives, or solicits, accepts, or receives any rebate, concession, or discrimination in violation of any provisions of this chapter, or who by means of any false statement or representation or by the use of any false or fictitious bill, bill of lading, receipt, voucher, roll, account, claim, certificate, affidavit, deposition, lease, or bill of sale, or by any other means or device, intentionally, knowingly, or recklessly assists, suffers, or permits any person or persons, natural or artificial, to obtain transportation of passengers or property subject to this chapter for less than the applicable rate, fare, or charge, or who intentionally, knowingly, or recklessly by any such means or otherwise fraudulently seeks to evade or defeat regulation as in this chapter provided for motor carriers, shall be deemed guilty of a misdemeanor.
+
+(c) Any special agent, accountant, or examiner who knowingly and wilfully divulges any fact or information which may come to the special agent's, accountant's, or examiner's knowledge during the course of any examination or inspection made under authority of sections 271-9(a)(4), 271-23, and 271-25, except as the special agent, accountant, or examiner may be directed by the commission or by a court or judge thereof, shall be guilty of a misdemeanor.
+
+(d) It shall be unlawful for any motor carrier or any officer, receiver, trustee, lessee, agent, or employee of the carrier, or for any other person authorized by such carrier or person to receive information, knowingly to disclose to, or permit to be acquired by any person other than the shipper or consignee without the consent of the shipper or consignee, any information concerning the nature, kind, quantity, destination, consignee, or routing of any property tendered or delivered to the motor carrier for transportation, which information may be used to the detriment or prejudice of the shipper or consignee, or which may improperly disclose the shipper's or consignee's business transactions to a competitor; and it shall also be unlawful for any person to solicit or knowingly receive any such information which may be so used.
+
+(e) Nothing in this chapter shall be construed to prevent the giving of such information in response to any legal process issued under the authority of any court, or to any officer or agent of the government of the United States or of any state or of any political subdivision of any state, in the exercise of the officer's or agent's power or to any officer or other duly authorized person seeking the information for the prosecution of persons charged with or suspected of crimes or to another carrier, or its duly authorized agents, for the purpose of adjusting mutual traffic accounts in the ordinary course of business of the carriers.
+
+(f) Any motor carrier or any officer, agent, employee, or representative thereof, who wilfully fails or refuses to make a report to the commission as required by this chapter, or to make specific and full, true, and correct answer to any question within thirty days from the time it is lawfully required by the commission, or to keep accounts, records, and memoranda in the form and manner prescribed by the commission, or knowingly and wilfully falsifies, destroys, mutilates, or alters any report, account, record, or memorandum or knowingly and wilfully files with the commission any false report, account, record, or memorandum, or knowingly and wilfully neglects or fails to make full, true, and correct entries in the accounts, records, or memoranda of all facts and transactions appertaining to the business of the carrier, or person required under this chapter to keep the same, or knowingly and wilfully keeps accounts, records, or memoranda contrary to the rules, regulations, or orders of the commission with respect thereto, shall be deemed guilty of a misdemeanor. As used in this subsection, the words "keep" and "kept" mean made, prepared, or compiled, as well as retained.
+
+(g) Except when required by state law to take immediately before a district judge a person arrested for violation of this chapter, including any rule adopted pursuant to this chapter, any enforcement officer, other than a motor vehicle safety officer employed and assigned, pursuant to section 271-38, by the department of transportation to assess civil penalties, upon arresting a person for violation of this chapter, including any rule adopted pursuant to this chapter shall issue to the alleged violator a summons or citation printed in the form hereinafter described, warning the alleged violator to appear and answer to the charge against the alleged violator at a certain place within seven days after the arrest.
+
+(1) The summons or citation shall be printed in a form comparable to that of other summonses and citations used for arresting offenders and shall include all necessary information. The form and content shall be adopted or prescribed by the district courts.
+
+(2) The original of a summons or citation shall be given to the alleged violator and any other copies distributed in the manner prescribed by the district courts; provided that the district courts may prescribe alternative methods of distribution for the original and any other copies.
+
+(3) Summonses and citations shall be consecutively numbered and any other copies of each shall bear the same number.
+
+(4) Any person who fails to appear at the place and within the time specified in the summons or citation shall be guilty of a misdemeanor.
+
+(5) If any person fails to comply with a summons or citation or fails or refuses to deposit bail as required, the enforcement officer shall cause a complaint to be entered against the person and secure the issuance of a warrant for the person's arrest.
+
+(6) When a complaint is made to any prosecuting officer of a violation of this chapter or any rule, the enforcement officer who issued the summons or citation shall subscribe to it under oath administered by another official whose name has been submitted to the prosecuting officer and who has been designated by the commission to administer the same.
+
+(h) Any motor carrier or lessor, or any officer, agent, employee, or representative thereof, who fails or refuses to comply with any provision of this chapter, or any rule, requirement, or order thereunder, and any person located in this State, or any officer, agent, employee, or representative of any such person, who engages the services of any motor carrier or lessor, or any officer, agent, employee, or representative thereof, who fails or refuses to comply with any provision of this chapter, or any rule, requirement, or order, may be assessed a civil penalty payable to the State in a sum:
+
+(1) Up to $1,000 for each offense; and
+
+(2) In the case of a continuing violation, not less than $50 and not more than $500 for each additional day during which the failure or refusal continues.
+
+(i) Notwithstanding subsection (h), a motor carrier who fails to file, within the prescribed time, a financial report with the commission pursuant to its rules may be assessed a civil penalty payable to the State up to the sum of one-sixteenth of one per cent of the gross revenues from the motor carrier's business during the preceding calendar year, if the failure is for not more than one month, with an additional one-sixteenth of one per cent for each additional month or fraction thereof during which the failure continues, but in no event shall the total civil penalty be less than the sum of $50.
+
+(j) In addition to any other remedy available, the commission or its enforcement officer, including a motor vehicle safety officer employed and assigned by the department of transportation pursuant to section 271-38, may issue citations to persons acting in the capacity of or engaging in the business of a motor carrier within this State, without having a certificate of public convenience and necessity or other authority previously obtained under and in compliance with this chapter and rules adopted, or to any shipper or consignee located in this State, or any officer, employee, agent, or representative thereof who engages the services of those persons.
+
+(1) The citation may contain an order of abatement and an assessment of civil penalties as provided in subsection (h). All penalties collected under this subsection shall be deposited in the treasury of the State. Service of a citation issued under this subsection shall be made by personal service whenever possible or by certified mail, restricted delivery, sent to the last known business or residence address of the person cited.
+
+(2) Any person served with a citation under this subsection may submit a written request to the commission for a hearing within twenty days from the receipt of the citation, with respect to the violations alleged, the scope of the order of abatement, and the amount of civil penalties assessed. If the person cited under this subsection notifies the commission of the request for a hearing in time, the commission shall afford the person an opportunity for a hearing under chapter 91\. The hearing shall be conducted by the commission, or the commission may designate a hearings officer to hold the hearing.
+
+(3) If the person cited under this subsection does not submit a written request to the commission for a hearing in time, the citation shall be deemed a final order of the commission. The commission may apply to the appropriate court for a judgment to enforce the provisions of any final order issued by the commission or designated hearings officer pursuant to this subsection, including the provisions for abatement and civil penalties imposed. In any proceeding to enforce the final order, the commission need only produce a certified copy of the final order and show that the notice was given and that a hearing was held or the time granted for requesting the hearing has run without a request.
+
+(4) If any party is aggrieved by the decision of the commission or the designated hearings officer, the party may appeal, subject to chapter 602, in the manner provided for civil appeals from the circuit courts; provided that the operation of an abatement order shall not be stayed on appeal unless specifically ordered by a court of competent jurisdiction after applying the stay criteria enumerated in section 91-14(c). The sanctions and disposition authorized under this subsection shall be separate and in addition to all other remedies either civil or criminal provided by law. The commission may adopt any rules under chapter 91 that may be necessary to fully effectuate this subsection. [L 1961, c 121, pt of §2; Supp, §106C-25; [HRS §271-27](/title-15/chapter-271/section-271-27/); am L 1969, c 220, §1; am L 1975, c 18, §1; am L 1979, c 41, §1; am L 1982, c 204, §8; am L 1983, c 124, §17; gen ch 1985; am L 1991, c 57, §14; am L 1995, c 101, §1 and c 105, §§5, 7; am L 1996, c 102, §1; am L 1997, c 120, §§3 to 6; am L 1998, c 91, §1; am L 2000, c 41, §1; am L 2004, c 202, §30; am L 2006, c 94, §1; am L 2010, c 109, §1; am L 2012, c 205, §2]

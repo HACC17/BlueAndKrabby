@@ -1,0 +1,24 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '2'
+  title: '6'
+  chapter: '50'
+  section: 50-11
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0050-0011
+    parent: HRS0050
+    name: 50-11 Charter amendment and revision
+weight: 9055
+title: Charter amendment and revision
+full_title: 50-11 Charter amendment and revision
+---
+**§50-11 Charter amendment and revision.** Every charter established under this chapter shall provide means by which the charter may be amended or revised. The provisions for amendment and revision must provide for approval of all amendments and revisions by referendum to the electors of the county. The amendment or revision shall be considered ratified if a majority of the electors voting on the amendment or revision cast their ballots in favor of adoption. [L 1963, c 73, pt of §2; am L 1965, c 65, §1(5); Supp, §143A-12; [HRS §50-11](/title-6/chapter-50/section-50-11/)]
+
+Case Notes
+
+Where county charter amendment failed to indicate whether its effective date or the first term to count towards the limit of "four consecutive two year terms" was to be postponed to 1998, the amendment became effective on November 25, 1996, which was the day the amendment was "ratified" by a "majority of the electors voting on the amendment"; the first term counted towards the limit of "four consecutive two year terms" was the term that commenced "at twelve o'clock meridian on the first Monday of December after" the 1996 election. 118 H. 355, 191 P.3d 176.

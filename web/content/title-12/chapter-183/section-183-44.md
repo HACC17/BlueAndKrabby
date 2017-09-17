@@ -1,0 +1,32 @@
+---
+hrs_structure:
+  division: '1'
+  volume: '3'
+  title: '12'
+  chapter: '183'
+  section: 183-44
+type: hrs_section
+tags:
+  - Government
+menu:
+  hrs:
+    identifier: HRS_0183-0044
+    parent: HRS0183
+    name: 183-44 Fishponds; rules
+weight: 84140
+title: Fishponds; rules
+full_title: 183-44 Fishponds; rules
+---
+**§183-44 Fishponds; rules.** (a) The board shall adopt rules concerning the application and issuance of permits for the repair, strengthening, reinforcement, and maintenance of fishponds pursuant to chapter 183C. The rules shall specify the extent:
+
+(1) Of repairs, strengthening, reinforcement, and maintenance for which no permit is necessary, but for which the owner shall be required to notify the board in writing of the owner's intent to perform them which notification shall be submitted not less than ten days before performing the repairs, strengthening, reinforcement, or maintenance, and for which receipt and lack of action by the board within the ten-day notice period shall constitute approval;
+
+(2) Of repairs, strengthening, reinforcement, and maintenance for which a permit shall be required which shall be requested in writing by the owner.
+
+(b) For the purposes of this section:
+
+(1) "Emergency repairs" means that work necessary to repair damages to fishponds arising from natural forces or events of human creation not due to the wilful neglect of the owner, of such a character that the efficiency, esthetic character or health of the fishpond, neighboring activities of persons, or existing flora or fauna will be endangered in the absence of correction of existing conditions by repair, strengthening, reinforcement, or maintenance.
+
+(2) "Repairs and maintenance" of fishponds means any work performed relative to the walls, floor, or other traditional natural feature of the fishpond and its appurtenances, the purposes of which are to maintain the fishpond in its natural state and safeguard it from damage from environmental and natural forces.
+
+Repairs, strengthening, reinforcement, and maintenance and emergency repair of fishponds shall not be construed as actions "proposing any use" within the context of section 343-5\. [L 1975, c 27, pt of §2; am L 1976, c 57, §2; gen ch 1985; am L 1995, c 11, §5 and c 69, §4]
