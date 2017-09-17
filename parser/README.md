@@ -40,10 +40,12 @@ This application was intended to be only used once, to get the user 90% of the w
 
 Sept 17, 2017: Parser reports
 
-      Duration: 83184.775ms
-      1064 Folders
-      22568 Files Parsed
-      22605 Files Written
+```
+Duration: 83184.775ms
+1064 Folders
+22568 Files Parsed
+22605 Files Written
+```
 
 ## Process Flow
 1.  Parse chapter Files and extract titles for chapters and sections (`HrsTitleParser`) 
