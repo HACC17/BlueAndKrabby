@@ -9,8 +9,8 @@ type: title
 menu:
   hrs:
     identifier: title4
-    name: Title 4. State Organization and Administration, Generally
+    name: 'Title 4. State Organization and Administration, Generally'
 weight: 20
-title: State Organization and Administration, Generally
-full_title: Title 4. State Organization and Administration, Generally
+title: 'State Organization and Administration, Generally'
+full_title: 'Title 4. State Organization and Administration, Generally'
 ---

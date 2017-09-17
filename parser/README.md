@@ -1,13 +1,6 @@
 # HRS parser
 
-This application quickly parses and transforms the original HRS site .htm files to markdown content versions.
-
-At this time Sept 7, 2017 getting:
-
-    Duration: 70471.659ms
-    1071 Folders
-    22994 Files Parsed
-    22994 Files Written
+This application quickly parses and transforms the original HRS site .htm files to markdown content versions. The idea is to get the current pages translatted to structured content. Once it is structured this data can be used by a static site generator immediately or it can easily be transformed into other mediums (ex. database, json, pdf).
 
 ## Requirements
 * Node 6.*
@@ -39,19 +32,63 @@ At this time Sept 7, 2017 getting:
     npm start ../www.capitol.hawaii.gov/hrscurrent
     ```
 
-5.  In the `parser/dist` folder you should now have a copy of the source directory but all .htm files are now converted to .md files. Enjoy!
+5.  Generated files and report are placed in the `output` folder. Enjoy!
 
-## Developer Notes
+## Runtime Stats
 
-* Only .htm files are parsed
-* File Flow:
-    1. Scrap any metadata from the directory names (ex. Volume, StatuteID, Doc Type)
-    2. Isolate <body> tag
-    3. Remove misc whitespacing, awkward formatting, empty tags, and the <div> tags itself
-    4. Parse files to obtain Title and add as metadata (This may not be 100% full proof as the source files do not have a good indicator for this)
-    5. Convert content to Markdown
-    6. Write yaml (.md) files with metadata and markdown.
+Sept 17, 2017: Parser reports
+
+      Duration: 83184.775ms
+      1064 Folders
+      22568 Files Parsed
+      22605 Files Written
+
+## Process Flow
+1.  Parse chapter Files and extract titles for chapters and sections (`HrsTitleParser`) 
+2.  Store titles in object named `megaTitles`
+3.  Parse all chapter and statute files (`HrsParser`)
+
+    i.  Parse the source folder structure (`getDataFromPath`) and store data for front matter:
+        
+        - division number
+        - volume number
+        - title number
+        - chapter number
+        - section number
+        - file type (ex. section, chapter)
+        - weight (for sorting)
+
+    ii. Parse the file contents (`getDataFromFile`)
+
+        a.  Sanitize data
+            
+            - tags that do not pertain to content
+            - remove unicode issues
+            - unusual spacing
+            - blank html tags
+
+        b.  Grab title from `megaTitles` object
+        c.  Store title information as metadata
+        d.  Convert content to Markdown
+        e.  Convert any text in format `HRS §<section id>` to a link (`convertLinks`)
+
+4.  Write files to new structure and path (`writeFile`)
+5.  Generate new Title Files (`createTitlePages`)
+
+    i.  Find division and volume numbers give a title number
+    ii. Generate same front matter data as other pages
+
+6.  Report on translations that didn't go smoothly
 
 ## TODO
 
-* Parsing titles still contain many errors as the source files aren't clean. Console logs spit out initial list of titles that are suspect to not being correct.
+*   Chapter files can be cleaned up dramatically by referencing the sections by links and cleaning up weird formatting done from source file.
+
+*   Parsing titles still contain errors as the source files aren't clean. Refer to `output/report.txt` after every execution for a starting point on what titles to check. A list of the titles the parser extracted is also generated as a file at `output/000000titles.json`. Titles are mainly gathered from parsing the lists inside the chapter pages (ex. HRS_0001-.htm).  A known issue are when there's a range of sections specified (usually to designate repeal). 
+
+    The parser also tries to extract the title from the title contents, future improvement would be to compare the two titles extracted and report on discrepancies. 
+
+*   The HRS_Index.pdf and SupplementIndex.pdf should be incorporated (ex. taxonomy, search, etc).
+
+*   Better scripts to verify that data is accurate.
+

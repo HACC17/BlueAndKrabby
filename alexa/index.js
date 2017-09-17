@@ -35,7 +35,7 @@ var getSingleRequest = function(that, url) {
       let bodyObj = JSON.parse(body);
       
       if (bodyObj.context) {
-        const msg = bodyObj.context;
+        const msg = bodyObj.context.replace('-', ' dash ');
         that.emit(':tellWithCard', msg, `${bodyObj.title}`, `${bodyObj.context}`);
       } else {
         that.emit(':tell', SERVER_DOWN);
@@ -84,7 +84,7 @@ var handlers = {
         statuteName += (verse) ? `.${verse}` : '';
         let statuteVerseVoice = (verse) ? `dot ${verse}` : '';
         if (bodyObj.statutes[statuteName]) {
-          const msg = bodyObj.statutes[statuteName].context;
+          const msg = bodyObj.statutes[statuteName].context.replace('-', ' dash ');
           this.emit(':tellWithCard', msg, SKILL_NAME, `HRS - ${bodyObj.statutes[statuteName].title}\n${bodyObj.statutes[statuteName].context}`);
         } else {
           this.emit(':tell', `Sorry there is no section ${chapter} ${chapterSuffix} dash ${statute} ${statuteVerseVoice}`);
