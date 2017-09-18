@@ -21,7 +21,7 @@ exports.handler = function(event, context, callback) {
 
 // Get a single section's page
 var getSingleRequest = function(that, path) {
-  let url = hosturl+path;
+  let url = (path.indexOf(hosturl) === 0) ? path : hosturl+path;
   
   return https.get(url, res => {
     res.setEncoding('utf8');
@@ -137,7 +137,7 @@ var handlers = {
 
   },
   'hrsAlohaSpiritIntent': function () {
-    const path = `/title-1/chapter-5/section-5-7_5/index.json`;
+    const path = `${hosturl}/title-1/chapter-5/section-5-7_5/index.json`;
 
     return getSingleRequest(this, path);
   },
