@@ -73,7 +73,8 @@ var handlers = {
     let section = (intentObj.slots.section && intentObj.slots.section.value) ? intentObj.slots.section.value : '';
     let verse = (intentObj.slots.sectionVerse && intentObj.slots.sectionVerse.value) ? intentObj.slots.sectionVerse.value : '';
 
-    let title = titleFromChapter(chapter+chapterSuffix);
+    // Not used yet
+    // let title = titleFromChapter(chapter+chapterSuffix);
 
     // Get Request
     // Should eventually create the URL to the section without having to look it up in the main index
@@ -89,7 +90,7 @@ var handlers = {
       res.on('end', () => {
         let bodyObj = JSON.parse(body);
 
-        let sectionName = `${chapter}${chapterSuffix}`;
+        let sectionName = `${chapter}${chapterSuffix.toUpperCase()}`;
         sectionName += (chapterSub) ? `:${chapterSub}` : '';
         sectionName += `-${section}`;
         sectionName += (verse) ? `.${verse}` : '';
