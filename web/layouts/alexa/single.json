@@ -1,7 +1,5 @@
 { {{ $sections := where .Site.Pages ".Params.type" "hrs_section" }}{{ $len := (len $sections) }}
   "sections": { {{ range $index, $entry := $sections }}
-    "{{ .Params.hrs_structure.section }}": {
-      "path": "{{ htmlEscape .Params.full_title }}"
-    }{{ if lt $index (sub $len 1) }},{{ end }}{{ end }}
-  }
+    "{{ .Params.hrs_structure.section }}": { "path": "{{ .URL | absURL }}" }{{ if lt $index (sub $len 1) }},{{ end }}
+  {{ end }} }
 }

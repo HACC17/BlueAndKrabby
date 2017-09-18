@@ -3,7 +3,7 @@ hrsIntent  read section {chapter} {B|chapterSuffix} dash {section} dot {sectionV
 hrsIntent  what is section {chapter} dash {section}
 hrsIntent  tell me {chapter} {K|chapterSuffix} dash {section}
 hrsIntent  what is {chapter} dash {section} dot {sectionVerse}
-hrsIntent  give me {chapter} dash {section} point {sectionVerse}
+hrsIntent  give me {chapter} colon {chapterSub} dash {section} point {sectionVerse}
 hrsIntent  for {chapter} {C|chapterSuffix} dash {section} point {sectionVerse}
 
 hrsStateSymbolIntent  what is the state {symbol}
