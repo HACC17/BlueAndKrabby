@@ -31,7 +31,7 @@ function sidebarCB(element, submenu){
     Util.addClass(li, 'sidebar-item');
     if (_hrsGlobalHelper._identifier === submenu[i].URL) 
       Util.addClass(li, 'current');
-    else if ((submenu[i].URL !== '/') && (_hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0) ) {
+    else if ((submenu[i].Name.toLowerCase() !== 'home') && (_hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0) ) {
       Util.addClass(li, 'active');
       Util.addClass(li, 'show');
     }
@@ -57,7 +57,7 @@ function sidebarCB(element, submenu){
       var buttonIcon = document.createElement('i');
       buttonIcon.setAttribute("aria-hidden", "true");
       buttonIcon.setAttribute("class", "fa fa-lg");
-      if ((_hrsGlobalHelper._identifier !== submenu[i].URL) && _hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0 ) {
+      if ((_hrsGlobalHelper._identifier !== submenu[i].URL) && (_hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0) ) {
         Util.addClass(buttonIcon, 'fa-minus-square-o');
       } else {
         Util.addClass(buttonIcon, 'fa-plus-square-o');
