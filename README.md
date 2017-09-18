@@ -5,8 +5,9 @@ The repository is for submission to the hacc 2017 challenge. This project is spe
 ## Description
 
 There are three individual programs:
-1. [Parser](parser) - the source code run that parses the original hrs files.
-2. [Web](web) - a Hugo CMS site that builds the site.
-3. [Alexa](alexa) - Alexa Skill that integrates with the content api generated from `Web`.
+
+1. [Web](web) - The main application. A front end website and content API built using Hugo CMS.
+2. [Alexa](alexa) - Alexa Skill that integrates with the content api generated from `Web`.
+3. [Parser](parser) - Application that parses the [original hrs htm](http://www.capitol.hawaii.gov/hrscurrent/) files. This was run to get the content files transformed for the web.  This program does not need to be run anymore.
 
 Please click on each individual program to find out more.
