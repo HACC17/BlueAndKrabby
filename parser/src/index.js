@@ -68,6 +68,7 @@ function parseFolder(path, depth, forTitles) {
   if (!forTitles) { ++totalFolders; }
 
   return Util.readdir(path).then(files => {
+    files.sort();
     let allPromises = [];
     for (let i=0; i<files.length; i++) {
       let file = files[i];
@@ -75,7 +76,7 @@ function parseFolder(path, depth, forTitles) {
       allPromises.push(Util.isDirectory( fullPath )
         .then(isDir=>{
           if (isDir) {
-            return parseFolder( fullPath, ++depth, forTitles );
+            return parseFolder( fullPath, (depth+1), forTitles );
           } else if (Util.isHTM( fullPath )) {
             return (forTitles) ? parseFileForTitle( fullPath ) : extractData( fullPath, ((depth*1000)+(i*5)) );
           }
@@ -160,12 +161,12 @@ function createTitlePages() {
     { num:'1', title:'General Provisions' },
     { num:'2', title:'Elections'},
     { num:'3', title:'Legislature'},
-    { num:'4', title:'State Organization and Administration}, Generally'},
+    { num:'4', title:'State Organization and Administration, Generally'},
     { num:'5', title:'State Financial Administration'},
     { num:'6', title:'County Organization and Administration'},
     { num:'7', title:'Public Officers and Employees'},
     { num:'8', title:'Public Proceedings and Records'},
-    { num:'9', title:'Public Property}, Purchasing and Contracting'},
+    { num:'9', title:'Public Property, Purchasing and Contracting'},
     { num:'10', title:'Public Safety and Internal Security'},
     { num:'11', title:'Agriculture and Animals'},
     { num:'12', title:'Conservation and Resources'},

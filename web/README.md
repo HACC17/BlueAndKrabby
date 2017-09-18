@@ -90,6 +90,8 @@ This should only be used to speed up a developer's sandbox by live reloading whe
 * Sass
 * VanillaJS (no need for framework)
 * Gulp
+* Travis CI
+* Google Search Console (still indexing)
 
 ## TODO
 
@@ -100,6 +102,8 @@ This should only be used to speed up a developer's sandbox by live reloading whe
 * Implement Testing framework on JS code.
 
 * Integrate a real search application instead of using Google Search.
+
+* Incorporate more taxonomy and features utilizing it.
 
 
 ## Lessons Learned

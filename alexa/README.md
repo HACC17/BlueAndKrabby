@@ -1,6 +1,6 @@
 # HRS alexa
 
-An Alexa Skill application used as an example that integrates with the content API.  The code is a lambda function that uses the alexa-sdk.  Intents and Utterance models are in the `model` folder and used as a reference.
+An Alexa Skill application to show as an example of an application that integrates with the content API created for HRS.  The code is a lambda function that uses the alexa-sdk.  Intents and Utterance models are in the `model` folder and used as a reference.
 
 This can evolve into a full machine learning service that uses the statutes to give information or answer any of your questions.
 
@@ -12,7 +12,7 @@ Example phrases include:
 * `What is the state bird`
 * `What is the aloha spirit`
 
-The skill is currently in beta.  If this is not yet active, please get in contact with me with your amazon email to be a "Beta tester".
+The skill is currently in beta and not published on the Amazon Alexa store.  If this is not yet active, please get in contact with me with your amazon email to be a "Beta tester".
 
 ## Requirements
 * Node 6.*
