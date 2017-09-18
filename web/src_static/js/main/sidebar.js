@@ -15,6 +15,7 @@ function loadSidebarData() {
       // Success!
       var data = JSON.parse(xhr.responseText).hrs_menu;
       sidebarCB(document.querySelector('.sidebar-menu'), data);
+      sidebarScroll();
     } else {
       // We reached our target server, but it returned an error
     }
@@ -32,6 +33,7 @@ function sidebarCB(element, submenu){
       Util.addClass(li, 'current');
     else if ((submenu[i].URL !== '/') && (_hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0) ) {
       Util.addClass(li, 'active');
+      Util.addClass(li, 'show');
     }
 
     var anchor = document.createElement('a');
@@ -82,6 +84,24 @@ function sidebarScroll() {
   container.scrollTop = topPos;
 }
 
+function sidebarExtendToggle(e) {
+  e.preventDefault();
+  var listItem = Util.findAncestorByClass(e.currentTarget, 'sidebar-item');
+  var iconItem = listItem.querySelector('i');
+  var shouldExpand = !(e.currentTarget.getAttribute('aria-expanded') == 'true');
+
+  if (shouldExpand) {
+    Util.addClass(listItem, 'show');
+    Util.addClass(iconItem, 'fa-minus-square-o');
+    Util.removeClass(iconItem, 'fa-plus-square-o');
+  } else {
+    Util.removeClass(listItem, 'show');
+    Util.addClass(iconItem, 'fa-plus-square-o');
+    Util.removeClass(iconItem, 'fa-minus-square-o');
+  }
+  e.currentTarget.setAttribute('aria-expanded', shouldExpand);
+}
+
 function showMenu(e){
   var sidebar = document.querySelector('.sidebar');
   if (!sidebar) return;
@@ -98,22 +118,4 @@ function showMenu(e){
   Array.prototype.forEach.call(toggles, function(el, i){
     el.setAttribute('aria-expanded', shouldExpand);
   });
-}
-
-function sidebarExtendToggle(e) {
-  e.preventDefault();
-  var listItem = Util.findAncestorByClass(e.currentTarget, 'sidebar-item');
-  var iconItem = listItem.querySelector('i');
-  var shouldExpand = !(e.currentTarget.getAttribute('aria-expanded') == 'true');
-
-  if (shouldExpand) {
-    Util.addClass(listItem, 'active');
-    Util.addClass(iconItem, 'fa-minus-square-o');
-    Util.removeClass(iconItem, 'fa-plus-square-o');
-  } else {
-    Util.removeClass(listItem, 'active');
-    Util.addClass(iconItem, 'fa-plus-square-o');
-    Util.removeClass(iconItem, 'fa-minus-square-o');
-  }
-  e.currentTarget.setAttribute('aria-expanded', shouldExpand);
 }
