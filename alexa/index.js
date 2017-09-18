@@ -8,9 +8,12 @@ var START_MESSAGE = "Hawaii Revised Statutes started!";
 var HELP_MESSAGE = "I can tell you a Hawaii REVISED STATUTE. Tell me the section, for example say... read section one dash one. To exit say... exit.";
 var HELP_REPROMPT = "Sorry, can you say that again?";
 var STOP_MESSAGE = "Aloha!";
-var SERVER_DOWN = "Sorry the HRS server isn't responding right now.";
+var SERVER_DOWN = "Sorry, the HRS server isn't responding right now.";
+var TOO_LONG_SPEAK = "Sorry, my lips are getting tired, please look up the rest of this section online at W W W dot capitol dot hawaii dot gov";
+var TOO_LONG_VIEW = "... view the rest at ";
 
 const hosturl = 'https://sammade.github.io/aloha-io';
+const max_response_length = 7000; // https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference
 
 exports.handler = function(event, context, callback) {
   var alexa = Alexa.handler(event, context);
@@ -36,8 +39,14 @@ var getSingleRequest = function(that, path) {
       let bodyObj = JSON.parse(body);
       
       if (bodyObj.context) {
-        const msg = bodyObj.context.replace('-', ' dash ');
-        that.emit(':tellWithCard', msg, `${bodyObj.title}`, `${bodyObj.context}`);
+        let webpageURL = path.replace('index.json', '');
+
+        let msgVoice = bodyObj.context.replace('-', ' dash ');
+        msgVoice = (msgVoice.length > max_response_length) ? msgVoice.substring(0, max_response_length)+TOO_LONG_SPEAK : msgVoice ;
+
+        let msgCard = (bodyObj.context.length > max_response_length) ? bodyObj.context.substring(0, max_response_length)+TOO_LONG_VIEW+webpageURL : bodyObj.context;
+
+        that.emit(':tellWithCard', msgVoice, bodyObj.title, msgCard);
       } else {
         that.emit(':tell', SERVER_DOWN);
       }
