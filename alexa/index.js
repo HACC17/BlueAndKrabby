@@ -19,8 +19,9 @@ exports.handler = function(event, context, callback) {
   alexa.execute();
 };
 
-
-var getSingleRequest = function(that, url) {
+// Get a single section's page
+var getSingleRequest = function(that, path) {
+  let url = hosturl+path;
   
   return https.get(url, res => {
     res.setEncoding('utf8');
@@ -45,6 +46,8 @@ var getSingleRequest = function(that, url) {
 
 };
 
+
+
 var handlers = {
   'LaunchRequest': function () {
       this.emit(':ask', `${START_MESSAGE} Ask me something`, HELP_REPROMPT);
@@ -57,18 +60,23 @@ var handlers = {
     if (!intentObj.slots.chapter.value) {
       var speechOutput = 'What chapter?';
       var repromptSpeech = speechOutput;
-      this.emit(':elicitSlot', 'chapter', speechOutput, repromptSpeech);
-    } else if (!intentObj.slots.statute.value) {
-      var speechOutput = 'What chapter?';
+      this.emit(':elicitSlot', 'chapter', speechOutput, repromptSpeech+' Again?');
+    } else if (!intentObj.slots.section.value) {
+      var speechOutput = 'What section?';
       var repromptSpeech = speechOutput;
-      this.emit(':elicitSlot', 'chapter', speechOutput, repromptSpeech);
+      this.emit(':elicitSlot', 'section', speechOutput, repromptSpeech+' Again?');
     }
+
     let chapter = (intentObj.slots.chapter && intentObj.slots.chapter.value) ? intentObj.slots.chapter.value : '';
     let chapterSuffix = (intentObj.slots.chapterSuffix && intentObj.slots.chapterSuffix.value) ? intentObj.slots.chapterSuffix.value : '';
-    let statute = (intentObj.slots.statute && intentObj.slots.statute.value) ? intentObj.slots.statute.value : '';
-    let verse = (intentObj.slots.statuteVerse && intentObj.slots.statuteVerse.value) ? intentObj.slots.statuteVerse.value : '';
+    let chapterSub = (intentObj.slots.chapterSub && intentObj.slots.chapterSub.value) ? intentObj.slots.chapterSub.value : '';
+    let section = (intentObj.slots.section && intentObj.slots.section.value) ? intentObj.slots.section.value : '';
+    let verse = (intentObj.slots.sectionVerse && intentObj.slots.sectionVerse.value) ? intentObj.slots.sectionVerse.value : '';
+
+    let title = titleFromChapter(chapter+chapterSuffix);
 
     // Get Request
+    // Should eventually create the URL to the section without having to look it up in the main index
     return https.get(url, res => {
       res.setEncoding('utf8');
       let body = '';
@@ -80,14 +88,19 @@ var handlers = {
       });
       res.on('end', () => {
         let bodyObj = JSON.parse(body);
-        let statuteName = `${chapter}${chapterSuffix}-${statute}`;
-        statuteName += (verse) ? `.${verse}` : '';
-        let statuteVerseVoice = (verse) ? `dot ${verse}` : '';
-        if (bodyObj.statutes[statuteName]) {
-          const msg = bodyObj.statutes[statuteName].context.replace('-', ' dash ');
-          this.emit(':tellWithCard', msg, SKILL_NAME, `HRS - ${bodyObj.statutes[statuteName].title}\n${bodyObj.statutes[statuteName].context}`);
+
+        let sectionName = `${chapter}${chapterSuffix}`;
+        sectionName += (chapterSub) ? `:${chapterSub}` : '';
+        sectionName += `-${section}`;
+        sectionName += (verse) ? `.${verse}` : '';
+
+        let sectionChapterSubVoice = (chapterSub) ? `colon ${chapterSub}` : '';
+        let sectionVerseVoice = (verse) ? `dot ${verse}` : '';
+
+        if (bodyObj.sections[sectionName]) {
+          return getSingleRequest(this, bodyObj.sections[sectionName].path+'index.json');
         } else {
-          this.emit(':tell', `Sorry there is no section ${chapter} ${chapterSuffix} dash ${statute} ${statuteVerseVoice}`);
+          this.emit(':tell', `Sorry there is no section ${chapter} ${chapterSuffix} ${sectionChapterSubVoice} dash ${section} ${sectionVerseVoice}`);
         }
       });
     });
@@ -109,7 +122,8 @@ var handlers = {
       });
       res.on('end', () => {
         let bodyObj = JSON.parse(body);
-        // This should be replaced by a true search engine
+        // TODO: This should be replaced by a true search engine
+        // but a simple direct text compare will do for now
         if (bodyObj.children){
           for (var i=0; i<bodyObj.children.length; i++) {
             if (bodyObj.children[i].title.toLowerCase().indexOf(symbol) !== -1) {
@@ -123,9 +137,9 @@ var handlers = {
 
   },
   'hrsAlohaSpiritIntent': function () {
-    const url = `${hosturl}/title-1/chapter-5/section-5-7_5/index.json`;
+    const path = `/title-1/chapter-5/section-5-7_5/index.json`;
 
-    return getSingleRequest(this, url);
+    return getSingleRequest(this, path);
   },
   'AMAZON.HelpIntent': function () {
       var speechOutput = HELP_MESSAGE;
@@ -140,3 +154,52 @@ var handlers = {
   }
 };
 
+
+// To find the title
+function titleFromChapter(chapter) {
+  let re = new RegExp(/^([0-9]+)/i);
+  let r = chapter.match(re);
+  let chapterNumber = parseInt(r[1]);
+
+  if (parseInt(chapterNumber) < 11) return '1';
+  if (parseInt(chapterNumber) < 21) return '2';
+  if (parseInt(chapterNumber) < 26) return '3';
+  if (parseInt(chapterNumber) < 36) return '4';
+  if (parseInt(chapterNumber) < 46) return '5';
+  if (parseInt(chapterNumber) < 76) return '6';
+  if (parseInt(chapterNumber) < 91) return '7';
+  if (parseInt(chapterNumber) < 101) return '8';
+  if (parseInt(chapterNumber) < 121) return '9';
+  if (parseInt(chapterNumber) < 141) return '10';
+  if (parseInt(chapterNumber) < 171) return '11';
+  if (parseInt(chapterNumber) < 201) return '12';
+  if (parseInt(chapterNumber) < 231) return '13';
+  if (parseInt(chapterNumber) < 261) return '14';
+  if (parseInt(chapterNumber) < 281) return '15';
+  if (parseInt(chapterNumber) < 286) return '16';
+  if (parseInt(chapterNumber) < 296) return '17';
+  if (parseInt(chapterNumber) < 321) return '18';
+  if (parseInt(chapterNumber) < 346) return '19';
+  if (parseInt(chapterNumber) < 371) return '20';
+  if (parseInt(chapterNumber) < 401) return '21';
+  if (parseInt(chapterNumber) < 414) return '22';
+  if (parseInt(chapterNumber) < 428) return '23';
+  if (parseInt(chapterNumber) < 431) return '23a';
+  if (parseInt(chapterNumber) < 436) return '24';
+  if (parseInt(chapterNumber) < 474) return '25';
+  if (parseInt(chapterNumber) < 476) return '25a';
+  if (parseInt(chapterNumber) < 490) return '26';
+  if (parseInt(chapterNumber) < 501) return '27';
+  if (parseInt(chapterNumber) < 531) return '28';
+  if (parseInt(chapterNumber) < 551) return '29';
+  if (parseInt(chapterNumber) < 560) return '30';
+  if (parseInt(chapterNumber) < 571) return '30a';
+  if (parseInt(chapterNumber) < 601) return '31';
+  if (parseInt(chapterNumber) < 621) return '32';
+  if (parseInt(chapterNumber) < 631) return '33';
+  if (parseInt(chapterNumber) < 641) return '34';
+  if (parseInt(chapterNumber) < 651) return '35';
+  if (parseInt(chapterNumber) < 701) return '36';
+  if (parseInt(chapterNumber) < 801) return '37';
+  return '38';
+}

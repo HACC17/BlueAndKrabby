@@ -7,7 +7,7 @@
 })(loadSidebarData)
 
 function loadSidebarData() {
-  var sidebarPath = hrs_baseurl+'sidebar/index.json';
+  var sidebarPath = _hrsGlobalHelper._baseurl+'sidebar/index.json';
   var xhr = new XMLHttpRequest();
   
   xhr.onload = function() {
@@ -28,10 +28,11 @@ function sidebarCB(element, submenu){
   for (var i=0; i<submenu.length; i++) {
     var li = document.createElement('li');
     Util.addClass(li, 'sidebar-item');
-    if (hrs_identifier === submenu[i].URL) 
+    if (_hrsGlobalHelper._identifier === submenu[i].URL) 
       Util.addClass(li, 'current');
-    else if (hrs_identifier !== '/' && hrs_identifier.indexOf(submenu[i].URL) === 0 ) 
+    else if ((submenu[i].URL !== '/') && (_hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0) ) {
       Util.addClass(li, 'active');
+    }
 
     var anchor = document.createElement('a');
     anchor.setAttribute('href', submenu[i].URL);
@@ -45,7 +46,7 @@ function sidebarCB(element, submenu){
       var button = document.createElement('button');
       button.setAttribute("class", "sidebar-item-button btn-flat");
       button.setAttribute("onclick", "sidebarExtendToggle(event)");
-      if (hrs_identifier !== '/' && hrs_identifier.indexOf(submenu[i].URL) === 0 ) {
+      if ((_hrsGlobalHelper._identifier !== submenu[i].URL) && (_hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0) ) {
         button.setAttribute("aria-expanded", "true");
       } else {
         button.setAttribute("aria-expanded", "flase");
@@ -54,7 +55,7 @@ function sidebarCB(element, submenu){
       var buttonIcon = document.createElement('i');
       buttonIcon.setAttribute("aria-hidden", "true");
       buttonIcon.setAttribute("class", "fa fa-lg");
-      if (hrs_identifier !== '/' && hrs_identifier.indexOf(submenu[i].URL) === 0 ) {
+      if ((_hrsGlobalHelper._identifier !== submenu[i].URL) && _hrsGlobalHelper._identifier.indexOf(submenu[i].URL) === 0 ) {
         Util.addClass(buttonIcon, 'fa-minus-square-o');
       } else {
         Util.addClass(buttonIcon, 'fa-plus-square-o');

@@ -1,6 +1,7 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
 hrs_structure:
+  division: ''
+  volume: ''
   title: ''
   chapter: ''
   section: ''

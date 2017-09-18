@@ -1,10 +1,10 @@
-hrsIntent  read a section
-hrsIntent  read section {chapter} {B|chapterSuffix} dash {statute} dot {statuteVerse}
-hrsIntent  what is section {chapter} dash {statute}
-hrsIntent  tell me {chapter} {K|chapterSuffix} dash {statute}
-hrsIntent  what is {chapter} dash {statute} dot {statuteVerse}
-hrsIntent  give me {chapter} dash {statute} point {statuteVerse}
-hrsIntent  for {chapter} {C|chapterSuffix} dash {statute} point {statuteVerse}
+hrsIntent  read {chapter} {B|chapterSuffix} colon {chapterSub} dash {section}
+hrsIntent  read section {chapter} {B|chapterSuffix} dash {section} dot {sectionVerse}
+hrsIntent  what is section {chapter} dash {section}
+hrsIntent  tell me {chapter} {K|chapterSuffix} dash {section}
+hrsIntent  what is {chapter} dash {section} dot {sectionVerse}
+hrsIntent  give me {chapter} dash {section} point {sectionVerse}
+hrsIntent  for {chapter} {C|chapterSuffix} dash {section} point {sectionVerse}
 
 hrsStateSymbolIntent  what is the state {symbol}
 hrsStateSymbolIntent  what is the official {symbol}

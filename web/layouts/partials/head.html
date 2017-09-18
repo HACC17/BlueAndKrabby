@@ -11,21 +11,21 @@
   {{ if .IsHome }}
   <title>{{ .Site.Title }}</title>
   {{ else }}
-  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  <title>HRS | {{.Params.full_title}}</title>
   {{ end }}
 
   <!-- CSS -->
-  <!-- <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "vendor.css" }}" /> -->
-  <!-- <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" /> -->
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/vendor.css" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/{{ index .Site.Data.css.hash "vendor.css" }}" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/{{ index .Site.Data.css.hash "main.css" }}" />
 
   <!-- Icons -->
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
 
   <script>
-    var hrs_baseurl = "{{ .Site.BaseURL }}";
-    var hrs_identifier = "{{ .Page.URL }}";
+    var _hrsGlobalHelper = {
+      _baseurl: "{{ .Site.BaseURL }}",
+      _identifier: "{{ .Page.URL }}"
+    };
   </script>
 </head>
 

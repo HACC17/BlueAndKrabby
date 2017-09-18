@@ -9,7 +9,7 @@
 function loadAutocomplete() {
   var autoCompleteTerm;
   var autoCompleteCB;
-  var autoCompletePath = hrs_baseurl+'index.json';
+  var autoCompletePath = _hrsGlobalHelper._baseurl+'index.json';
   var xhr = new XMLHttpRequest();
   
   xhr.onload = function() {

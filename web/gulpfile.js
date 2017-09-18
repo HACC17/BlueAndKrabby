@@ -14,8 +14,7 @@ gulp.task("scss", function () {
       outputStyle : "compressed"
     }))
     .pipe(autoprefixer({browsers : ["last 20 versions"]}))
-    // .pipe(hash())
-    .pipe(gulp.dest("public/css"))
+    .pipe(hash())
     .pipe(gulp.dest("static/css"))
     .pipe(hash.manifest("hash.json"))
     .pipe(gulp.dest("data/css"));
@@ -26,14 +25,14 @@ gulp.task("js", function () {
   del(["static/js/**/*"]);
   gulp.src("src_static/js/main/**/*")
     .pipe(concat('main.js'))
-    // .pipe(hash())
+    .pipe(hash())
     .pipe(gulp.dest("static/js"))
     .pipe(uglify())
     .pipe(hash.manifest("hash.json"))
     .pipe(gulp.dest("data/js"));
   gulp.src("src_static/js/vendor/**/*")
     .pipe(concat('vendor.js'))
-    // .pipe(hash())
+    .pipe(hash())
     .pipe(gulp.dest("static/js"))
     .pipe(uglify())
     .pipe(hash.manifest("hash.json"))

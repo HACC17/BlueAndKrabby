@@ -72,8 +72,14 @@ $sidebar-background-color-3: #fafafa;
     display: none;
   }
 
-  .sidebar-item.active > ul {
-    display: block;
+  .sidebar-item.active {
+    & > a {
+      border-left: 5px solid $color-secondary;
+    }
+
+    & > ul {
+      display: block;
+    }
   }
 
   .sidebar-item.current > a:first-child {

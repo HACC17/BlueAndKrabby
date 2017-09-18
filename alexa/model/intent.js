@@ -17,15 +17,19 @@
           "type": "AMAZON.NUMBER"
         },
         {
+          "name": "chapterSub",
+          "type": "AMAZON.NUMBER"
+        },
+        {
           "name": "chapterSuffix",
           "type": "AMAZON.LITERAL"
         },
         {
-          "name": "statute",
+          "name": "section",
           "type": "AMAZON.NUMBER"
         },
         {
-          "name": "statuteVerse",
+          "name": "sectionVerse",
           "type": "AMAZON.NUMBER"
         }
       ]
